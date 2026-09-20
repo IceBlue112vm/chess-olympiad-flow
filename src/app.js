@@ -675,7 +675,7 @@ function renderChart(data) {
   function getTooltipHtml(node) {
     if (node.stage === "start") {
       return `
-        <strong>${node.team.name}</strong><br>
+        <strong>${getTeamDisplayName(node.team)}</strong><br>
         ${t("startRank")}: ${node.rank}<br>
         ${t("federation")}: ${node.team.federation}
       `;
