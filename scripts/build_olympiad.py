@@ -176,6 +176,13 @@ def build_olympiad(
                 }
             )
 
+    expected_rounds = list(range(1, round_numbers[-1] + 1))
+
+    if round_numbers != expected_rounds:
+        raise RuntimeError(
+            f"Round files are not contiguous: {round_numbers}"
+        )
+
     return {
         "event": event,
         "tournamentId": tournament_id,

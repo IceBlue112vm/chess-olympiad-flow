@@ -2,8 +2,8 @@ import argparse
 import json
 from pathlib import Path
 
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
 
 from tournaments import TOURNAMENTS
 
@@ -93,6 +93,11 @@ def parse_ranking(path: Path) -> dict[int, dict]:
             current_rank = int(rank_text)
 
         team_id = int(cells[1].get_text(strip=True))
+
+        if team_id in teams:
+            raise RuntimeError(
+                f"Duplicate team ID in ranking: {team_id}"
+            )
 
         teams[team_id] = {
             "id": team_id,
