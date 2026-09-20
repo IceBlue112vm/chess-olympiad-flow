@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chess Olympiad Flow</title>
 
+  <script>
+    (() => {
+      try {
+        const savedTheme =
+          localStorage.getItem(
+            "chess-olympiad-flow-theme"
+          );
+  
+        if (
+          savedTheme === "light" ||
+          savedTheme === "dark"
+        ) {
+          document.documentElement.dataset.theme =
+            savedTheme;
+        }
+      } catch {
+        // localStorage를 사용할 수 없는 환경에서는
+        // 기본 테마를 그대로 사용한다.
+      }
+    })();
+  </script>
+
   <link rel="stylesheet" href="./styles.css">
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 </head>
@@ -15,7 +37,7 @@
       <div class="header-main">
         <div class="header-copy">
           <div class="eyebrow" data-i18n="eyebrow">
-            2026 체스 올림피아드
+            제46회 FIDE 체스 올림피아드
           </div>
 
           <h1>Chess Olympiad Flow</h1>

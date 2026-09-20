@@ -5,6 +5,8 @@ const APP_CONFIG = {
   },
   defaultEvent: "open",
   defaultLanguage: "ko",
+  defaultTheme: "light",
+  themeStorageKey: "chess-olympiad-flow-theme",
   goatCounterCode: "chess-olympiad-flow",
   chart: {
     minWidth: 1300,
@@ -29,7 +31,7 @@ const RESULT_COLORS = {
 
 const TRANSLATIONS = {
   ko: {
-    eyebrow: "2026 체스 올림피아드",
+    eyebrow: "제46회 FIDE 체스 올림피아드",
     subtitle: "각 국가의 순위가 라운드마다 어떻게 변화하는지 확인해보세요.",
     win: "승리",
     draw: "무승부",
@@ -54,9 +56,11 @@ const TRANSLATIONS = {
     totalVisits: "누적 방문:",
     languageSwitch: "EN",
     languageSwitchLabel: "영어로 전환",
+    darkMode: "다크 모드로 전환",
+    lightMode: "라이트 모드로 전환",
   },
   en: {
-    eyebrow: "2026 Chess Olympiad",
+    eyebrow: "46th FIDE Chess Olympiad",
     subtitle: "Explore how each team moves through the rankings round by round.",
     win: "Win",
     draw: "Draw",
@@ -81,12 +85,46 @@ const TRANSLATIONS = {
     totalVisits: "Total visits:",
     languageSwitch: "한글",
     languageSwitchLabel: "Switch to Korean",
+    darkMode: "Switch to dark mode",
+    lightMode: "Switch to light mode",
   },
 };
+
+function loadSavedTheme() {
+  try {
+    const savedTheme =
+      localStorage.getItem(
+        APP_CONFIG.themeStorageKey
+      );
+
+    if (
+      savedTheme === "light" ||
+      savedTheme === "dark"
+    ) {
+      return savedTheme;
+    }
+  } catch {
+    // localStorage 사용 불가
+  }
+
+  return APP_CONFIG.defaultTheme;
+}
+
+function saveTheme(theme) {
+  try {
+    localStorage.setItem(
+      APP_CONFIG.themeStorageKey,
+      theme
+    );
+  } catch {
+    // 저장 실패 시에도 테마 기능 자체는 계속 동작한다.
+  }
+}
 
 const appState = {
   event: APP_CONFIG.defaultEvent,
   language: APP_CONFIG.defaultLanguage,
+  theme: loadSavedTheme(),
 };
 
 let currentChart = null;
@@ -129,6 +167,34 @@ function updateStaticTranslations() {
     languageButton.title =
       t("languageSwitchLabel");
   }
+
+  updateTheme();
+}
+
+function updateTheme() {
+  document.documentElement.dataset.theme =
+    appState.theme;
+
+  const themeButton =
+    document.querySelector(
+      "[data-theme-toggle]"
+    );
+
+  if (!themeButton) {
+    return;
+  }
+
+  const label =
+    appState.theme === "dark"
+      ? t("lightMode")
+      : t("darkMode");
+
+  themeButton.setAttribute(
+    "aria-label",
+    label
+  );
+
+  themeButton.title = label;
 }
 
 function getTeamDisplayName(team) {
@@ -181,6 +247,29 @@ function setupLanguageToggle() {
 
       currentChart
         ?.refreshLanguageDependentChartText();
+    }
+  );
+}
+
+function setupThemeToggle() {
+  const themeButton =
+    document.querySelector(
+      "[data-theme-toggle]"
+    );
+
+  if (!themeButton) {
+    return;
+  }
+
+  themeButton.addEventListener(
+    "click",
+    (event) => {
+      event.stopPropagation();
+
+      appState.theme = appState.theme === "light" ? "dark" : "light";
+
+      saveTheme(appState.theme);
+      updateTheme();
     }
   );
 }
@@ -738,6 +827,7 @@ async function main() {
   updateStaticTranslations();
 
   setupLanguageToggle();
+  setupThemeToggle();
   setupEventToggle();
 
   updateEventControls();
