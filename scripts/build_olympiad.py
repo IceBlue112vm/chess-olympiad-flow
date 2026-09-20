@@ -73,6 +73,7 @@ def parse_starting_rank(path: Path) -> dict[int, dict]:
             "name": name,
             "federation": federation,
             "startRank": start_rank,
+            "players": [],
             "rounds": [],
         }
 
@@ -95,6 +96,82 @@ def load_round(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_rosters(
+    path: Path,
+    event: str,
+    teams: dict[int, dict],
+) -> dict[int, list[dict]]:
+    if not path.exists():
+        raise RuntimeError(
+            f"Roster data not found: {path}\n"
+            f"Run: uv run python .\\scripts\\build_rosters.py {event}"
+        )
+
+    data = json.loads(
+        path.read_text(
+            encoding="utf-8",
+        )
+    )
+
+    if data.get("event") != event:
+        raise RuntimeError(
+            f"Roster event mismatch: "
+            f"expected={event!r}, "
+            f"actual={data.get('event')!r}"
+        )
+
+    rosters = {}
+
+    for record in data.get("teams", []):
+        team_id = record["id"]
+
+        if team_id in rosters:
+            raise RuntimeError(
+                f"Duplicate team ID in roster data: {team_id}"
+            )
+
+        if team_id not in teams:
+            raise RuntimeError(
+                f"Roster team {team_id} not found "
+                f"in starting rank."
+            )
+
+        team = teams[team_id]
+
+        if team["name"] != record["name"]:
+            raise RuntimeError(
+                f"Roster team identity changed for ID {team_id}: "
+                f"{team['name']} -> {record['name']}"
+            )
+
+        players = record["players"]
+
+        if not players:
+            raise RuntimeError(
+                f"No roster players for team "
+                f"{team_id}: {team['name']}"
+            )
+
+        rosters[team_id] = players
+
+    missing_ids = set(teams) - set(rosters)
+    extra_ids = set(rosters) - set(teams)
+
+    if missing_ids:
+        raise RuntimeError(
+            f"Missing roster team IDs: "
+            f"{sorted(missing_ids)}"
+        )
+
+    if extra_ids:
+        raise RuntimeError(
+            f"Unknown roster team IDs: "
+            f"{sorted(extra_ids)}"
+        )
+
+    return rosters
+
+
 def build_olympiad(
     event: str,
     tournament_id: int,
@@ -111,6 +188,15 @@ def build_olympiad(
     )
 
     teams = parse_starting_rank(starting_rank_path)
+
+    rosters = load_rosters(
+        processed_dir / "rosters.json",
+        event,
+        teams,
+    )
+
+    for team_id, team in teams.items():
+        team["players"] = rosters[team_id]
 
     round_paths = sorted(
         processed_dir.glob("round*.json"),
@@ -176,13 +262,6 @@ def build_olympiad(
                     "boards": record["boards"],
                 }
             )
-
-    expected_rounds = list(range(1, round_numbers[-1] + 1))
-
-    if round_numbers != expected_rounds:
-        raise RuntimeError(
-            f"Round files are not contiguous: {round_numbers}"
-        )
 
     return {
         "event": event,

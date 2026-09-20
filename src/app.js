@@ -840,12 +840,57 @@ function renderChart(data) {
       : `${t("round")} ${roundNumber}`;
   }
 
+  function getRosterHtml(team) {
+    if (
+      !Array.isArray(team.players) ||
+      team.players.length === 0
+    ) {
+      return "";
+    }
+  
+    const rows = team.players
+      .map((player) => {
+        const playerName =
+          getBoardPlayerHtml(
+            player.title,
+            player.name
+          );
+  
+        return `
+          <div class="tooltip-roster-row">
+            <span class="tooltip-roster-order">
+              ${escapeHtml(player.order)}
+            </span>
+  
+            <span class="tooltip-roster-player">
+              ${playerName}
+            </span>
+  
+            <span class="tooltip-roster-rating">
+              ${escapeHtml(player.rating)}
+            </span>
+          </div>
+        `;
+      })
+      .join("");
+  
+    return `
+      <div class="tooltip-roster">
+        ${rows}
+      </div>
+    `;
+  }
+
   function getTooltipHtml(node) {
     if (node.stage === "start") {
       return `
-        <strong>${escapeHtml(getTeamDisplayName(node.team))}</strong><br>
-        ${t("startRank")}: ${node.rank}<br>
-        ${t("federation")}: ${escapeHtml(node.team.federation)}
+        <strong>
+          ${escapeHtml(getTeamDisplayName(node.team))}
+        </strong><br>
+
+        ${t("startRank")}: ${node.rank}
+
+        ${getRosterHtml(node.team)}
       `;
     }
 
@@ -941,6 +986,11 @@ function renderChart(data) {
   }
 
   function showTooltip(node, pageX, pageY) {
+    const hasRoster =
+      node.stage === "start" &&
+      Array.isArray(node.team.players) &&
+      node.team.players.length > 0;
+
     const hasBoardResults =
       Array.isArray(node.boards) &&
       node.boards.length > 0;
@@ -949,6 +999,10 @@ function renderChart(data) {
       .classed(
         "has-board-results",
         hasBoardResults
+      )
+      .classed(
+        "has-roster",
+        hasRoster
       )
       .style("display", "block")
       .style("left", "0px")

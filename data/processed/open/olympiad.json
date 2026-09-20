@@ -14,6 +14,38 @@
       "name": "United States of America",
       "federation": "USA",
       "startRank": 1,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Caruana, Fabiano",
+          "rating": 2789
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "So, Wesley",
+          "rating": 2774
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Niemann, Hans Moke",
+          "rating": 2725
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Aronian, Levon",
+          "rating": 2725
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Liang, Awonder",
+          "rating": 2693
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -257,6 +289,38 @@
       "name": "India",
       "federation": "IND",
       "startRank": 2,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Praggnanandhaa, R",
+          "rating": 2761
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Erigaisi, Arjun",
+          "rating": 2759
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Nihal, Sarin",
+          "rating": 2718
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Gukesh, D",
+          "rating": 2703
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Vidit, Santosh Gujrathi",
+          "rating": 2697
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -500,6 +564,38 @@
       "name": "Uzbekistan",
       "federation": "UZB",
       "startRank": 3,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Abdusattorov, Nodirbek",
+          "rating": 2762
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Sindarov, Javokhir",
+          "rating": 2778
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Yakubboev, Nodirbek",
+          "rating": 2685
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Vokhidov, Shamsiddin",
+          "rating": 2654
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Madaminov, Mukhiddin",
+          "rating": 2611
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -743,6 +839,38 @@
       "name": "China",
       "federation": "CHN",
       "startRank": 4,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Ding, Liren",
+          "rating": 2733
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Wei, Yi",
+          "rating": 2752
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Yu, Yangyi",
+          "rating": 2710
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Xu, Xiangyu",
+          "rating": 2631
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Kong, Xiangrui",
+          "rating": 2549
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -986,6 +1114,38 @@
       "name": "Germany",
       "federation": "GER",
       "startRank": 5,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Keymer, Vincent",
+          "rating": 2764
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Bluebaum, Matthias",
+          "rating": 2662
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Svane, Frederik",
+          "rating": 2655
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Donchenko, Alexander",
+          "rating": 2625
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Svane, Rasmus",
+          "rating": 2610
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -1229,6 +1389,38 @@
       "name": "Netherlands",
       "federation": "NED",
       "startRank": 6,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Giri, Anish",
+          "rating": 2757
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Van Foreest, Jorden",
+          "rating": 2706
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Van Wely, Loek",
+          "rating": 2643
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "L'Ami, Erwin",
+          "rating": 2595
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Schoppen, Casper",
+          "rating": 2582
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -1472,6 +1664,38 @@
       "name": "Azerbaijan",
       "federation": "AZE",
       "startRank": 7,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Mamedyarov, Shakhriyar",
+          "rating": 2720
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Suleymanli, Aydin",
+          "rating": 2664
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Muradli, Mahammad",
+          "rating": 2653
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Mamedov, Rauf",
+          "rating": 2631
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Safarli, Eltaj",
+          "rating": 2616
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -1715,6 +1939,38 @@
       "name": "Hungary",
       "federation": "HUN",
       "startRank": 8,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Rapport, Richard",
+          "rating": 2726
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Leko, Peter",
+          "rating": 2676
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Gledura, Benjamin",
+          "rating": 2620
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Banusz, Tamas",
+          "rating": 2587
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Dudin, Gleb",
+          "rating": 2560
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -1958,6 +2214,38 @@
       "name": "France",
       "federation": "FRA",
       "startRank": 9,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Vachier-Lagrave, Maxime",
+          "rating": 2718
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Bacrot, Etienne",
+          "rating": 2620
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Lagarde, Maxime",
+          "rating": 2593
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Maurizzi, MarcAndria",
+          "rating": 2612
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Moussard, Jules",
+          "rating": 2602
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -2201,6 +2489,38 @@
       "name": "Armenia",
       "federation": "ARM",
       "startRank": 10,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Martirosyan, Haik M.",
+          "rating": 2664
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Hovhannisyan, Robert",
+          "rating": 2642
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Sargsyan, Shant",
+          "rating": 2630
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Sargissian, Gabriel",
+          "rating": 2610
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Petrosyan, Manuel",
+          "rating": 2569
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -2444,6 +2764,38 @@
       "name": "England",
       "federation": "ENG",
       "startRank": 11,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Vitiugov, Nikita",
+          "rating": 2666
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Adams, Michael",
+          "rating": 2598
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Maroroa Jones, Gawain C B",
+          "rating": 2633
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "McShane, Luke J",
+          "rating": 2598
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Fernandez, Daniel Howard",
+          "rating": 2542
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -2687,6 +3039,38 @@
       "name": "Ukraine",
       "federation": "UKR",
       "startRank": 12,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kovalenko, Igor",
+          "rating": 2642
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Ivanchuk, Vasyl",
+          "rating": 2630
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Korobov, Anton",
+          "rating": 2610
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Samunenkov, Ihor",
+          "rating": 2608
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Dehtiarov, Roman",
+          "rating": 2508
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -2930,6 +3314,38 @@
       "name": "Spain",
       "federation": "ESP",
       "startRank": 13,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Anton Guijarro, David",
+          "rating": 2632
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Chigaev, Maksim",
+          "rating": 2629
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Santos Latasa, Jaime",
+          "rating": 2615
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Shirov, Alexei",
+          "rating": 2603
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Yuffa, Daniil",
+          "rating": 2570
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -3173,6 +3589,38 @@
       "name": "Turkiye",
       "federation": "TUR",
       "startRank": 14,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Erdogmus, Yagiz Kaan",
+          "rating": 2716
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Gurel, Ediz",
+          "rating": 2636
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Can, Isik",
+          "rating": 2569
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Sanal, Vahap",
+          "rating": 2544
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Can, Emre",
+          "rating": 2534
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -3416,6 +3864,38 @@
       "name": "Serbia",
       "federation": "SRB",
       "startRank": 15,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Sarana, Alexey",
+          "rating": 2666
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Indjic, Aleksandar",
+          "rating": 2598
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Predke, Alexandr",
+          "rating": 2598
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Ivic, Velimir",
+          "rating": 2601
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Maksimovic, Bojan",
+          "rating": 2534
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -3659,6 +4139,38 @@
       "name": "Poland",
       "federation": "POL",
       "startRank": 16,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Duda, Jan-Krzysztof",
+          "rating": 2743
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Gumularz, Szymon",
+          "rating": 2608
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Malek, Jan",
+          "rating": 2587
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Kosakowski, Jakub",
+          "rating": 2520
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Seemann, Jakub",
+          "rating": 2515
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -3902,6 +4414,38 @@
       "name": "Croatia",
       "federation": "CRO",
       "startRank": 17,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Saric, Ivan",
+          "rating": 2623
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Brkic, Ante",
+          "rating": 2610
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Livaic, Leon",
+          "rating": 2560
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Martinovic, Sasa",
+          "rating": 2553
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Bosiocic, Marin",
+          "rating": 2563
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -4145,6 +4689,38 @@
       "name": "Iran",
       "federation": "IRI",
       "startRank": 18,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Tabatabaei, M. Amin",
+          "rating": 2737
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Daneshvar, Bardiya",
+          "rating": 2572
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Gholami Orimi, Mahdi",
+          "rating": 2553
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Mahdavi, Reza",
+          "rating": 2485
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Daghli, Arash",
+          "rating": 2429
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -4388,6 +4964,38 @@
       "name": "Greece",
       "federation": "GRE",
       "startRank": 19,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Theodorou, Nikolas",
+          "rating": 2633
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Mastrovasilis, Dimitrios",
+          "rating": 2525
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Kourkoulos-Arditis, Stamatis",
+          "rating": 2567
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Papaioannou, Ioannis",
+          "rating": 2608
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Alexakis, Dimitris",
+          "rating": 2533
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -4631,6 +5239,38 @@
       "name": "Czech Republic",
       "federation": "CZE",
       "startRank": 20,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Nguyen, Thai Dai Van",
+          "rating": 2633
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Navara, David",
+          "rating": 2606
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Finek, Vaclav",
+          "rating": 2578
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Vykouk, Jan",
+          "rating": 2524
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Nemec, Jachym",
+          "rating": 2483
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -4874,6 +5514,38 @@
       "name": "Norway",
       "federation": "NOR",
       "startRank": 21,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Christiansen, Johan-Sebastian",
+          "rating": 2656
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Amar, Elham",
+          "rating": 2577
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Urkedal, Frode Olav Olsen",
+          "rating": 2571
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Kvaloy, Aksel Bu",
+          "rating": 2505
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Kaasen, Tor Fredrik",
+          "rating": 2499
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -5117,6 +5789,38 @@
       "name": "Israel",
       "federation": "ISR",
       "startRank": 22,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Rodshtein, Maxim",
+          "rating": 2576
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Boruchovsky, Avital",
+          "rating": 2529
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Gorshtein, Ido",
+          "rating": 2560
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Sokolovsky, Yahli",
+          "rating": 2546
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Smirin, Ilia",
+          "rating": 2578
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -5360,6 +6064,38 @@
       "name": "Romania",
       "federation": "ROU",
       "startRank": 23,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Deac, Bogdan-Daniel",
+          "rating": 2644
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Lupulescu, Constantin",
+          "rating": 2569
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Parligras, Mircea-Emilian",
+          "rating": 2507
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Gavrilescu, David",
+          "rating": 2527
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Magold, Filip",
+          "rating": 2494
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -5603,6 +6339,38 @@
       "name": "Argentina",
       "federation": "ARG",
       "startRank": 24,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Oro, Faustino",
+          "rating": 2537
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Flores, Diego",
+          "rating": 2590
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Mareco, Sandro",
+          "rating": 2551
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Peralta, Fernando",
+          "rating": 2553
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Perez Ponsa, Federico",
+          "rating": 2541
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -5846,6 +6614,38 @@
       "name": "Denmark",
       "federation": "DEN",
       "startRank": 25,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Bjerre, Jonas Buhl",
+          "rating": 2615
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Thybo, Jesper Sondergaard",
+          "rating": 2579
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Andersen, Mads",
+          "rating": 2549
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Ochsner, Bjorn Moller",
+          "rating": 2478
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Olsen, Filip Boe",
+          "rating": 2453
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -6089,6 +6889,38 @@
       "name": "Italy",
       "federation": "ITA",
       "startRank": 26,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Lodici, Lorenzo",
+          "rating": 2573
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Moroni, Luca Jr",
+          "rating": 2556
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Sonis, Francesco",
+          "rating": 2539
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Brunello, Sabino",
+          "rating": 2536
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Di Benedetto, Edoardo",
+          "rating": 2473
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -6332,6 +7164,38 @@
       "name": "Austria",
       "federation": "AUT",
       "startRank": 27,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Alekseenko, Kirill",
+          "rating": 2656
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Blohberger, Felix",
+          "rating": 2552
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Dotzer, Lukas",
+          "rating": 2472
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Peyrer, Konstantin",
+          "rating": 2485
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Baidetskyi, Valentin",
+          "rating": 2511
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -6575,6 +7439,38 @@
       "name": "Bulgaria",
       "federation": "BUL",
       "startRank": 28,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Naiditsch, Arkadij",
+          "rating": 2574
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Petkov, Momchil",
+          "rating": 2544
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Petrov, Martin",
+          "rating": 2528
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Georgiev, Kiril",
+          "rating": 2520
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Dimitrov, Radoslav",
+          "rating": 2475
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -6818,6 +7714,38 @@
       "name": "Georgia",
       "federation": "GEO",
       "startRank": 29,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Mchedlishvili, Mikheil",
+          "rating": 2550
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Kacharava, Nikolozi",
+          "rating": 2525
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Jobava, Baadur",
+          "rating": 2576
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Pantsulaia, Levan",
+          "rating": 2492
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Paichadze, Luka",
+          "rating": 2461
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -7061,6 +7989,38 @@
       "name": "Uzbekistan 2",
       "federation": "UZB",
       "startRank": 30,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Vakhidov, Jakhongir",
+          "rating": 2527
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Abdisalimov, Abdimalik",
+          "rating": 2548
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Suyarov, Mukhammadzokhid",
+          "rating": 2540
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Nigmatov, Ortik",
+          "rating": 2484
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Begmuratov, Khumoyun",
+          "rating": 2514
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -7304,6 +8264,38 @@
       "name": "Brazil",
       "federation": "BRA",
       "startRank": 31,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Supi, Luis Paulo",
+          "rating": 2582
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Fier, Alexandr",
+          "rating": 2537
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Diamant, Andre",
+          "rating": 2504
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Di Berardino, Diego Rafael",
+          "rating": 2471
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Molina, Roberto Junio Brito",
+          "rating": 2390
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -7547,6 +8539,38 @@
       "name": "Australia",
       "federation": "AUS",
       "startRank": 32,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Cheng, Bobby",
+          "rating": 2570
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Kuybokarov, Temur",
+          "rating": 2534
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Sardana, Rishi",
+          "rating": 2518
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Smerdon, David C",
+          "rating": 2461
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Morris, James",
+          "rating": 2442
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -7790,6 +8814,38 @@
       "name": "Switzerland",
       "federation": "SUI",
       "startRank": 33,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Bogner, Sebastian",
+          "rating": 2547
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Georgiadis, Nico",
+          "rating": 2535
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Peng, Li Min",
+          "rating": 2568
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Baenziger, Fabian",
+          "rating": 2426
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Federer, Colin",
+          "rating": 2269
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -8033,6 +9089,38 @@
       "name": "Slovenia",
       "federation": "SLO",
       "startRank": 34,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Demchenko, Anton",
+          "rating": 2580
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Subelj, Jan",
+          "rating": 2524
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Lavrencic, Matic",
+          "rating": 2479
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Sebenik, Matej",
+          "rating": 2491
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Barbot, Pierre",
+          "rating": 2480
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -8276,6 +9364,38 @@
       "name": "Kazakhstan",
       "federation": "KAZ",
       "startRank": 35,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Makhnev, Denis",
+          "rating": 2568
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Nurgaliyev, Sauat",
+          "rating": 2493
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Sapenov, Daniyal",
+          "rating": 2510
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Ansat, Aldiyar",
+          "rating": 2495
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Agmanov, Zhandos",
+          "rating": 2490
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -8519,6 +9639,38 @@
       "name": "Sweden",
       "federation": "SWE",
       "startRank": 36,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Grandelius, Nils",
+          "rating": 2603
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Seo, Jung Min",
+          "rating": 2503
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Blomqvist, Erik",
+          "rating": 2482
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Trost, Edvin",
+          "rating": 2472
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Sorensen, Hampus",
+          "rating": 2428
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -8762,6 +9914,38 @@
       "name": "Lithuania",
       "federation": "LTU",
       "startRank": 37,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Stremavicius, Titas",
+          "rating": 2554
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Pultinevicius, Paulius",
+          "rating": 2542
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Laurusas, Tomas",
+          "rating": 2536
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Stremavicius, Pijus",
+          "rating": 2362
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Pidluznij, Gleb",
+          "rating": 2410
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -9005,6 +10189,38 @@
       "name": "Slovakia",
       "federation": "SVK",
       "startRank": 38,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Pechac, Jergus",
+          "rating": 2538
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Michalik, Peter",
+          "rating": 2543
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Sahidi, Samir",
+          "rating": 2478
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Druska, Juraj",
+          "rating": 2459
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Haring, Filip",
+          "rating": 2439
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -9248,6 +10464,38 @@
       "name": "Belarus",
       "federation": "BLR",
       "startRank": 39,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Lazavik, Denis",
+          "rating": 2621
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Tsaruk, Maksim",
+          "rating": 2487
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Stribuk, Artiom",
+          "rating": 2489
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Nikitenko, Mihail",
+          "rating": 2415
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Zarubitski, Viachaslau",
+          "rating": 2392
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -9491,6 +10739,38 @@
       "name": "Montenegro",
       "federation": "MNE",
       "startRank": 40,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kadric, Denis",
+          "rating": 2513
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Petrov, Nikita",
+          "rating": 2565
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Djukic, Nikola",
+          "rating": 2447
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Draskovic, Luka",
+          "rating": 2468
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Vukcevic, Nemanja",
+          "rating": 2294
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -9734,6 +11014,38 @@
       "name": "Canada",
       "federation": "CAN",
       "startRank": 41,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Rodrigue-Lemieux, Shawn",
+          "rating": 2536
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Atanasov, Anthony",
+          "rating": 2481
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Preotu, Razvan",
+          "rating": 2475
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Noritsyn, Nikolay",
+          "rating": 2444
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Sai, Krishna G V",
+          "rating": 2451
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -9977,6 +11289,38 @@
       "name": "Finland",
       "federation": "FIN",
       "startRank": 42,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Nyback, Tomi",
+          "rating": 2593
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Keinanen, Toivo",
+          "rating": 2498
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Sipila, Vilka",
+          "rating": 2474
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Lahdelma, Henri",
+          "rating": 2353
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Wartiovaara, Oliver",
+          "rating": 2340
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -10220,6 +11564,38 @@
       "name": "Latvia",
       "federation": "LAT",
       "startRank": 43,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kantans, Toms",
+          "rating": 2550
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Meshkovs, Nikita",
+          "rating": 2535
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Germanovs, Georgijs",
+          "rating": 2389
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Miezis, Normunds",
+          "rating": 2405
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Paikens, Reinis",
+          "rating": 2296
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -10463,6 +11839,38 @@
       "name": "Cuba",
       "federation": "CUB",
       "startRank": 44,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Elias Reyes, Jorge Roberto",
+          "rating": 2505
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Berdayes Ason, Dylan Isidro",
+          "rating": 2462
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Martinez Duany, Lelys Stanley",
+          "rating": 2440
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Espinosa Veloz, Ermes",
+          "rating": 2460
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Alvarez Pedraza, Aramis",
+          "rating": 2433
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -10706,6 +12114,38 @@
       "name": "Moldova",
       "federation": "MDA",
       "startRank": 45,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Lashkin, Jegor",
+          "rating": 2490
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Schitco, Ivan",
+          "rating": 2498
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Sapocinic, Semion",
+          "rating": 2362
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Gubin, Dmitrii",
+          "rating": 2398
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Hamitevici, Vladimir",
+          "rating": 2446
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -10949,6 +12389,38 @@
       "name": "Belgium",
       "federation": "BEL",
       "startRank": 46,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Maerevoet, Sim",
+          "rating": 2461
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Ruzhansky, Elias",
+          "rating": 2427
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Vandenbussche, Thibaut",
+          "rating": 2411
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Gurevich, Mikhail",
+          "rating": 2533
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Dardha, Arben",
+          "rating": 2229
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -11192,6 +12664,38 @@
       "name": "Vietnam",
       "federation": "VIE",
       "startRank": 47,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Dau, Khuong Duy",
+          "rating": 2509
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Banh, Gia Huy",
+          "rating": 2464
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Nguyen, Quoc Hy",
+          "rating": 2428
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Pham, Tran Gia Phuc",
+          "rating": 2424
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Nguyen, Hoang Nam",
+          "rating": 2144
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -11435,6 +12939,38 @@
       "name": "Iceland",
       "federation": "ISL",
       "startRank": 48,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Stefansson, Vignir Vatnar",
+          "rating": 2531
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Heimisson, Hilmir Freyr",
+          "rating": 2342
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Hjartarson, Johann",
+          "rating": 2461
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Stefansson, Hannes",
+          "rating": 2425
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Kjartansson, Gudmundur",
+          "rating": 2402
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -11678,6 +13214,38 @@
       "name": "Portugal",
       "federation": "POR",
       "startRank": 49,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Ferreira, Jorge Viterbo",
+          "rating": 2529
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Sousa, Andre Ventura",
+          "rating": 2451
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Veiga, Jose Francisco R P Neves",
+          "rating": 2404
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Martins, Bruno Andre Leite",
+          "rating": 2408
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Galego, Luis",
+          "rating": 2400
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -11921,6 +13489,38 @@
       "name": "Singapore",
       "federation": "SGP",
       "startRank": 50,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Tin, Jingyao",
+          "rating": 2584
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Siddharth, Jagadeesh",
+          "rating": 2497
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Wong, Zhenyong Jayden",
+          "rating": 2360
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Goh, Zi Han",
+          "rating": 2347
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Ashwath, Kaushik",
+          "rating": 2303
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -12164,6 +13764,38 @@
       "name": "Mongolia",
       "federation": "MGL",
       "startRank": 51,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Bilguun, Sumiya",
+          "rating": 2414
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Amilal, Munkhdalai",
+          "rating": 2491
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Amartuvshin, Ganzorig",
+          "rating": 2445
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Itgelt, Khuyagtsogt",
+          "rating": 2435
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Agibileg, Uurtsaikh",
+          "rating": 2412
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -12407,6 +14039,38 @@
       "name": "Indonesia",
       "federation": "INA",
       "startRank": 52,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Megaranto, Susanto",
+          "rating": 2488
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Tarigan, Gilbert Elroy",
+          "rating": 2416
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Hafiz, Arif Abdul",
+          "rating": 2428
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Cahaya, Satria Duta",
+          "rating": 2412
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Budhidharma, Nayaka",
+          "rating": 2383
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -12650,6 +14314,38 @@
       "name": "Peru",
       "federation": "PER",
       "startRank": 53,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Cori, Jorge",
+          "rating": 2575
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Flores Quillas, Diego Saul Rodri",
+          "rating": 2398
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Rojas Salas, Steven",
+          "rating": 2387
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Quirhuayo Chumbe, German Gonzalo",
+          "rating": 2381
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Fernandez Sanchez, Fernando Miguel",
+          "rating": 2369
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -12893,6 +14589,38 @@
       "name": "Chile",
       "federation": "CHI",
       "startRank": 54,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Vasquez Schroeder, Rodrigo",
+          "rating": 2457
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Salinas Herrera, Pablo",
+          "rating": 2450
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Marrujo Pardo, Mauricio Emmanuel",
+          "rating": 2422
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Perez Gormaz, Matias",
+          "rating": 2340
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Lopez Silva, Hugo",
+          "rating": 2369
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -13136,6 +14864,38 @@
       "name": "Uzbekistan 3",
       "federation": "UZB",
       "startRank": 55,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Saydaliev, Saidakbar",
+          "rating": 2475
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Bakhrillaev, Bakhrom",
+          "rating": 2412
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Rakhmatullaev, Almas",
+          "rating": 2418
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Abdurakhmonov, Mukhammadali",
+          "rating": 2390
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Omonov, Asrorjon",
+          "rating": 2347
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -13379,6 +15139,38 @@
       "name": "North Macedonia",
       "federation": "MKD",
       "startRank": 56,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Risteski, Emil",
+          "rating": 2426
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Zlatkov, Anton",
+          "rating": 2422
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Lazov, Toni",
+          "rating": 2394
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Pancevski, Filip",
+          "rating": 2422
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Nikolovski, Nikola",
+          "rating": 2393
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -13622,6 +15414,38 @@
       "name": "Philippines",
       "federation": "PHI",
       "startRank": 57,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Concio, Michael Jr.",
+          "rating": 2405
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Bersamina, Paulo",
+          "rating": 2398
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Quizon, Daniel",
+          "rating": 2414
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Garcia, Jan Emmanuel",
+          "rating": 2444
+        },
+        {
+          "order": 5,
+          "title": "GM",
+          "name": "Laylo, Darwin",
+          "rating": 2347
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -13865,6 +15689,38 @@
       "name": "Colombia",
       "federation": "COL",
       "startRank": 58,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Lopez Rayo, Santiago",
+          "rating": 2431
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Valderrama Quiceno, Esteban Alb",
+          "rating": 2390
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Campos Gomez, Manuel",
+          "rating": 2428
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Rios Gomez, Cristhian Camilo",
+          "rating": 2412
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Herrera, Juan Sebastian",
+          "rating": 2290
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -14108,6 +15964,38 @@
       "name": "Bosnia and Herzegovina",
       "federation": "BIH",
       "startRank": 59,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Culum, Sanjin",
+          "rating": 2441
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Burovic, Rijad",
+          "rating": 2414
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Marjanovic, Dejan",
+          "rating": 2390
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Stojanovic, Dalibor",
+          "rating": 2412
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Mesic, Ismet",
+          "rating": 2226
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -14351,6 +16239,38 @@
       "name": "Scotland",
       "federation": "SCO",
       "startRank": 60,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Waldhausen Gordon, Frederick",
+          "rating": 2455
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Greet, Andrew N",
+          "rating": 2416
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Vijayakumar, Rishi",
+          "rating": 2387
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Megalios, Konstantinos",
+          "rating": 2373
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Abdulla, Murad",
+          "rating": 2323
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -14594,6 +16514,38 @@
       "name": "Tajikistan",
       "federation": "TJK",
       "startRank": 61,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Khusenkhojaev, Mustafokhuja",
+          "rating": 2404
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Ilkhomi, Jaloliddin",
+          "rating": 2391
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Sharifov, Mekhriddin",
+          "rating": 2419
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Khusenkhojaev, Muhammad",
+          "rating": 2408
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Kabilov, Amin",
+          "rating": 2285
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -14837,6 +16789,38 @@
       "name": "Estonia",
       "federation": "EST",
       "startRank": 62,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Volodin, Aleksandr",
+          "rating": 2485
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Sirosh, Ilja",
+          "rating": 2385
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Chukavin, Kirill",
+          "rating": 2362
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Kanep, Meelis",
+          "rating": 2353
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Krivenko, Dion",
+          "rating": 2319
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -15080,6 +17064,38 @@
       "name": "Uruguay",
       "federation": "URU",
       "startRank": 63,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Meier, Georg",
+          "rating": 2612
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Vazquez, Facundo",
+          "rating": 2411
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Rodi, Luis Ernesto",
+          "rating": 2224
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Roselli Mailhe, Bernardo",
+          "rating": 2311
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Elena, Eduardo",
+          "rating": 2132
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -15323,6 +17339,38 @@
       "name": "Bangladesh",
       "federation": "BAN",
       "startRank": 64,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Mohammad Fahad, Rahman",
+          "rating": 2431
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Manon, Reja Neer",
+          "rating": 2420
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Zia, Tahsin Tajwar",
+          "rating": 2362
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Murshed, Niaz",
+          "rating": 2342
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Sakline Mostafa, Sajid",
+          "rating": 2316
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -15566,6 +17614,38 @@
       "name": "Turkmenistan",
       "federation": "TKM",
       "startRank": 65,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Atabayev, Saparmyrat",
+          "rating": 2503
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Annaberdiyev, Meylis",
+          "rating": 2384
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Hommadov, Amanmuhammet",
+          "rating": 2389
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Turayev, Shahruh",
+          "rating": 2222
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Halynyazov, Vepaly",
+          "rating": 2257
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -15809,6 +17889,38 @@
       "name": "Ireland",
       "federation": "IRL",
       "startRank": 66,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Kanyamarala, Tarun",
+          "rating": 2417
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "O`Gorman, Tom",
+          "rating": 2380
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Baburin, Alexander",
+          "rating": 2344
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Collins, Adam",
+          "rating": 2340
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Venkatesan, Kavin",
+          "rating": 2304
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -16052,6 +18164,38 @@
       "name": "Malaysia",
       "federation": "MAS",
       "startRank": 67,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Tan, Jun Ying",
+          "rating": 2399
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Chan, Kim Yew",
+          "rating": 2383
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Kavin, Mohan",
+          "rating": 2348
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Lim, Zhuo Ren",
+          "rating": 2309
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Chow, Yi Chen",
+          "rating": 2152
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -16295,6 +18439,38 @@
       "name": "Bolivia",
       "federation": "BOL",
       "startRank": 68,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Ticona Rocabado, Licael Roderick",
+          "rating": 2428
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Zambrana, Osvaldo",
+          "rating": 2355
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Gemy, Jose Daniel",
+          "rating": 2314
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Pinto, Daniel",
+          "rating": 2337
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Titichoca Daza, Daniel",
+          "rating": 2138
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -16538,6 +18714,38 @@
       "name": "Egypt",
       "federation": "EGY",
       "startRank": 69,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kandil, Adham",
+          "rating": 2382
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Wafa, Hamed",
+          "rating": 2358
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Kandil, Ahmed",
+          "rating": 2353
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "George Samir, David",
+          "rating": 2317
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Sameh Mohamed, Abdalrahman",
+          "rating": 2322
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -16781,6 +18989,38 @@
       "name": "Paraguay",
       "federation": "PAR",
       "startRank": 70,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Vazquez, Guillermo",
+          "rating": 2543
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Almiron, Antonio",
+          "rating": 2328
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Melian, Juan Sebastian",
+          "rating": 2357
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Allo Collante, Enrique",
+          "rating": 2172
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Heinichen R., Juan Uvaldo",
+          "rating": 2124
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -17024,6 +19264,38 @@
       "name": "New Zealand",
       "federation": "NZL",
       "startRank": 71,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Xie, Felix",
+          "rating": 2423
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Renjith, Sravan",
+          "rating": 2318
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Middelburg, Tom",
+          "rating": 2344
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Gong, Daniel Hanwen",
+          "rating": 2248
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Mao, Daqi",
+          "rating": 2277
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -17267,6 +19539,38 @@
       "name": "Albania",
       "federation": "ALB",
       "startRank": 72,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Ashiku, Franc",
+          "rating": 2388
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Mehmeti, Dritan",
+          "rating": 2312
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Boci, Mateu",
+          "rating": 2317
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Xhembulla, Aleksander",
+          "rating": 2292
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Ramaj, Ergit",
+          "rating": 2317
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -17510,6 +19814,38 @@
       "name": "Costa Rica",
       "federation": "CRC",
       "startRank": 73,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Valdes Romero, Leonardo",
+          "rating": 2305
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Jimenez Garcia, Emmanuel",
+          "rating": 2380
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Mihajlov, Sebastian",
+          "rating": 2372
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Cabezas Solano, David Alejandro",
+          "rating": 2271
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Lizano Quiros, Matias Haziel",
+          "rating": 2169
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -17753,6 +20089,38 @@
       "name": "South Korea",
       "federation": "KOR",
       "startRank": 74,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Lee, Junhyeok",
+          "rating": 2401
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Ahn, Hongjin",
+          "rating": 2328
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Huh, Isaak",
+          "rating": 2324
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Kwon, Sehyun",
+          "rating": 2274
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lee, Younggyu",
+          "rating": 2055
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -17996,6 +20364,38 @@
       "name": "Mexico",
       "federation": "MEX",
       "startRank": 75,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Torres Rosas, Luis Carlos",
+          "rating": 2385
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Hernandez Guerrero, Gilberto",
+          "rating": 2379
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Avila Rodriguez, Joshua Adrian",
+          "rating": 2279
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Fernandez Hernandez, Arturo A.",
+          "rating": 2267
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Zacarias Rodriguez, Santiago",
+          "rating": 2184
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -18239,6 +20639,38 @@
       "name": "Japan",
       "federation": "JPN",
       "startRank": 76,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Tran, Thanh Tu",
+          "rating": 2406
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Otsuka, Shou",
+          "rating": 2314
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Nanjo, Ryosuke",
+          "rating": 2299
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Kojima, Shinya",
+          "rating": 2273
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Yamada, Kohei",
+          "rating": 2203
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -18482,6 +20914,38 @@
       "name": "South Africa",
       "federation": "RSA",
       "startRank": 77,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Karsten, Jan",
+          "rating": 2386
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Levitan, Caleb Levi",
+          "rating": 2316
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Mhango, Banele",
+          "rating": 2354
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mnyasta, Charlton",
+          "rating": 2236
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Dinham, James",
+          "rating": 2124
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -18725,6 +21189,38 @@
       "name": "Venezuela",
       "federation": "VEN",
       "startRank": 78,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Ynojosa Aponte, Felix Jose",
+          "rating": 2399
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Escalona Landi, Samid Eduardo",
+          "rating": 2374
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Castro Silva, Moises Antonio",
+          "rating": 2266
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Jaramillo Lopez, Ali Aaron",
+          "rating": 2249
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Pena Duran, Dilson Alejandro",
+          "rating": 2237
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -18968,6 +21464,38 @@
       "name": "Kyrgyzstan",
       "federation": "KGZ",
       "startRank": 79,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Zhakshylykov, Erzhan",
+          "rating": 2352
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Khoroshev, Nikita",
+          "rating": 2340
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Orozbaev, Eldiyar",
+          "rating": 2349
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Sezdbekov, Ruslan",
+          "rating": 2216
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Daudov, Timur",
+          "rating": 2063
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -19211,6 +21739,38 @@
       "name": "Algeria",
       "federation": "ALG",
       "startRank": 80,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Arab, Adlane",
+          "rating": 2453
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Belouadah, Saad",
+          "rating": 2320
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Boulrens, Ala Eddine",
+          "rating": 2205
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Bengherabi, Khalil",
+          "rating": 2131
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Djabri, Massinas",
+          "rating": 2270
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -19454,6 +22014,38 @@
       "name": "Cyprus",
       "federation": "CYP",
       "startRank": 81,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kelires, Andreas",
+          "rating": 2532
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Antoniou, Rafail",
+          "rating": 2244
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Michaelides, Konstantinos",
+          "rating": 2227
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Isaakidis, Alexandros",
+          "rating": 2241
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Konstantinides, Savvas",
+          "rating": 1966
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -19697,6 +22289,38 @@
       "name": "Kosovo *",
       "federation": "KOS",
       "startRank": 82,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Saraci, Nderim",
+          "rating": 2453
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Uruci, Endrit",
+          "rating": 2312
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Asllani, Muhamet",
+          "rating": 2229
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Saraci, Korab",
+          "rating": 2223
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Avdiu, Bardh",
+          "rating": 2147
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -19940,6 +22564,32 @@
       "name": "Chinese Taipei",
       "federation": "TPE",
       "startRank": 83,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Bai, Adelard",
+          "rating": 2468
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Song, Raymond",
+          "rating": 2498
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Chen, Jun-Wei",
+          "rating": 2180
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Liu, Yeh Yang",
+          "rating": 2051
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -20183,6 +22833,38 @@
       "name": "Nigeria",
       "federation": "NGR",
       "startRank": 84,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Kigigha, Bomo Lovet",
+          "rating": 2287
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "ABDULRAHEEM, Abdulrahman Akintoye",
+          "rating": 2316
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Aikhoje, Odion",
+          "rating": 2246
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "OKHIPO, Bartholomew Emmanuel",
+          "rating": 2246
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "EKUNKE, Odey Goodness",
+          "rating": 2280
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -20426,6 +23108,38 @@
       "name": "Andorra",
       "federation": "AND",
       "startRank": 85,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "De La Riva Aguado, Oscar",
+          "rating": 2428
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Ribera Veganzones, Serni",
+          "rating": 2305
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Gomez Anadon, Daniel",
+          "rating": 2193
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mateu Guiu, Esteve",
+          "rating": 2181
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Gonzalez Garcia, Marc",
+          "rating": 2138
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -20669,6 +23383,38 @@
       "name": "Dominican Republic",
       "federation": "DOM",
       "startRank": 86,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Araujo Sanchez, Josue",
+          "rating": 2319
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Camacho Campusano, David Daniel",
+          "rating": 2195
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Mendez Ramirez, Victor",
+          "rating": 2240
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Guzman, Christopher",
+          "rating": 2236
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Mesa Cruz, Juan Carlos",
+          "rating": 2287
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -20912,6 +23658,38 @@
       "name": "Ecuador",
       "federation": "ECU",
       "startRank": 87,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Noboa Silva, Kevin",
+          "rating": 2400
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Garzon Zapatanga, Christopher Leonel",
+          "rating": 2305
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Enrique Hernandez, Eddy Ernesto",
+          "rating": 2197
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Munoz Sanchez, Miguel",
+          "rating": 2173
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Santos Flores, Alberto",
+          "rating": 2164
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -21155,6 +23933,38 @@
       "name": "Panama",
       "federation": "PAN",
       "startRank": 88,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Sanchez Alvarez, Roberto Carlos",
+          "rating": 2344
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Tapia Ostolaza, Alexei",
+          "rating": 2203
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Baules Rodriguez, Jorge Luis",
+          "rating": 2282
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Ulloa Castillo, Ruben Abraham",
+          "rating": 2178
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Ramos Espinoza, Efren Andres",
+          "rating": 2162
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -21398,6 +24208,38 @@
       "name": "Zambia",
       "federation": "ZAM",
       "startRank": 89,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Mwali, Chitumbo",
+          "rating": 2328
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Kayonde, Andrew",
+          "rating": 2316
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Mulenga, Prince Daniel",
+          "rating": 2198
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kaoma, Micheal",
+          "rating": 2133
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Musonda, Chola",
+          "rating": 2098
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -21641,6 +24483,38 @@
       "name": "Sri Lanka",
       "federation": "SRI",
       "startRank": 90,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Liyanage, Ranindu Dilshan",
+          "rating": 2469
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Sivathanujan, S",
+          "rating": 2180
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Induwara, T H D Thisarindu",
+          "rating": 2162
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Janukshan, B",
+          "rating": 2145
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ovitigala, Chenitha Mithvidu",
+          "rating": 2121
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -21884,6 +24758,38 @@
       "name": "Angola",
       "federation": "ANG",
       "startRank": 91,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Silva, David",
+          "rating": 2275
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Miguel, Sergio",
+          "rating": 2258
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Sonhy, Jaime",
+          "rating": 2233
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Junior, Domingos",
+          "rating": 2188
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Cambando, Jose",
+          "rating": 2105
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -22053,6 +24959,38 @@
       "name": "Lebanon",
       "federation": "LBN",
       "startRank": 92,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Khoder, Akram",
+          "rating": 2304
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "El Zein, Zayne-Eddine",
+          "rating": 2291
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Assaad, Joe",
+          "rating": 2206
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Arkadan, Adib",
+          "rating": 2148
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Hazimeh, Ahmad Ali",
+          "rating": 1948
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -22296,6 +25234,38 @@
       "name": "Yemen",
       "federation": "YEM",
       "startRank": 93,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Al Qudaimi, Basheer",
+          "rating": 2372
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Al-Zendani, Zendan",
+          "rating": 2249
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Abdo, Abdullah Saleh Ahmed",
+          "rating": 2160
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Al-Halila, Ayman",
+          "rating": 2138
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Khaled, Waleed Abdullah",
+          "rating": 2042
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -22539,6 +25509,38 @@
       "name": "El Salvador",
       "federation": "ESA",
       "startRank": 94,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Morales, Carlos",
+          "rating": 2244
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Arias, Daniel",
+          "rating": 2227
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Guevara Ruiz, Santiago Jose",
+          "rating": 2160
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Ibarra, Carlos Roberto",
+          "rating": 2283
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Guevara Ruiz, Marvin Andres",
+          "rating": 2029
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -22782,6 +25784,38 @@
       "name": "United Arab Emirates",
       "federation": "UAE",
       "startRank": 95,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Al Hosani, Omran",
+          "rating": 2317
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Abdulrahman Mohammad, Al Taher",
+          "rating": 2262
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Ammar, Sedrani",
+          "rating": 2189
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Ahmed, Fareed",
+          "rating": 2132
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Mohamed, Saeed Laily",
+          "rating": 2088
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -23025,6 +26059,38 @@
       "name": "Syria",
       "federation": "SYR",
       "startRank": 96,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Chekh Adm Khedr, Aram",
+          "rating": 2194
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Fandi, Mazen.",
+          "rating": 2322
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Bakr, Rodi.",
+          "rating": 2092
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Alzaim, Talal",
+          "rating": 2047
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Eiti, Bashir",
+          "rating": 2270
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -23268,6 +26334,38 @@
       "name": "Luxembourg",
       "federation": "LUX",
       "startRank": 97,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Bourg, Nicolas",
+          "rating": 2254
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Berend, Fred",
+          "rating": 2231
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Linster, Philippe",
+          "rating": 2230
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Jeitz, Christian",
+          "rating": 2155
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mertens, Marc",
+          "rating": 2116
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -23511,6 +26609,38 @@
       "name": "Guatemala",
       "federation": "GUA",
       "startRank": 98,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Cu Hor, Winston Darwin",
+          "rating": 2330
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Juarez Flores, Carlos A.",
+          "rating": 2294
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Ordonez Bonilla, Ricardo Andres",
+          "rating": 2139
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Monroy Lopez, Gustavo Adolfo",
+          "rating": 2074
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Linares Orellana, Hector Jose",
+          "rating": 2008
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -23754,6 +26884,38 @@
       "name": "Madagascar",
       "federation": "MAD",
       "startRank": 99,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Rakotomaharo, Fy Antenaina",
+          "rating": 2426
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Andrianiaina, Heritiana",
+          "rating": 2191
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Rakotomaharavo, Dylan",
+          "rating": 2129
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Andriamasoandro, Miora",
+          "rating": 2076
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Rabarison, Ny Andolalaina Fitia Noah",
+          "rating": 2018
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -23997,6 +27159,38 @@
       "name": "Wales",
       "federation": "WLS",
       "startRank": 100,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Camacho Collados, Jose",
+          "rating": 2358
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Blackburn, Jonathan L B",
+          "rating": 2239
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Rathbone-Jones, Ifan",
+          "rating": 2117
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Cave, Iwan",
+          "rating": 2107
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Bullen, Alex",
+          "rating": 2096
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -24240,6 +27434,38 @@
       "name": "Trinidad & Tobago",
       "federation": "TTO",
       "startRank": 101,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Cabralis, Quinn",
+          "rating": 2269
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Harper, Ryan",
+          "rating": 2085
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Johnson, Joshua",
+          "rating": 2254
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Singh, Vishnu",
+          "rating": 2197
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Khafra, Enen-Sa-Tefa Ab",
+          "rating": 2002
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -24483,6 +27709,38 @@
       "name": "Sudan",
       "federation": "SUD",
       "startRank": 102,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Eltigani, Omar",
+          "rating": 2259
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Ahmed, Hassan",
+          "rating": 2190
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Abdelazeez, Mohamed Abdalla",
+          "rating": 2169
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Eltag, Siddig",
+          "rating": 2149
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Ahmed Holi Ali, Moawia",
+          "rating": 2089
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -24726,6 +27984,38 @@
       "name": "Iraq",
       "federation": "IRQ",
       "startRank": 103,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Chiya, Mder Hamad",
+          "rating": 1983
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Zozek, Salah Mohammed",
+          "rating": 2241
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Aryan, Ali Ehsan",
+          "rating": 2163
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Alothman, Ali Layth Ahmed",
+          "rating": 2214
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Muazaz, Dhahir Habeeb",
+          "rating": 2119
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -24969,6 +28259,38 @@
       "name": "Thailand",
       "federation": "THA",
       "startRank": 104,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Laohawirapap, Prin",
+          "rating": 2363
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Kulpruethanon, Thanadon",
+          "rating": 2220
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Alriyami, Faris Rashid",
+          "rating": 1909
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Arunnuntapanich, Tinnakrit",
+          "rating": 2060
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Khumnorkaew, Tupfah",
+          "rating": 2078
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -25212,6 +28534,38 @@
       "name": "Jamaica",
       "federation": "JAM",
       "startRank": 105,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Christie, Joshua",
+          "rating": 2216
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Smith, Shreyas",
+          "rating": 2272
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Glaves, Raheem",
+          "rating": 2127
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Shaw, Jaden",
+          "rating": 2100
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Brown, Akeem",
+          "rating": 2072
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -25455,6 +28809,38 @@
       "name": "Uganda",
       "federation": "UGA",
       "startRank": 106,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Kawuma, Patrick",
+          "rating": 2237
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Bibasa, Bob",
+          "rating": 2026
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Wanyama, Harold",
+          "rating": 2161
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nyola, Wasswa Mark",
+          "rating": 2236
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Egesa, Emmanuel",
+          "rating": 2076
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -25698,6 +29084,38 @@
       "name": "Faroe Islands",
       "federation": "FAI",
       "startRank": 107,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Apol, Luitjen Akselsson",
+          "rating": 2305
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Rodgaard, John",
+          "rating": 2250
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Nielsen, Jon I Horni",
+          "rating": 2078
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Petersen, Elias",
+          "rating": 2075
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Davidsen, Rokur",
+          "rating": 1988
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -25941,6 +29359,38 @@
       "name": "Hong Kong, China",
       "federation": "HKG",
       "startRank": 108,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Nissinen, Niilo Man",
+          "rating": 2354
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Lam, Chun Yung Samuel",
+          "rating": 2255
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Li, Yiheng",
+          "rating": 2126
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Wong, Ho Cheung",
+          "rating": 1966
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Zhang, Edmond Meng",
+          "rating": 1896
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -26184,6 +29634,38 @@
       "name": "Morocco",
       "federation": "MAR",
       "startRank": 109,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Aithmidou, Mohamed-Mehdi",
+          "rating": 2255
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Hadj Kholti, Yasser",
+          "rating": 2238
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ghanoui, Nidal",
+          "rating": 2112
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Messala, Noureddine",
+          "rating": 2092
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Zarkik, Abdeslam",
+          "rating": 2067
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -26427,6 +29909,38 @@
       "name": "Malta",
       "federation": "MLT",
       "startRank": 110,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Mizzi, Jack",
+          "rating": 2216
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Portelli, Matthew",
+          "rating": 2187
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Novak, Attila Robert",
+          "rating": 2144
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Pace, Colin",
+          "rating": 2132
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Darmanin, Jake",
+          "rating": 2038
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -26670,6 +30184,38 @@
       "name": "Tunisia",
       "federation": "TUN",
       "startRank": 111,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Bouzidi, Ahmed",
+          "rating": 2153
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Abdallah, Mohamed Khalil",
+          "rating": 2179
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Barbaria, Yacine",
+          "rating": 2176
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Amdouni, Zoubaier",
+          "rating": 2166
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Ben Ghanem, Hamed",
+          "rating": 2099
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -26913,6 +30459,38 @@
       "name": "Barbados",
       "federation": "BAR",
       "startRank": 112,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Blackman, Justin",
+          "rating": 2255
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Del Castilho, Martyn",
+          "rating": 2231
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Husbands, Orlando",
+          "rating": 2222
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Edwards, Emar",
+          "rating": 1958
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Parsons, Justin",
+          "rating": 1906
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -27156,6 +30734,38 @@
       "name": "Monaco",
       "federation": "MNC",
       "startRank": 113,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Efimov, Igor",
+          "rating": 2263
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Costalonga, Riccardo",
+          "rating": 2184
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Cahen, Alexis",
+          "rating": 2078
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Levacic, Damir",
+          "rating": 2100
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Verdier, Patrice",
+          "rating": 2009
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -27399,6 +31009,38 @@
       "name": "Zimbabwe",
       "federation": "ZIM",
       "startRank": 114,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Mwadzura, Roy",
+          "rating": 2211
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Jele, Tapiwa",
+          "rating": 2204
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mushore, Emarald Takudzwa",
+          "rating": 2139
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mapuranga, Vitalis",
+          "rating": 2058
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mureya, Terrence",
+          "rating": 2054
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -27642,6 +31284,38 @@
       "name": "Libya",
       "federation": "LBA",
       "startRank": 115,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Alharari, Mohamed Alsori",
+          "rating": 2034
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Abdulrahman, Mohammed Midhat",
+          "rating": 2091
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Elier, Ali",
+          "rating": 2210
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Alhassadi, Yousef A.",
+          "rating": 2149
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Kweiri, Tawfik ezzeddin",
+          "rating": 2140
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -27885,6 +31559,38 @@
       "name": "Jordan",
       "federation": "JOR",
       "startRank": 116,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Saif, Malek",
+          "rating": 2185
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Seyam, Khaled",
+          "rating": 1917
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Rakan, Dasa",
+          "rating": 2094
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ali, Alqaisi",
+          "rating": 2057
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Anas, Khwaira",
+          "rating": 2210
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -28128,6 +31834,38 @@
       "name": "South Sudan",
       "federation": "SSD",
       "startRank": 117,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Madol, Garang Panthou Joh",
+          "rating": 2170
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Manyok, Chaderek Panchol",
+          "rating": 2077
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Gong, Thon Gong",
+          "rating": 2159
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Daniel, Thokjang Malony",
+          "rating": 2105
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lual, Guet Nhiany",
+          "rating": 2025
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -28371,6 +32109,38 @@
       "name": "Puerto Rico",
       "federation": "PUR",
       "startRank": 118,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Almedina Ortiz, Edgardo J.",
+          "rating": 2200
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Rodriguez Santiago, Jaime",
+          "rating": 2069
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Toro Cruz, Sebastian J.",
+          "rating": 2143
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Zilleruelo Irizarry, Diego",
+          "rating": 2061
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Pedrosa Rivera, Joshua",
+          "rating": 2012
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -28614,6 +32384,38 @@
       "name": "Cape Verde",
       "federation": "CPV",
       "startRank": 119,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Ortega Amarelle, Mariano",
+          "rating": 2375
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Alho, Diogo",
+          "rating": 2212
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Vaz, Jose Carlos",
+          "rating": 1991
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Santos, Steven",
+          "rating": 1895
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Mirulla, David",
+          "rating": 1890
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -28857,6 +32659,38 @@
       "name": "Mozambique",
       "federation": "MOZ",
       "startRank": 120,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Andrade, Ivan",
+          "rating": 2165
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Paiva, Donaldo",
+          "rating": 2202
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Jamal, Hamid Harmon Gulamo",
+          "rating": 2067
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Joao, Farisse",
+          "rating": 2037
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Calicoca, Wilton Inacio",
+          "rating": 1953
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -29100,6 +32934,38 @@
       "name": "Malawi",
       "federation": "MAW",
       "startRank": 121,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Mwale, Joseph",
+          "rating": 2287
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Chipanga, Chiletso",
+          "rating": 2085
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Mwale, George",
+          "rating": 2062
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Nyambalo, Joseph Xavier",
+          "rating": 2014
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Phiri, Aaron",
+          "rating": 1962
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -29343,6 +33209,38 @@
       "name": "Honduras",
       "federation": "HON",
       "startRank": 122,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Urbina, Ricardo",
+          "rating": 2150
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Chinchilla, Alejandro Jose",
+          "rating": 2166
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Meza MartInez, Alcides Ivan",
+          "rating": 2078
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Soliz Gabarrete, Luis Fernando",
+          "rating": 2031
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Cardenas Carbajal, Nilson",
+          "rating": 2037
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -29586,6 +33484,38 @@
       "name": "Nicaragua",
       "federation": "NCA",
       "startRank": 123,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Ortiz, Marcos",
+          "rating": 2233
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Treminio Umanzor, Leonel Alejandro",
+          "rating": 1963
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Arauz Espinoza, Douglas Ariel",
+          "rating": 2041
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Castillo Romero, Jasmany Shallom",
+          "rating": 1939
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Vanegas Lopez, Natanael Emanuel",
+          "rating": 2121
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -29829,6 +33759,38 @@
       "name": "Pakistan",
       "federation": "PAK",
       "startRank": 124,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Muhammad, Waqar",
+          "rating": 2188
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Amer, Karim",
+          "rating": 2147
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Mafaaz, Khalid",
+          "rating": 2057
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Zaman, Sohail",
+          "rating": 1935
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Zorez, Shabkhez",
+          "rating": 1933
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -30072,6 +34034,38 @@
       "name": "Namibia",
       "federation": "NAM",
       "startRank": 125,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Beukes, Dante M",
+          "rating": 2324
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Schwarz, Bernhard",
+          "rating": 1813
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Shidolo, Simon Hatwiikulipi",
+          "rating": 1913
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Mueller, Leonhard",
+          "rating": 2138
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Eichab, Charles",
+          "rating": 1945
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -30315,6 +34309,38 @@
       "name": "Kenya",
       "federation": "KEN",
       "startRank": 126,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Kuka, Kyle",
+          "rating": 2012
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Simiyu, Jadon",
+          "rating": 2166
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Oluka, Robert Mcligeyo",
+          "rating": 2138
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Magana, Ben",
+          "rating": 1992
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Omolo, Kenneth",
+          "rating": 1894
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -30558,6 +34584,38 @@
       "name": "Nepal",
       "federation": "NEP",
       "startRank": 127,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Silwal, Purushottam",
+          "rating": 2093
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Jaiswal, Rupesh",
+          "rating": 2151
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Dahal, Sushrut",
+          "rating": 2038
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Phunyal, Aashish",
+          "rating": 2008
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Subedi, Rajan",
+          "rating": 1967
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -30801,6 +34859,38 @@
       "name": "Myanmar",
       "federation": "MYA",
       "startRank": 128,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Zaw, Ye Htut",
+          "rating": 2058
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Sai, Han Thiha",
+          "rating": 2099
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Linn, Phone Myat",
+          "rating": 2182
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nyan, Lin Htin",
+          "rating": 1950
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kyaw, Thiha",
+          "rating": 1655
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -31044,6 +35134,38 @@
       "name": "Palestine",
       "federation": "PLE",
       "startRank": 129,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Abdel Wahab, Ahmad",
+          "rating": 2066
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Altell, Majed",
+          "rating": 2044
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Elhayek, Yazid",
+          "rating": 2063
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Awad, Ahmad",
+          "rating": 1808
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Damaj, Mohammed",
+          "rating": 2112
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -31287,6 +35409,38 @@
       "name": "Liechtenstein",
       "federation": "LIE",
       "startRank": 130,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Heron, Andrew",
+          "rating": 2131
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Krieger, Markus",
+          "rating": 2184
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Mannhart, Marcel",
+          "rating": 2047
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Frick, Renato",
+          "rating": 1894
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Iclicki, Willy",
+          "rating": 1887
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -31530,6 +35684,38 @@
       "name": "Ethiopia",
       "federation": "ETH",
       "startRank": 131,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Mesfin, Leykun",
+          "rating": 2161
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Bekele, Miki Abdissa",
+          "rating": 2068
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Moges, Flawer Habtu",
+          "rating": 1996
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Abrha, Robel Brhane",
+          "rating": 2026
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bulcha, Petros Olana",
+          "rating": 1934
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -31773,6 +35959,38 @@
       "name": "Afghanistan",
       "federation": "AFG",
       "startRank": 132,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Farazi, Khaiber",
+          "rating": 2128
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Amini, Habibullah",
+          "rating": 2047
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Mirzaad, S.wahabuddin",
+          "rating": 2032
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mohtaat, Homayoun",
+          "rating": 1928
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Ashrafi, Sulaiman Ahmad",
+          "rating": 2044
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -32016,6 +36234,38 @@
       "name": "Botswana",
       "federation": "BOT",
       "startRank": 133,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Oatlhotse, Providence",
+          "rating": 2230
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Mosutha, Thuso",
+          "rating": 1995
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Mpene, Thuto",
+          "rating": 1993
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mothudi, Mogotsi Arnold",
+          "rating": 1914
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Blessings, Motshabi",
+          "rating": 1831
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -32259,6 +36509,38 @@
       "name": "Cote d’Ivoire",
       "federation": "CIV",
       "startRank": 134,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "De Gondo, Simplice Armel",
+          "rating": 2071
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Manan, Yoboue Hermann",
+          "rating": 2061
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Tanoe, Yao Aubin Maximilien",
+          "rating": 2002
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Nean, Franck Anderson",
+          "rating": 1993
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Amako, Marc Arnold",
+          "rating": 1915
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -32465,6 +36747,38 @@
       "name": "Senegal",
       "federation": "SEN",
       "startRank": 135,
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Izeta Txabarri, Felix",
+          "rating": 2452
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "El, Hadji Saidou Nourou BA",
+          "rating": 1957
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Deme, Cheikh Sidy Mohamed",
+          "rating": 1864
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Diop, Mamadou Lamine Dame",
+          "rating": 1781
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mlik, Omar",
+          "rating": 1618
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -32708,6 +37022,38 @@
       "name": "Burundi",
       "federation": "BDI",
       "startRank": 136,
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Ezra, Paul Chambers",
+          "rating": 2393
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ntamatungiro, Wilfried",
+          "rating": 1906
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mutabazi, Hugues",
+          "rating": 1886
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ntagasigumwami, Deo",
+          "rating": 1830
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Rukundo, Joe Stephane",
+          "rating": 1738
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -32951,6 +37297,38 @@
       "name": "Guyana",
       "federation": "GUY",
       "startRank": 137,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Pitamber, Sachin Dhilan",
+          "rating": 1991
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Couchman, Kyle",
+          "rating": 2003
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Khan, Taffin",
+          "rating": 2005
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Drayton, Anthony",
+          "rating": 2003
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Sandiford, Keron",
+          "rating": 1874
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -33194,6 +37572,38 @@
       "name": "Haiti",
       "federation": "HAI",
       "startRank": 138,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Gabriel, Davidson",
+          "rating": 2114
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Jean Louis, Marckens",
+          "rating": 2007
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Germinal, Kemly",
+          "rating": 1955
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Volcimus, Ritchy David",
+          "rating": 1908
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Victor, Wyclef",
+          "rating": 1853
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -33437,6 +37847,38 @@
       "name": "Mauritania",
       "federation": "MTN",
       "startRank": 139,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Hemam, Moulaye Brahim",
+          "rating": 1926
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ahmed, Cherif Khaled Abdellahi",
+          "rating": 1879
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Abdou, Ahmed Alem",
+          "rating": 2006
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Abdellahi, Khaled Abdellahi",
+          "rating": 2010
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mohamed, El Moctar Sidaty",
+          "rating": 2031
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -33680,6 +38122,38 @@
       "name": "Saudi Arabia",
       "federation": "KSA",
       "startRank": 140,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Alrehaili, Ahmed Abdullah S",
+          "rating": 2106
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Alsemail, Mohammed Fahad M",
+          "rating": 1982
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Alotaibi, Mohammed Dhaidan N",
+          "rating": 1868
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Alshnaiber, Yazeed",
+          "rating": 1866
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Khayat, Emad",
+          "rating": 1939
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -33923,6 +38397,38 @@
       "name": "Guam",
       "federation": "GUM",
       "startRank": 141,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Prudente, Elmer",
+          "rating": 1983
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Tran, Tuan An",
+          "rating": 1945
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Tenezaca, Cristian",
+          "rating": 1875
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Justo, James Marcus",
+          "rating": 2060
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Buccat, Benchly Cabanayan",
+          "rating": 1888
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -34166,6 +38672,38 @@
       "name": "Cameroon",
       "federation": "CMR",
       "startRank": 142,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Ebosse, Kingue Victor Patrick",
+          "rating": 1995
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Donkeng, Hussel",
+          "rating": 2020
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Noumbo, Vidal",
+          "rating": 1882
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Amba, Oyon Marius Claude",
+          "rating": 1963
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Makem, Pierre",
+          "rating": 1833
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -34409,6 +38947,38 @@
       "name": "Curacao",
       "federation": "CUR",
       "startRank": 143,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Van Bemmelen, Ursus",
+          "rating": 2081
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Van Delden, Johan",
+          "rating": 1990
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Capella, Rurik",
+          "rating": 1946
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Albregtse, Tjerk",
+          "rating": 1824
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bregita, Jhonathan",
+          "rating": 1758
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -34652,6 +39222,38 @@
       "name": "Palau",
       "federation": "PLW",
       "startRank": 144,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Pedro, Aron",
+          "rating": 1598
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Morazo, John Ranel",
+          "rating": 2242
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Cabunagan, Tito",
+          "rating": 1776
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Montel Jr, Cyril Tomas",
+          "rating": 1920
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Tan, Santiago Jr",
+          "rating": 1899
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -34895,6 +39497,38 @@
       "name": "Bahrain",
       "federation": "BRN",
       "startRank": 145,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Ayyad, Husain",
+          "rating": 2080
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Al-Ghasra, Ali",
+          "rating": 1991
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Ayyad, Maher",
+          "rating": 1946
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Bukhalaf, Khalaf",
+          "rating": 1800
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Rajab, Nooh",
+          "rating": 1640
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -35138,6 +39772,38 @@
       "name": "Isle of Man",
       "federation": "IOM",
       "startRank": 146,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Wu, Li",
+          "rating": 2266
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Gumireddy, Sanjay",
+          "rating": 1890
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Costello, John",
+          "rating": 1832
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Talas, Sandor",
+          "rating": 1796
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Quayle, Harry",
+          "rating": 1675
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -35381,6 +40047,38 @@
       "name": "Suriname",
       "federation": "SUR",
       "startRank": 147,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Giasi, Viresh",
+          "rating": 1997
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Matoewi, Roger",
+          "rating": 1893
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Hanoeman, Suradj",
+          "rating": 1943
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Orasji, Roger Junior",
+          "rating": 1944
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Tjin Kon Kiem, Ethan",
+          "rating": 1828
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -35624,6 +40322,38 @@
       "name": "Somalia",
       "federation": "SOM",
       "startRank": 148,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Abdulkadir, Mohamed Warsame",
+          "rating": 2013
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Ali Abdullahi, Farah",
+          "rating": 1923
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Islam Sh.Nour, Kassim",
+          "rating": 1943
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Rami, Ramadan Abdow",
+          "rating": 1895
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mahad, Dahir Muhumad",
+          "rating": 1829
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -35867,6 +40597,38 @@
       "name": "Sao Tome and Principe",
       "federation": "STP",
       "startRank": 149,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Pereira, Sergio",
+          "rating": 2016
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Alegre, Fabio Costa",
+          "rating": 1966
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Espirito Santo, Waldyr",
+          "rating": 1888
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nascimento, Admilton De Ceita Dos Santos",
+          "rating": 1858
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Miguel, Jeremias Costa G",
+          "rating": 1785
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -36110,6 +40872,38 @@
       "name": "Lesotho",
       "federation": "LES",
       "startRank": 150,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Klaas, Tokelo",
+          "rating": 1879
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Tsephe, Lebajoa",
+          "rating": 2004
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Karabo, Mokete",
+          "rating": 1867
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "George, Mahommed",
+          "rating": 1977
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bokang, Motsamai",
+          "rating": 1817
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -36353,6 +41147,38 @@
       "name": "Brunei Darussalam",
       "federation": "BRU",
       "startRank": 151,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Pg, Md Omar Ak Hafizon",
+          "rating": 2100
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Badarudin, Muhammad Ahsanuddien",
+          "rating": 1850
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lim Teck Guan, Rodney",
+          "rating": 1902
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Akmal, Ahmad",
+          "rating": 1843
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Md. Hadi, Md. Danish Zaqwan",
+          "rating": 1830
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -36596,6 +41422,38 @@
       "name": "Maldives",
       "federation": "MDV",
       "startRank": 152,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Muhammed, Shuaau",
+          "rating": 2207
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Mohamed, Hassan",
+          "rating": 1872
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Abdul Rahman, Ali",
+          "rating": 1858
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ahmed, Aboobakuru",
+          "rating": 1710
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mohamed, Raakin Fayaz",
+          "rating": 1750
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -36839,6 +41697,38 @@
       "name": "Kuwait",
       "federation": "KUW",
       "startRank": 153,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Al-Hajiri, Bader",
+          "rating": 2033
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Al Ibrahim, Abdulrahman",
+          "rating": 2022
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Khalaf, Ali",
+          "rating": 1809
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Alawadhi, Amenah",
+          "rating": 1571
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Alsayer, Bader",
+          "rating": 1822
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -37082,6 +41972,38 @@
       "name": "Aruba",
       "federation": "ARU",
       "startRank": 154,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Pesqueira, Jose",
+          "rating": 1825
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "De Mey, Juan Pablo",
+          "rating": 2077
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Stetsenko, Ilya",
+          "rating": 1961
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Villalba Martinez, Paul Andres",
+          "rating": 1806
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Dirks, Ayden",
+          "rating": 1800
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -37325,6 +42247,38 @@
       "name": "Ghana",
       "federation": "GHA",
       "startRank": 155,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Hasford, John Kojo",
+          "rating": 1905
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Anhwere, Bernard",
+          "rating": 1965
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Fomevor, Cephas Clinton",
+          "rating": 1926
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Akpa, Prince",
+          "rating": 1855
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Loglo, Daniel",
+          "rating": 1799
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -37568,6 +42522,38 @@
       "name": "Mauritius",
       "federation": "MRI",
       "startRank": 156,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Lee Luen Mang, Stefan",
+          "rating": 1898
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Naipal, Hoolan",
+          "rating": 1881
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sawmynaden, Rayen Sarathy",
+          "rating": 1874
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Chinasamy, Devarajen",
+          "rating": 1951
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lam Kin Cheung, Stephane",
+          "rating": 1742
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -37811,6 +42797,38 @@
       "name": "Liberia",
       "federation": "LBR",
       "startRank": 157,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Jacob, Jallah",
+          "rating": 1881
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "James, Tondo",
+          "rating": 1919
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Debblay, David Leroy",
+          "rating": 1954
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Wallace, O. Williams",
+          "rating": 1846
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Joe, M. Wawoe",
+          "rating": 1827
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -38054,6 +43072,38 @@
       "name": "Mali",
       "federation": "MLI",
       "startRank": 158,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Traore, Bakary",
+          "rating": 2134
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Keita, Oumar",
+          "rating": 1892
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Maiga, Baba Moulaye Abdalla",
+          "rating": 1845
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Youssouf, Niare",
+          "rating": 1729
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Konate, Djigui",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -38297,6 +43347,38 @@
       "name": "Cayman Islands",
       "federation": "CAY",
       "startRank": 159,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Blackwood, Ryan",
+          "rating": 1937
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "McDonald, Mike",
+          "rating": 1892
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Young, Christopher",
+          "rating": 1824
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Tracey, Shaun M",
+          "rating": 1767
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Kudakwashe, Chinake",
+          "rating": 1928
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -38540,6 +43622,38 @@
       "name": "Togo",
       "federation": "TOG",
       "startRank": 160,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Tchouka, Yakini",
+          "rating": 2012
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ballebako, Kokou Difendramakada Jacques",
+          "rating": 1820
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Doumassi, Kodjovi Folly Corazon",
+          "rating": 1965
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Semeko, Lumen Paco",
+          "rating": 1744
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Strovskiy, Mikhail",
+          "rating": 1760
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -38783,6 +43897,38 @@
       "name": "Jersey",
       "federation": "JCI",
       "startRank": 161,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Gurner, Jem",
+          "rating": 2108
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Carpenter, Paul A",
+          "rating": 1858
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Clark, Gary",
+          "rating": 1831
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Auckland, James",
+          "rating": 1744
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Weber, Gus",
+          "rating": 1739
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -39026,6 +44172,38 @@
       "name": "San Marino",
       "federation": "SMR",
       "startRank": 162,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Leardini, Mirko",
+          "rating": 1863
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Volpinari, Danilo",
+          "rating": 1971
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "D`Amico, Nicola",
+          "rating": 1819
+        },
+        {
+          "order": 4,
+          "title": "FM",
+          "name": "Righi, Ezio",
+          "rating": 1869
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Grassi, Enrico",
+          "rating": 1835
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -39269,6 +44447,38 @@
       "name": "Oman",
       "federation": "OMA",
       "startRank": 163,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Salim Mohammed, Salim Al Amri",
+          "rating": 1951
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Al Saidi, Mohammed Khalfan",
+          "rating": 1934
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mohammed, Al Ryami",
+          "rating": 1710
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Al Kathiri, Mana",
+          "rating": 1886
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Al Amri, Mahad",
+          "rating": 1760
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -39512,6 +44722,32 @@
       "name": "Gambia",
       "federation": "GAM",
       "startRank": 164,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Bah, Ebrima",
+          "rating": 2076
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Dalliah, Joseph",
+          "rating": 1938
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Aziz, Matthew Luke",
+          "rating": 1803
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ndow, Essa",
+          "rating": 1701
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -39755,6 +44991,38 @@
       "name": "Antigua and Barbuda",
       "federation": "ANT",
       "startRank": 165,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Queipo Caballero, Guillermo",
+          "rating": 2218
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Farquhar, Abner",
+          "rating": 1759
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kim, Adrian Jr.",
+          "rating": 1810
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Charles, Vendiz",
+          "rating": 1701
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Solomon, Joshua",
+          "rating": 1565
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -39998,6 +45266,38 @@
       "name": "Bahamas",
       "federation": "BAH",
       "startRank": 166,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Johnson, Nicholas",
+          "rating": 1932
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Knowles, Kendrick",
+          "rating": 1872
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Hanna Jr, Philip",
+          "rating": 1838
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Pride, Avian",
+          "rating": 1829
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Davis, William",
+          "rating": 1660
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -40241,6 +45541,38 @@
       "name": "Equatorial Guinea",
       "federation": "GEQ",
       "startRank": 167,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Mompel Ferruz, Xavier",
+          "rating": 2340
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Gatjens Capche, Angel Estanislao",
+          "rating": 1831
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Naranjo Gonzalez, Oscar",
+          "rating": 1784
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nguema Oye, Eugenio Ndemesogo",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Eyama Oye, Deogracias Asumu",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -40484,6 +45816,38 @@
       "name": "Timor-Leste",
       "federation": "TLS",
       "startRank": 168,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "de Araujo, Helder",
+          "rating": 1905
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Pinto, Andrade",
+          "rating": 1820
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "de Carvalho, Paulo Fernandes",
+          "rating": 1810
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nascimento, Mario Melo",
+          "rating": 1788
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ximenes, Anibal",
+          "rating": 1807
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -40727,6 +46091,38 @@
       "name": "Saint Lucia",
       "federation": "LCA",
       "startRank": 169,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Elizee, Kaieem",
+          "rating": 1862
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "James, Justin",
+          "rating": 1905
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Gabriel, Sixtus",
+          "rating": 1865
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nicholas, Arvin",
+          "rating": 1710
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Nunez, Daniel",
+          "rating": 1633
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -40970,6 +46366,38 @@
       "name": "Fiji",
       "federation": "FIJ",
       "startRank": 170,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Arvind, Goru",
+          "rating": 1752
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Prasad, Rudr",
+          "rating": 1769
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Terubea, Ronald",
+          "rating": 1827
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Maharaj, Yash Krishen",
+          "rating": 1813
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Kumar, Manoj",
+          "rating": 1929
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -41213,6 +46641,38 @@
       "name": "Qatar",
       "federation": "QAT",
       "startRank": 171,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Al-Kuwari, Hamad",
+          "rating": 1862
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Erfan, Mohamad Firdaus",
+          "rating": 1852
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "AlJamaat, Khaled",
+          "rating": 1810
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Al-Kuwari, Turki",
+          "rating": 1796
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Djerbi, Mohamed",
+          "rating": 1666
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -41456,6 +46916,38 @@
       "name": "Guernsey",
       "federation": "GCI",
       "startRank": 172,
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Nevska, Gerda",
+          "rating": 1815
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Potter, Alexander",
+          "rating": 1883
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Brookfield, Toby",
+          "rating": 1798
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "Morgan, Jamie",
+          "rating": 1794
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Hill, Jonathan",
+          "rating": 1709
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -41699,6 +47191,38 @@
       "name": "Sierra Leone",
       "federation": "SLE",
       "startRank": 173,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Thomas, Winston Gerald Mansfield",
+          "rating": 1928
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Lwebuga, Ronald",
+          "rating": 1880
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Beckley, Joseph Adeshole Brian",
+          "rating": 1802
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Tenequee, Saa Joseph",
+          "rating": 1658
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Agbaje, Samzu.O.H.",
+          "rating": 1636
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -41942,6 +47466,38 @@
       "name": "Gabon",
       "federation": "GAB",
       "startRank": 174,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Koumba, Mounguen Jose Evrard",
+          "rating": 1973
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Bongo Akanga Ndjila, Barthelemy",
+          "rating": 1795
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "MBOULA MBOUMBA, Jerome",
+          "rating": 1812
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "TCHIBINDA ONDO MVE, Onass Theo Jonady",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "TATY, Charles",
+          "rating": 1680
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -42185,6 +47741,38 @@
       "name": "Bermuda",
       "federation": "BER",
       "startRank": 175,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Guanzon, Christian",
+          "rating": 1929
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Dacres, Don",
+          "rating": 1846
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Dennis, Nathan",
+          "rating": 1777
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Flanagan, Dylan",
+          "rating": 1672
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Place, Wolde",
+          "rating": 1666
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -42428,6 +48016,38 @@
       "name": "Seychelles",
       "federation": "SEY",
       "startRank": 176,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Zialor, Michel",
+          "rating": 1967
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Kate, Timothy",
+          "rating": 1772
+        },
+        {
+          "order": 3,
+          "title": "CM",
+          "name": "Pillay, Ragul",
+          "rating": 1603
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Pillay, Harish",
+          "rating": 1657
+        },
+        {
+          "order": 5,
+          "title": "CM",
+          "name": "Hoareau, Benjamin",
+          "rating": 1827
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -42671,6 +48291,38 @@
       "name": "Tanzania",
       "federation": "TAN",
       "startRank": 177,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Parsa, Naser",
+          "rating": 1846
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Henry, Marwa Michael",
+          "rating": 1807
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "SAROTA, PATRICK CHRISTOPHER",
+          "rating": 1688
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Farkad, Abeid",
+          "rating": 1773
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Rashid, Mansour Sharif",
+          "rating": 1778
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -42914,6 +48566,38 @@
       "name": "Macau, China",
       "federation": "MAC",
       "startRank": 178,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Mak, Tong Kuan",
+          "rating": 1915
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Ieong, Seak Hin",
+          "rating": 1914
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Bartilotti, De V R Joao Car",
+          "rating": 1545
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Sun, David",
+          "rating": 1591
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Leong, Seng U",
+          "rating": 1751
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -43157,6 +48841,38 @@
       "name": "Comoros Islands",
       "federation": "COM",
       "startRank": 179,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Alfene, Ambdullah",
+          "rating": 1766
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Aziradji, Mohamed Ismael",
+          "rating": 1861
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Abdou, Mohamed",
+          "rating": 1806
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Beanjara, Azhar Said Halidy",
+          "rating": 1677
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mchangama, Omar",
+          "rating": 1701
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -43400,6 +49116,38 @@
       "name": "Democratic Republic of the Congo",
       "federation": "COD",
       "startRank": 180,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "De Billoez, Yves",
+          "rating": 1988
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Kabamwanishi, Mashala",
+          "rating": 1940
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Nkubuluku, Diangienda Chadi",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Makuwa, Mbayo Gaetan",
+          "rating": 1804
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kanda, Josue",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -43643,6 +49391,38 @@
       "name": "Nauru",
       "federation": "NRU",
       "startRank": 181,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Gadeanang, Lanni",
+          "rating": 1819
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Apadinuwe, Tieta",
+          "rating": 1779
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Temaki, Jamiedson",
+          "rating": 1701
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Scotty, James",
+          "rating": 1655
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Gadeanang, Andrew",
+          "rating": 1770
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -43886,6 +49666,38 @@
       "name": "Burkina Faso",
       "federation": "BUR",
       "startRank": 182,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Lefebvre, Aurelien Tegawende",
+          "rating": 1797
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Morand, Sylvain",
+          "rating": 1763
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Carbonell, Nicolas",
+          "rating": 1745
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Koita, Saidou",
+          "rating": 1707
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ilbouldo, Soumaila",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -44129,6 +49941,38 @@
       "name": "US Virgin Islands",
       "federation": "ISV",
       "startRank": 183,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Allen, Darryl",
+          "rating": 1769
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Van Rensselaer, William",
+          "rating": 1939
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Miller, Patrick",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Emile, Marco",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Dempsey, John",
+          "rating": 1895
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -44372,6 +50216,38 @@
       "name": "Djibouti",
       "federation": "DJI",
       "startRank": 184,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Houssein, Mohamed Bilal",
+          "rating": 1807
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Mahamoud, Mohamed Mahamoud",
+          "rating": 1760
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mohamed, Ali Dima",
+          "rating": 1741
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nour, Farhan Nour",
+          "rating": 1658
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Sabri, Salah Ibrahim",
+          "rating": 1647
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -44615,6 +50491,38 @@
       "name": "Solomon Islands",
       "federation": "SOL",
       "startRank": 185,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Resture, Fred",
+          "rating": 1854
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Kaituu, Chris",
+          "rating": 1890
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lui, Junior",
+          "rating": 1819
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Chottu, Melanie",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Puia, Abel",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -44858,6 +50766,38 @@
       "name": "Eswatini",
       "federation": "SWZ",
       "startRank": 186,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Mbongeni, Mabuza",
+          "rating": 1824
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ngwenya, Kwanele Mangaliso",
+          "rating": 1694
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mabuza, Nkosivile",
+          "rating": 1675
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "De Nobrega, Santiago",
+          "rating": 1765
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Simelane, Nhlanhla",
+          "rating": 1558
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -45101,6 +51041,38 @@
       "name": "New Caledonia",
       "federation": "NCL",
       "startRank": 187,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Douyere, Nicolas",
+          "rating": 1818
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Galois, Mathieu",
+          "rating": 1808
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Bellier Pontais, Titouan",
+          "rating": 1657
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Bellier, Julien",
+          "rating": 1599
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Brotons, Christian",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -45344,6 +51316,38 @@
       "name": "Bhutan",
       "federation": "BHU",
       "startRank": 188,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Thinlee, Wangyel",
+          "rating": 1692
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Suk, Raj Monger",
+          "rating": 1853
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mahendra, Gurung",
+          "rating": 1715
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Karma, Kelzang",
+          "rating": 1558
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Sidhanth, Bhandari",
+          "rating": 1548
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -45587,6 +51591,32 @@
       "name": "Central African Republic",
       "federation": "CAF",
       "startRank": 189,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Baninga, Prince Mika Bosco",
+          "rating": 1836
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Zoumagui Magba, Nathan Christian",
+          "rating": 1836
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Gamba, Francois",
+          "rating": 1721
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ngoupet, Exel",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -45793,6 +51823,38 @@
       "name": "Dominica",
       "federation": "DMA",
       "startRank": 190,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Goldberg, Nicholas",
+          "rating": 1596
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Francis, Nigel",
+          "rating": 1770
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Bridet, Robert",
+          "rating": 1679
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Thomas, Larry",
+          "rating": 1710
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Laudat, Romel",
+          "rating": 1470
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -46036,6 +52098,38 @@
       "name": "Chad",
       "federation": "CHA",
       "startRank": 191,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Adam, Jamal",
+          "rating": 2016
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Arso, Ahmed Hassaballh",
+          "rating": 1880
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Aboubakar, Ali",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Charfadine, Djecky Tebinin",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mahamat, Idriss Seidna",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -46279,6 +52373,38 @@
       "name": "Vanuatu",
       "federation": "VAN",
       "startRank": 192,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Tasso, Jayson",
+          "rating": 1827
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Delrieu, Pierre",
+          "rating": 1731
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Delrieu, Marc",
+          "rating": 1564
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nompavos, Lesly",
+          "rating": 1542
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Nasse, Igor",
+          "rating": 1512
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -46522,6 +52648,38 @@
       "name": "Saint Vincent and the Grenadines",
       "federation": "VIN",
       "startRank": 193,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Glendon, Swift",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "Cottle, Brian S",
+          "rating": 1880
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Robinson, Oris L",
+          "rating": 1550
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Shetty, Vedant",
+          "rating": 1812
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Jahnyiah, Gumbs",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -46765,6 +52923,38 @@
       "name": "Papua New Guinea",
       "federation": "PNG",
       "startRank": 194,
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Fancy, Stuart",
+          "rating": 1923
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Barredo, Resurrecion",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Amnol, Ishmael",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "CM",
+          "name": "McCoy, Tom",
+          "rating": 1903
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Evara, Kavaea",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -47008,6 +53198,38 @@
       "name": "Cambodia",
       "federation": "CAM",
       "startRank": 195,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Men, Seyha",
+          "rating": 1785
+        },
+        {
+          "order": 2,
+          "title": "CM",
+          "name": "El, Rozak",
+          "rating": 1619
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kim, Sanker",
+          "rating": 1583
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nem, Untac",
+          "rating": 1573
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Chea, Zhitian",
+          "rating": 1521
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -47251,6 +53473,38 @@
       "name": "Belize",
       "federation": "BIZ",
       "startRank": 196,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Awe, Alfred",
+          "rating": 1719
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Baizar, Kelvin Marvin",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Reyes, Nathaniel Leonel",
+          "rating": 1764
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Canto, Roger Rashid",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Perez, Kenet Alejandro",
+          "rating": 1671
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -47494,6 +53748,38 @@
       "name": "British Virgin Islands",
       "federation": "IVB",
       "startRank": 197,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Lettsome, Maurice",
+          "rating": 1834
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Samuel, Jhon",
+          "rating": 1549
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Joseph, Shamoy",
+          "rating": 1578
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Hodge, Raheem",
+          "rating": 1574
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fungfook, Dimitri",
+          "rating": 1557
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -47737,6 +54023,38 @@
       "name": "Grenada",
       "federation": "GRN",
       "startRank": 198,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Renniel, Gilbert",
+          "rating": 1848
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Roberts, Gennard",
+          "rating": 1564
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Pope, Omario",
+          "rating": 1431
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Jaedyn, C R.Pierre",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mendez, Vladimir",
+          "rating": 1651
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -47980,6 +54298,38 @@
       "name": "Niger",
       "federation": "NIG",
       "startRank": 199,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Abdoul-Karim, Seydou Mahamadou",
+          "rating": 1761
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Saidou, Rigo Boubacar",
+          "rating": 1742
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Aboubacar, Akarintkitt",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mouhammed, Oumarou",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ibrahim, Mounkaila",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -48223,6 +54573,32 @@
       "name": "Greenland",
       "federation": "GRL",
       "startRank": 200,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Mattaaq, Egon",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Dahl, Hans-Christian",
+          "rating": 1858
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Janussen, Aputsiak Niels",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fleischer, Carl",
+          "rating": 1640
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -48466,6 +54842,32 @@
       "name": "Guinea",
       "federation": "GUI",
       "startRank": 201,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Sougoule, Bansoumane",
+          "rating": 1658
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Traore, Pepe Amara",
+          "rating": 1593
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Barry, Mamadou Diandia",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fofana, Aguibou",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -48709,6 +55111,38 @@
       "name": "Laos",
       "federation": "LAO",
       "startRank": 202,
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Chi, Yang",
+          "rating": 1691
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "YOMVILATH, SOUMINTA",
+          "rating": 1495
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Thipvongsa, Saengtavanh",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "SENGPHACHAN, BOUNTHENGNOY",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "DOUANGPHACHANH, KONGKHAM",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -48952,6 +55386,38 @@
       "name": "Saint Kitts and Nevis",
       "federation": "SKN",
       "startRank": 203,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Adams, Carl Victor",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Anganoo, Nohar",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Fyfield-Jones, Kaeden",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Jeetlall, David",
+          "rating": 1488
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kangalee, Jason",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -49195,6 +55661,38 @@
       "name": "Tonga",
       "federation": "TGA",
       "startRank": 204,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Tonutonu, Donald",
+          "rating": 1466
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Satini, Tau",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sootanga, Tevita",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fau, Tevita",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mailangi, Sosefo",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -49438,6 +55936,38 @@
       "name": "Kiribati",
       "federation": "KIR",
       "startRank": 205,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Benetio, Bio",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Boata, Tierata Tekanene",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Martin, Ataake",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Rutio, Tamaroa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Tebou, Tata Itaaka",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 1,
@@ -49644,6 +56174,32 @@
       "name": "Marshall Islands",
       "federation": "MHL",
       "startRank": 206,
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "John, Javid Bruce",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Halferty, Noah Lemeto",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Arelong, Abon",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Aloka, Aruo",
+          "rating": 0
+        }
+      ],
       "rounds": [
         {
           "round": 3,

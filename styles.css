@@ -406,6 +406,44 @@ svg {
   pointer-events: none;
 }
 
+.tooltip.has-roster {
+  width: min(280px, calc(100vw - 24px));
+}
+
+.tooltip-roster {
+  display: grid;
+  gap: 5px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tooltip-roster-row {
+  display: grid;
+  grid-template-columns:
+    14px
+    minmax(0, 1fr)
+    42px;
+  align-items: baseline;
+  column-gap: 10px;
+}
+
+.tooltip-roster-order {
+  opacity: 0.62;
+  text-align: center;
+}
+
+.tooltip-roster-player {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.tooltip-roster-rating {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
 .tooltip.has-board-results {
   width: min(430px, calc(100vw - 24px));
 }

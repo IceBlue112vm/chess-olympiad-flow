@@ -1,0 +1,6761 @@
+{
+  "event": "women",
+  "teams": [
+    {
+      "id": 1,
+      "name": "India",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Koneru, Humpy",
+          "rating": 2509
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Vaishali, Rameshbabu",
+          "rating": 2469
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Divya, Deshmukh",
+          "rating": 2490
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Vantika, Agrawal",
+          "rating": 2395
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Savitha, Shri B",
+          "rating": 2382
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Georgia",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Dzagnidze, Nana",
+          "rating": 2478
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Batsiashvili, Nino",
+          "rating": 2466
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Khotenashvili, Bella",
+          "rating": 2435
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Javakhishvili, Lela",
+          "rating": 2424
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Arabidze, Meri",
+          "rating": 2370
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kazakhstan",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Assaubayeva, Bibisara",
+          "rating": 2536
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Nurman, Alua",
+          "rating": 2455
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Kamalidenova, Meruert",
+          "rating": 2413
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Kaliakhmet, Elnaz",
+          "rating": 2347
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Nurgaliyeva, Zarina",
+          "rating": 2303
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "China",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Zhu, Jiner",
+          "rating": 2550
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Song, Yuxin",
+          "rating": 2457
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Lu, Miaoyi",
+          "rating": 2371
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Yan, Tianqi",
+          "rating": 2338
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Zhai, Mo",
+          "rating": 2336
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "United States of America",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Yip, Carissa",
+          "rating": 2468
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Lee, Alice",
+          "rating": 2453
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Krush, Irina",
+          "rating": 2393
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Abrahamyan, Tatev",
+          "rating": 2347
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Atwell, Rose",
+          "rating": 2342
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ukraine",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Hnatyshyn, Anastasiia",
+          "rating": 2463
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Ushenina, Anna",
+          "rating": 2412
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Buksa, Nataliya",
+          "rating": 2390
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Rakhmangulova, Anastasiya",
+          "rating": 2317
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Skarbarchuk, Tetyana",
+          "rating": 2221
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Azerbaijan",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Fataliyeva, Ulviyya",
+          "rating": 2402
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Beydullayeva, Govhar",
+          "rating": 2392
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Mammadzada, Gunay",
+          "rating": 2351
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Balajayeva, Khanim",
+          "rating": 2356
+        },
+        {
+          "order": 5,
+          "title": "IM",
+          "name": "Mammadova, Gulnar",
+          "rating": 2311
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "France",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Daulyte-Cornette, Deimante",
+          "rating": 2391
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Sebag, Marie",
+          "rating": 2401
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Milliet, Sophie",
+          "rating": 2358
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Guichard, Pauline",
+          "rating": 2344
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Schippke, Manon",
+          "rating": 2271
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Poland",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Kiolbasa, Oliwia",
+          "rating": 2386
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Maltsevskaya, Aleksandra",
+          "rating": 2363
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Kulon, Klaudia",
+          "rating": 2375
+        },
+        {
+          "order": 4,
+          "title": "GM",
+          "name": "Socko, Monika",
+          "rating": 2350
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Sliwicka, Alicja",
+          "rating": 2324
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Germany",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Wagner, Dinara",
+          "rating": 2399
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Paehtz, Elisabeth",
+          "rating": 2404
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Klek, Hanna Marie",
+          "rating": 2293
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Schneider, Jana",
+          "rating": 2325
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Schulze, Lara",
+          "rating": 2307
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bulgaria",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Salimova, Nurgyul",
+          "rating": 2439
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Toncheva, Nadya",
+          "rating": 2408
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Krasteva, Beloslava",
+          "rating": 2343
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Antova, Gabriela",
+          "rating": 2236
+        },
+        {
+          "order": 5,
+          "title": "FM",
+          "name": "Peycheva, Gergana",
+          "rating": 2225
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Netherlands",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Roebers, Eline",
+          "rating": 2378
+        },
+        {
+          "order": 2,
+          "title": "GM",
+          "name": "Peng, Zhaoqin",
+          "rating": 2353
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Van Foreest, Machteld",
+          "rating": 2333
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Kazarian, Anna-Maja",
+          "rating": 2333
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Duson, Robin",
+          "rating": 2173
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Uzbekistan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Khamdamova, Afruza",
+          "rating": 2443
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Tokhirjonova, Gulrukhbegim",
+          "rating": 2357
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Omonova, Umida",
+          "rating": 2297
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Imomkuzieva, Nilufarkhon",
+          "rating": 2281
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Karimova, Guldona",
+          "rating": 2242
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Serbia",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Injac, Teodora",
+          "rating": 2406
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Bivol, Alina",
+          "rating": 2345
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Mehmed, Elif",
+          "rating": 2316
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Srdanovic, Jovana",
+          "rating": 2298
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Pogorelskikh, Sofia",
+          "rating": 2244
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Mongolia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Mungunzul, Bat-Erdene",
+          "rating": 2402
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Munkhzul, Turmunkh",
+          "rating": 2290
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Bayasgalan, Khishigbaatar",
+          "rating": 2285
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Munguntuul, Batkhuyag",
+          "rating": 2317
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Bayarmaa, Bayarjargal",
+          "rating": 2113
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Armenia",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Mkrtchian, Lilit",
+          "rating": 2353
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Mkrtchyan, Mariam",
+          "rating": 2374
+        },
+        {
+          "order": 3,
+          "title": "GM",
+          "name": "Danielian, Elina",
+          "rating": 2382
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Gaboyan, Susanna",
+          "rating": 2179
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mkrtchyan, Anahit H.",
+          "rating": 2106
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Switzerland",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Kosteniuk, Alexandra",
+          "rating": 2495
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Manko, Mariia",
+          "rating": 2285
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Hryzlova, Sofiia",
+          "rating": 2254
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Hakimifard, Ghazal",
+          "rating": 2243
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "De Seroux, Camille",
+          "rating": 2152
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Hungary",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Gaal, Zsoka",
+          "rating": 2357
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Lazarne Vajda, Szidonia",
+          "rating": 2289
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Papp, Petra",
+          "rating": 2283
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Nomin-Erdene, Davaademberel",
+          "rating": 2315
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Karacsonyi, Kata",
+          "rating": 2137
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Spain",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Garcia Martin, Marta",
+          "rating": 2349
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Vega Gutierrez, Sabrina",
+          "rating": 2363
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Matnadze Bujiashvili, Ann",
+          "rating": 2302
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Prado Acebo, Ines",
+          "rating": 2222
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Calzetta Ruiz, Monica",
+          "rating": 2181
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "England",
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Sivanandan, Bodhana",
+          "rating": 2354
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Yao, Lan",
+          "rating": 2270
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Houska, Jovanka",
+          "rating": 2297
+        },
+        {
+          "order": 4,
+          "title": "IM",
+          "name": "Hunt, Harriet V",
+          "rating": 2284
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Mirzoeva, Elmira",
+          "rating": 2181
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Vietnam",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Pham, Le Thao Nguyen",
+          "rating": 2348
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Vo, Thi Kim Phung",
+          "rating": 2311
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Bach, Ngoc Thuy Duong",
+          "rating": 2098
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Luong, Phuong Hanh",
+          "rating": 2210
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Nguyen, Thi Mai Hung",
+          "rating": 2277
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Israel",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Efroimski, Marsel",
+          "rating": 2340
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Orian, Noga",
+          "rating": 2307
+        },
+        {
+          "order": 3,
+          "title": "IM",
+          "name": "Klinova, Masha",
+          "rating": 2240
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Gutmakher, Olga",
+          "rating": 2216
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Chernyak, Viktoria",
+          "rating": 2222
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Romania",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Bulmaga, Irina",
+          "rating": 2359
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Lehaci, Miruna-Daria",
+          "rating": 2282
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Cosma, Elena-Luminita",
+          "rating": 2234
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Cosman, Andreea-Marioara",
+          "rating": 2217
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Ovezdurdyyeva, Jemal",
+          "rating": 2133
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Greece",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Tsolakidou, Stavroula",
+          "rating": 2441
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Avramidou, Anastasia",
+          "rating": 2330
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Pavlidou, Ekaterini",
+          "rating": 2141
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Tsakona, Maria",
+          "rating": 2135
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Christodoulaki, Antonia",
+          "rating": 2101
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Slovenia",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Unuk, Laura",
+          "rating": 2301
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Urh, Zala",
+          "rating": 2208
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Shpanko, Nadiia",
+          "rating": 2182
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Beber, Anja",
+          "rating": 2272
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Mihelic, Vesna",
+          "rating": 2152
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Turkiye",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Atalik, Ekaterina",
+          "rating": 2354
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Caglar, Sila",
+          "rating": 2214
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Aydin, Gulenay",
+          "rating": 2213
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Tirpan, Ceren",
+          "rating": 2163
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Kalyoncu, Beren",
+          "rating": 2034
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cuba",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Arribas Robaina, Maritza",
+          "rating": 2257
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Miranda Llanes, Yerisbel",
+          "rating": 2251
+        },
+        {
+          "order": 3,
+          "title": "WGM",
+          "name": "Forgas Moreno, Yaniela",
+          "rating": 2249
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Hernandez Gil, Ineymig",
+          "rating": 2157
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Obregon Garcia, Roxangel",
+          "rating": 2160
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Argentina",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Francisco Guecamburu, Candela Be",
+          "rating": 2268
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Campos, Maria Jose",
+          "rating": 2230
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Borda Rodas, Anapaola S.",
+          "rating": 2204
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Scarsi, Anna Laura",
+          "rating": 2212
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Adam, Ernestina",
+          "rating": 2186
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Sweden",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Cramling, Pia",
+          "rating": 2388
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Agrest, Inna",
+          "rating": 2250
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Valcu, Lavinia",
+          "rating": 2170
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Cramling Bellon, Anna",
+          "rating": 2106
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fransson, Angelina",
+          "rating": 2041
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Iran",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Alinasab, Mobina",
+          "rating": 2317
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Mohammadi, Melika",
+          "rating": 2342
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Asgharzadeh, Mitra",
+          "rating": 2118
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Mahdian, Anousha",
+          "rating": 2110
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Behzad Nazif, Parva",
+          "rating": 2098
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Latvia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Rogule, Laura",
+          "rating": 2256
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Kuznecova, Marija",
+          "rating": 2257
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Ter-Avetisjana, Agnesa Stepania",
+          "rating": 2193
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Berzina, Ilze",
+          "rating": 2177
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Maklakova, Naomi",
+          "rating": 2095
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Belarus",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Tarasenka, Aliaksandra",
+          "rating": 2228
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Poliakova, Varvara",
+          "rating": 2233
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Abramkina, Veranika",
+          "rating": 2254
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Venskaya, Nika",
+          "rating": 2155
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Liavonava, Yuliya",
+          "rating": 2116
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Italy",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Brunello, Marina",
+          "rating": 2308
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Zimina, Olga",
+          "rating": 2305
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Gueci, Tea",
+          "rating": 2134
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Rubinshtein, Kamilla",
+          "rating": 2108
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Sala, Giulia",
+          "rating": 2088
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Austria",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Badelka, Olga",
+          "rating": 2424
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Schloffer, Jasmin-Denise",
+          "rating": 2236
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Polterauer, Chiara",
+          "rating": 2083
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Deak-Sala, Emilia",
+          "rating": 2105
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Hapala, Elisabeth",
+          "rating": 2090
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Indonesia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Singgih, Diajeng Theresa",
+          "rating": 2280
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Latifah, Laysa",
+          "rating": 2213
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Herfesa, Shafira Devi",
+          "rating": 2130
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Fisabilillah, Ummi",
+          "rating": 2126
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Sihite, Chelsie Monica Ignesias",
+          "rating": 2195
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Czech Republic",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Worek, Joanna",
+          "rating": 2278
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Richterova, Natasa",
+          "rating": 2194
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Lhotska, Anna",
+          "rating": 2149
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Rybackova, Lucie",
+          "rating": 2088
+        },
+        {
+          "order": 5,
+          "title": "WGM",
+          "name": "Rodshtein, Tereza",
+          "rating": 2125
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Slovakia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Sevcikova, Lucia",
+          "rating": 2114
+        },
+        {
+          "order": 2,
+          "title": "IM",
+          "name": "Repkova, Eva",
+          "rating": 2316
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Sucikova, Svetlana",
+          "rating": 2166
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Nadzamova, Viktoria",
+          "rating": 2145
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Walter, Ema",
+          "rating": 2105
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Canada",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Ouellet, Maili-Jade",
+          "rating": 2260
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Li, Yunshan",
+          "rating": 2228
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Demchenko, Svitlana",
+          "rating": 2166
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Golubeva, Oksana",
+          "rating": 2086
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Jiang, Hanxi (Hancy)",
+          "rating": 1908
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Peru",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Cori T., Deysi",
+          "rating": 2316
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Jimenez Salas, Maria Teresa",
+          "rating": 2184
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Contreras Huaman, Fiorella",
+          "rating": 2168
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Zarate Oyague, Flor De Maria",
+          "rating": 2019
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Hilario, Aleyla",
+          "rating": 2069
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Croatia",
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Cvitan, Ena",
+          "rating": 2271
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Ivekovic, Tihana",
+          "rating": 2169
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Berke, Ana",
+          "rating": 2097
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Zagorac, Lara",
+          "rating": 2178
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Saric, Kristina",
+          "rating": 2099
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Estonia",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Narva, Mai",
+          "rating": 2411
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Olde, Margareth",
+          "rating": 2242
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Blokhin, Sofia",
+          "rating": 2046
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Olde, Grete",
+          "rating": 2002
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Tsiganova, Monika",
+          "rating": 2014
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Philippines",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Sebastian, Mhage Gerriahlou",
+          "rating": 1957
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Frayna, Janelle Mae",
+          "rating": 2260
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Canino, Ruelle",
+          "rating": 2160
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Fronda, Jan Jodilyn",
+          "rating": 2134
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Mendoza, Shania Mae",
+          "rating": 2076
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Uzbekistan 2",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Yakubbaeva, Nilufar",
+          "rating": 2246
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Malikova, Marjona",
+          "rating": 2149
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Khalilova, Madinabonu",
+          "rating": 2087
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Salimova, Asal",
+          "rating": 2088
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Mansurova, Mumtozbegim",
+          "rating": 1928
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Brazil",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Dias, Clara",
+          "rating": 2022
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Terao, Juliana Sayumi",
+          "rating": 2200
+        },
+        {
+          "order": 3,
+          "title": "FM",
+          "name": "Alboredo, Julia",
+          "rating": 2197
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Librelato, Kathie Goulart",
+          "rating": 2130
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Nunes, Agatha Hurba",
+          "rating": 1931
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Australia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Ryjanova, Julia",
+          "rating": 2180
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Shen, Zhiyuan",
+          "rating": 2146
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Richards, Heather S",
+          "rating": 2096
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Phan, Nguyen Mai Chi",
+          "rating": 2093
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Nguyen, Thu Giang",
+          "rating": 2086
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Norway",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Stanford, Sheila Barth",
+          "rating": 2186
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Hagesather, Ellen",
+          "rating": 2155
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Machlik, Monika",
+          "rating": 2100
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Koskela, Niina",
+          "rating": 2074
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Hagesather, Nina",
+          "rating": 2008
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Finland",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Keinanen, Anastasia",
+          "rating": 2220
+        },
+        {
+          "order": 2,
+          "title": "FM",
+          "name": "Paasikangas, Johanna",
+          "rating": 2139
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Sippola, Sara-Olivia",
+          "rating": 2089
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Tuominen, Tanja",
+          "rating": 2054
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lehtinen, Helja",
+          "rating": 1968
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Montenegro",
+      "players": [
+        {
+          "order": 1,
+          "title": "FM",
+          "name": "Zherebtsova, Alexandra",
+          "rating": 2272
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Skvortsova, Alena",
+          "rating": 2143
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Milovic, Aleksandra",
+          "rating": 2068
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Koljevic, Nikolina",
+          "rating": 1954
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Popovic, Mateja",
+          "rating": 1949
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bosnia and Herzegovina",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Babic, Milana",
+          "rating": 2196
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Babic, Masa",
+          "rating": 2147
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Maksimovic, Masa",
+          "rating": 2087
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Jacimovic, Sara",
+          "rating": 2002
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mimic, Sofija",
+          "rating": 1961
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Colombia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Argote Heredia, Valentina",
+          "rating": 2181
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Rivera, Ingris",
+          "rating": 2102
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Montilla Reyes, Jorcerys",
+          "rating": 2094
+        },
+        {
+          "order": 4,
+          "title": "WGM",
+          "name": "Franco Valencia, Beatriz Irene",
+          "rating": 2038
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Pinillo Canon, Silvana",
+          "rating": 1975
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Belgium",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Goossens, Hanne",
+          "rating": 2248
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Vanduyfhuys, Daria",
+          "rating": 2123
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Vanhuyse, Nele",
+          "rating": 2041
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Lascar, Radoslawa",
+          "rating": 1975
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Dierckens, Sarah",
+          "rating": 1923
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Lithuania",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Zaksaite, Salomeja",
+          "rating": 2101
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Simkunaite, Gabija",
+          "rating": 2035
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Limontaite, Simona",
+          "rating": 2130
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mickunaite, Agne",
+          "rating": 1977
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Sibajeva, Marija",
+          "rating": 1985
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Denmark",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Derlich, Sarah Sima",
+          "rating": 2107
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Kakulidis, Ellen",
+          "rating": 2088
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Li, Anna Sofie",
+          "rating": 2002
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Guindy, Esmat Susanne",
+          "rating": 2041
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Durrfeld, Sofie Bech",
+          "rating": 2007
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Mexico",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Corrales Jimenez, Zenia",
+          "rating": 2125
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Hernandez Diaz, Paula Sofia",
+          "rating": 2055
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Miranda Rodriguez, Tania",
+          "rating": 2041
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Guzman Garcia, Mia Fernanda",
+          "rating": 2007
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Olea Valle, Scarlett Daniela",
+          "rating": 1975
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Turkmenistan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Shohradova, Lala",
+          "rating": 2147
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Shohradova, Leyla",
+          "rating": 2101
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Rejepova, Jahan",
+          "rating": 2027
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Agamuradova, Mahri",
+          "rating": 1939
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bayrambayeva, Ogulsuray",
+          "rating": 1952
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Ireland",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Kanyamarala, Trisha",
+          "rating": 2289
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "O`Gorman, Alice",
+          "rating": 2009
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Putar, Lara",
+          "rating": 1975
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Mirza, Diana",
+          "rating": 1950
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Gora, Antonina",
+          "rating": 1946
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Portugal",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Pipiras, Filipa Fortuna",
+          "rating": 2290
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Silva, Mariana",
+          "rating": 2017
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Avelino, Camila Biscaya",
+          "rating": 1948
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Duque, Raquel Dos Santos",
+          "rating": 1948
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Jeremias, Bianca Albano",
+          "rating": 1941
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Luxembourg",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Berend, Elvira",
+          "rating": 2255
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Wagener, Anna",
+          "rating": 2160
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lyon, Hannah Jane",
+          "rating": 1906
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Sivashankar, Samyukta",
+          "rating": 1878
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kremer, Nadine",
+          "rating": 1882
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Ecuador",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Ortiz Verdezoto, Anahi",
+          "rating": 2245
+        },
+        {
+          "order": 2,
+          "title": "WGM",
+          "name": "Heredia Serrano, Carla",
+          "rating": 2117
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Jaramillo Rivadeneira, Kerly Samantha",
+          "rating": 1937
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Guerrero Caicedo, Arlette",
+          "rating": 1870
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Toala, Velez Dayra Jamileth",
+          "rating": 1767
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Scotland",
+      "players": [
+        {
+          "order": 1,
+          "title": "GM",
+          "name": "Arakhamia-Grant, Ketevan",
+          "rating": 2256
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Bhatia, Kanishka",
+          "rating": 2093
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Cooke, Suzie G.",
+          "rating": 1906
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Lampard, Alice",
+          "rating": 1912
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Clark, Eve",
+          "rating": 1868
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Moldova",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Verbin, Valentina",
+          "rating": 2129
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Petricenco, Ana",
+          "rating": 2024
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Mihailova, Alina",
+          "rating": 2013
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Bargan, Victoria",
+          "rating": 1990
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Grebeniuc, Alexandra",
+          "rating": 1998
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Singapore",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Gong, Qianyun",
+          "rating": 2182
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Sreekarthika, Velmurugan",
+          "rating": 2088
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Fang, Kun",
+          "rating": 2003
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Rice, Leah",
+          "rating": 1884
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Liew, Tze Yu",
+          "rating": 1700
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Egypt",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Wafa, Shahenda",
+          "rating": 2112
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Mohamed Zaki, Jana",
+          "rating": 1993
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Alaa, Dema",
+          "rating": 2010
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Romany, Joy",
+          "rating": 1991
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Ahmed Mohamed, Zakaa",
+          "rating": 1976
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Venezuela",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Varela La Madrid, Tilsia Carolina",
+          "rating": 2075
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Perez Hernandez, Vicmary C.",
+          "rating": 2011
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Otazo Sanchez, Annyd Gabriela",
+          "rating": 1995
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Rovira Contreras, Tairu Manuela",
+          "rating": 2004
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Teran Angel, Mariana Coromoto",
+          "rating": 1977
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Uzbekistan 3",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Aktamova, Zilola",
+          "rating": 2078
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Bobomurodova, Maftuna",
+          "rating": 2030
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Akhmedova, Shohina",
+          "rating": 1978
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Shokirjonova, Barchinoy",
+          "rating": 1996
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Shakhzodova, Ozoda",
+          "rating": 1964
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Nigeria",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "QUICKPEN, Deborah Ebimobo-ere",
+          "rating": 2174
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "ONOJA, Iyefu Joy",
+          "rating": 1977
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "NWANKWO, Michelle Chiamaka",
+          "rating": 1997
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "OMORUYI, Sandra Osarugue",
+          "rating": 1919
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Michael, Bridget",
+          "rating": 1925
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Costa Rica",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Rodriguez Arrieta, Maria Elena",
+          "rating": 1963
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Mayorga Araya, Sofia",
+          "rating": 2189
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Campos Munoz, Valentina",
+          "rating": 1986
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Canales Chinchilla, Victoria",
+          "rating": 1837
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Gamboa Alvarado, Olga Leticia",
+          "rating": 1904
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Malaysia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Tan, Li Ting",
+          "rating": 2067
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Chong, Kai Ni Agnes",
+          "rating": 2024
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Chua, Jia-Tien",
+          "rating": 1938
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Mohd Afif, Ainul Mardhiah",
+          "rating": 2006
+        },
+        {
+          "order": 5,
+          "title": "ACM",
+          "name": "Kumaran, Ashwiniy",
+          "rating": 1712
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Monaco",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Dornbusch, Tatiana",
+          "rating": 2184
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Zvereva, Marija",
+          "rating": 2018
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Berezovsky, Fiorina",
+          "rating": 1937
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Berezovska, Svetlana",
+          "rating": 1859
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Lebel-Arias, Julia",
+          "rating": 1699
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Chile",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Gomez Barrera, Javiera Belen",
+          "rating": 2181
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Morales Flores, Monserrat",
+          "rating": 1972
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Sanchez Tobar, Francisca Valenti",
+          "rating": 1949
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Contreras Suazo, Rocio",
+          "rating": 1875
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Carvajal Mendoza, Maria Belen",
+          "rating": 1824
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "El Salvador",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Ortez, Andrea",
+          "rating": 1981
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Garcia, Angie",
+          "rating": 2021
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Vasquez Vasquez, Marielos",
+          "rating": 1923
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Palacios, Celina",
+          "rating": 1901
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Zepeda, Sonia",
+          "rating": 2034
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Bangladesh",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Wadifa, Ahmed",
+          "rating": 1956
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Warsia, Khusbu",
+          "rating": 1916
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Noshin, Anjum",
+          "rating": 2028
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Ahmed, Walijah",
+          "rating": 1949
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Nusrat Jahan, Alo",
+          "rating": 2006
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Bolivia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Mollo Figueroa, Nicole",
+          "rating": 2110
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Yepez Montenegro, Gloria Luz",
+          "rating": 1954
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Molina, Jessica",
+          "rating": 1947
+        },
+        {
+          "order": 4,
+          "title": "WIM",
+          "name": "Cordero, Daniela",
+          "rating": 1927
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Velarde Alarcon, Jhoana",
+          "rating": 1856
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Angola",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Paulo, Jemima",
+          "rating": 2023
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Pires, Luzia",
+          "rating": 1990
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Caxita, Esperanca",
+          "rating": 1987
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Junior, Ednasia",
+          "rating": 1938
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Antonio, Renelsa Taiane",
+          "rating": 1764
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "North Macedonia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Stojkovska, Monika",
+          "rating": 2080
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Zhezhovska, Monika",
+          "rating": 1990
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Manova, Ivana",
+          "rating": 1958
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Trajkovska, Sanja",
+          "rating": 1896
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Petrovska, Katerina",
+          "rating": 1873
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Paraguay",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Vargas, Gabriela",
+          "rating": 2123
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Mayeregger Gonzalez, Fiorella Allegra",
+          "rating": 1979
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Oviedo Acosta, Paula",
+          "rating": 1910
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Mayeregger Gonzalez, Renata Valentina",
+          "rating": 1905
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Montiel Caceres, Helen",
+          "rating": 1900
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Sri Lanka",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Gunawardhana, Devindya Oshini",
+          "rating": 2267
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Sanudula, K M Dahamdi",
+          "rating": 1967
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Alwis, H Sandithi Kusalya",
+          "rating": 1776
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Perera, B Yenuthi Sahanlee",
+          "rating": 1900
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Halangoda, Sayumi Sithumila",
+          "rating": 1763
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Kyrgyzstan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Sovetbekova, Nurai",
+          "rating": 2029
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Samaganova, Aleksandra",
+          "rating": 1943
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Zairbek kyzy, Begimai",
+          "rating": 1973
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Sezdbekova, Aizhan",
+          "rating": 1945
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Zhunusbekova, Aimonchok",
+          "rating": 1930
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Albania",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Shuqja, Klean",
+          "rating": 2007
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Caku, Kler",
+          "rating": 2102
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Shabanaj, Eglantina",
+          "rating": 1902
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Ndreko, Ailin",
+          "rating": 1846
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Omeri, Eklea",
+          "rating": 1813
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Iceland",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Ptacnikova, Lenka",
+          "rating": 2082
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Thorsteinsdottir, Hallgerdur",
+          "rating": 1995
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Briem, Gudrun Fanney",
+          "rating": 1865
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Helgadottir, Idunn",
+          "rating": 1869
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Hauksdottir, Hrund",
+          "rating": 1817
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "New Zealand",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Ning, Isabelle Yixuan",
+          "rating": 2114
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Thurner, Anya",
+          "rating": 1874
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Braganza, Nadia",
+          "rating": 1916
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Sun, Wanyao Sarah",
+          "rating": 1892
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Gan, Emily Cathay",
+          "rating": 1852
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Algeria",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Toubal, Hayat",
+          "rating": 1888
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Djerroud, Chahrazad",
+          "rating": 1932
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Nassr, Lina",
+          "rating": 2071
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Nassr, Rania",
+          "rating": 1896
+        },
+        {
+          "order": 5,
+          "title": "WFM",
+          "name": "Zerarga, Imene",
+          "rating": 1835
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "United Arab Emirates",
+      "players": [
+        {
+          "order": 1,
+          "title": "WGM",
+          "name": "Rouda Essa, Alserkal",
+          "rating": 2036
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Al Maamari, Wafia Darwish",
+          "rating": 2011
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Ahlam, Rashed",
+          "rating": 1850
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mouza, Nasser Alshamsi",
+          "rating": 1862
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Mariam, Essa",
+          "rating": 1758
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Tajikistan",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Nasriddinzoda, Marvorii",
+          "rating": 2054
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Antonova, Nadezhda",
+          "rating": 1913
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Saidova, Rukhshona",
+          "rating": 1892
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Makhmudova, Nozanin",
+          "rating": 1858
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mashabova, Shukrona",
+          "rating": 1764
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Wales",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Smith, Olivia",
+          "rating": 2039
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Camp, Imogen A L",
+          "rating": 1947
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kong, Emma Zihan",
+          "rating": 1874
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fraser, Susanna",
+          "rating": 1785
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Camp, Syringa Lyn",
+          "rating": 1713
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "South Africa",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Badenhorst, Chloe",
+          "rating": 1997
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Laubscher, Anzel",
+          "rating": 1817
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Nel, Hayley",
+          "rating": 1864
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Klaasen, Robyn Julian",
+          "rating": 1839
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Masango, Sizakele",
+          "rating": 1880
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Uganda",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Sana, Omprakash Kayyar",
+          "rating": 1961
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Ampaire, Shakira",
+          "rating": 1768
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Kawuma, Patricia",
+          "rating": 1870
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Asaba, Juliet",
+          "rating": 1899
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Asiimwe, Olivia",
+          "rating": 1846
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Panama",
+      "players": [
+        {
+          "order": 1,
+          "title": "IM",
+          "name": "Castillo Beitia, Ashley Alexandra",
+          "rating": 2087
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Caicedo Rios, Layla Yasmira",
+          "rating": 1844
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Lobo Jimenez, Mariana Esther",
+          "rating": 1818
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Carrillo Marval, Maria Angelica",
+          "rating": 1808
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Chavarria Troya, Keytleen Denis",
+          "rating": 1708
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Syria",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Mahmoud, Roula",
+          "rating": 1872
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Khalil, Manar",
+          "rating": 1863
+        },
+        {
+          "order": 3,
+          "title": "WIM",
+          "name": "Algildah, Nibal",
+          "rating": 1905
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Farha, Doha.",
+          "rating": 1876
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bofroud, Naya",
+          "rating": 1807
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Jordan",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Jood, Ahmad",
+          "rating": 1784
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Reem, Abumayaleh",
+          "rating": 1689
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Razan, Alshaeby",
+          "rating": 1834
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Jeda, Helal",
+          "rating": 1818
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Ruba, Al-Qudah",
+          "rating": 2080
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Jamaica",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Clarke, Adani",
+          "rating": 1943
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Miller, Rachel",
+          "rating": 1974
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Gayle, Kaia",
+          "rating": 1741
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Watson, Gabriella",
+          "rating": 1857
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Stephenson, Amy",
+          "rating": 1726
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "South Korea",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Park, Sunwoo",
+          "rating": 1897
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Michid, Jargalsaikhan",
+          "rating": 1921
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Kim, Jooyeon",
+          "rating": 1844
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Park, Haneul",
+          "rating": 1808
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ten, Polina",
+          "rating": 1804
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Kenya",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Kaloki, Zuri",
+          "rating": 1839
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Mongeli, Sasha Maingi",
+          "rating": 1928
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Mutisya, Jully",
+          "rating": 1879
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Madelta, Glenda",
+          "rating": 1796
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ogaga, Shamira Nicole Albright",
+          "rating": 1770
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Uruguay",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Fabra, Nahiara",
+          "rating": 1887
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Quevedo, Andreina",
+          "rating": 1860
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Silva, Agustina",
+          "rating": 1854
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Silva Rosas, Natalia",
+          "rating": 1835
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Altesor, Caterina",
+          "rating": 1777
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Dominican Republic",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Ramirez Luzon, Franchesca",
+          "rating": 1833
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "De La Rosa Martinez, Miguelina",
+          "rating": 1792
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Castillo Pena, Patricia Evarista",
+          "rating": 1905
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Gonzalez Peguero, Mary Loly",
+          "rating": 1905
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Nunez Diaz, Karla Mya",
+          "rating": 1703
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Tunisia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Miladi, Amen",
+          "rating": 1912
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Rjeb, Nadine",
+          "rating": 1853
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Ben Amor, Meriem",
+          "rating": 1847
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Gamha, Yasmine",
+          "rating": 1814
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bousselmi, Chahd",
+          "rating": 1747
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Botswana",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Francis, Onkemetse",
+          "rating": 1874
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Banda, Natalie Katlo",
+          "rating": 1952
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Francis, Thapelo",
+          "rating": 1754
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Otimile, Maya",
+          "rating": 1806
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Mosweu, Atlang Amolemo",
+          "rating": 1774
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Zambia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Bwalya Mulwale, Lubuuto",
+          "rating": 1936
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Mbatha, Constance",
+          "rating": 1786
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Simenda, Daisy",
+          "rating": 1857
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mwale, Naomi",
+          "rating": 1751
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Likando, Namakau",
+          "rating": 1820
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Andorra",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Henderson de La Fuente, Andrea",
+          "rating": 1982
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Muratet Carmona, Julia",
+          "rating": 1820
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "De la Riva Real, Ariadna",
+          "rating": 1792
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Muratet Carmona, Alexandra",
+          "rating": 1792
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Real Puigdollers, Silvia",
+          "rating": 1705
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Iraq",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Nvar, Sardar Othman",
+          "rating": 1649
+        },
+        {
+          "order": 2,
+          "title": "WIM",
+          "name": "Dlpak, Ismael Ibrahim",
+          "rating": 1919
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Al-Fayyadh, Yamama Asif Abdullah",
+          "rating": 1838
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Sara, Masood Abdullah",
+          "rating": 1830
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Parwa, Pshtiwan Ahmed",
+          "rating": 1749
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Guatemala",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Santiago Sontay, Jenny Fernanda",
+          "rating": 1844
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Raymundo, Deycy Daniela",
+          "rating": 1832
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Lopez L., Dairyn D.",
+          "rating": 1725
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Reinhard Moller, Kerstin Danielle",
+          "rating": 1719
+        },
+        {
+          "order": 5,
+          "title": "WIM",
+          "name": "Mazariegos Kummerfeldt, Carolina",
+          "rating": 1919
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Morocco",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "El Barbry, Sarah",
+          "rating": 1854
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Lagmou, Salma",
+          "rating": 1837
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Makhlouf, Ahlam",
+          "rating": 1806
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Echcharbiny, Wissal",
+          "rating": 1806
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Okkeli, Salima",
+          "rating": 1742
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Zimbabwe",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Makwena, Christine",
+          "rating": 1898
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Charinda, Kudzanayi",
+          "rating": 1895
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Nomalungelo, Mathe",
+          "rating": 1792
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Carol, Ndlovu",
+          "rating": 1718
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Makwiranzou, Tehillah",
+          "rating": 1624
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Malta",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Caruana Pulpan, Oana",
+          "rating": 1967
+        },
+        {
+          "order": 2,
+          "title": "ACM",
+          "name": "Ghitza, Elena",
+          "rating": 1802
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Stagno, Milena",
+          "rating": 1771
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Wang, Yunlong",
+          "rating": 1745
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Miceli-Farrugia, Ella",
+          "rating": 1583
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Suriname",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Wu, Elise",
+          "rating": 1927
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Kaslan, Victoria",
+          "rating": 1797
+        },
+        {
+          "order": 3,
+          "title": "WFM",
+          "name": "Kaslan, Catherine",
+          "rating": 1866
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Kaslan, Alexandra",
+          "rating": 1691
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Creebsburg, Shefali",
+          "rating": 1607
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Nicaragua",
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Cabezas Calero, Abigail Carolina",
+          "rating": 1841
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Espinoza Barrios, Marelys Cristina",
+          "rating": 1747
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Alvarez Gutierrez, Patricia",
+          "rating": 1828
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Paguaga Cruz, Luciana Yassika",
+          "rating": 1615
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Munoz Cortez, Anahi Alexandra",
+          "rating": 1828
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Trinidad & Tobago",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Hermoso Rodriguez, Ysvett",
+          "rating": 1902
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "James, Shemilah",
+          "rating": 1758
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "La Fleur, Zara",
+          "rating": 1812
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Dolly, Samantha",
+          "rating": 1761
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ramnarine Singh, Aradhana",
+          "rating": 1638
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Madagascar",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Ravelomanana, Sabine",
+          "rating": 1894
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Tsinjoviniavo, Aina Mahasambatra",
+          "rating": 1777
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ramorasata, Diary Vetsovetson Anjomara",
+          "rating": 1878
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Rabenandrasana, Norotiana Fararindra",
+          "rating": 1666
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lalasoa, Miarana Irinah",
+          "rating": 1557
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Palestine",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Faqeeh, Aseel",
+          "rating": 1628
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Hamouri, Taqwa",
+          "rating": 1821
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Faqeeh, Rahaf",
+          "rating": 1668
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Seder, Randa",
+          "rating": 1914
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Alhammouri, Roa",
+          "rating": 1781
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Hong Kong, China",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Kannappan, Sigappi",
+          "rating": 1955
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Liu, Tian Yi",
+          "rating": 1799
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Leung, Hoi Ting",
+          "rating": 1636
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Lau, Chloe Hailey",
+          "rating": 1753
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fan, Wen Xi",
+          "rating": 1672
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Thailand",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Chuemsakul, Sarocha",
+          "rating": 1961
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Bootsumran, Sirin",
+          "rating": 1789
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kaewwattha, Natrada",
+          "rating": 1672
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Chinkulkitniwat, Purichaya",
+          "rating": 1690
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Suthiponpaisarn, Proudpitcha",
+          "rating": 1717
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Japan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Sakai, Azumi",
+          "rating": 1862
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Kinoshita, Kanako",
+          "rating": 1783
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Mitsuyama, Rikka",
+          "rating": 1752
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kato, Ami",
+          "rating": 1755
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ivanov, Elizabeth",
+          "rating": 1739
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Honduras",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Torres Hernandez, Leslie Carolin",
+          "rating": 1854
+        },
+        {
+          "order": 2,
+          "title": "WFM",
+          "name": "Viana, Valeria",
+          "rating": 1873
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mejia, Camila",
+          "rating": 1608
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Alvarenga, Heaven",
+          "rating": 1560
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Bobadilla, Diana",
+          "rating": 1762
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Barbados",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Wilson, Hannah",
+          "rating": 1835
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Reifer-Belle, Chanon",
+          "rating": 1761
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Figueroa, Julissa",
+          "rating": 1772
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Moore, Gaybrianna",
+          "rating": 1634
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Eversley, Kiarra",
+          "rating": 1611
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Saudi Arabia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Alsemairi, Dalia",
+          "rating": 1802
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Alsanea, Mashael Abdulmohsen Mohammed",
+          "rating": 1643
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Abrar, Mohammed Ahmad Almalki",
+          "rating": 1820
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Alotaibi, Maitha Abdulrahman A",
+          "rating": 1543
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Alreshidi, Shrouq Ali M",
+          "rating": 1699
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Mozambique",
+      "players": [
+        {
+          "order": 1,
+          "title": "WIM",
+          "name": "Vilhete, Vania Fausto Da T.",
+          "rating": 1867
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Sitoe, Cheila Andre",
+          "rating": 1748
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Castro, Neusa Aridas De",
+          "rating": 1721
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Naira, Sinoia",
+          "rating": 1559
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Efentakis, Theodora",
+          "rating": 1493
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Puerto Rico",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Rivera Negron, Yanira",
+          "rating": 1867
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Alvarado Perez, Coralys M.",
+          "rating": 1693
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Vera Perez, Gabriela S.",
+          "rating": 1674
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Febles Otero, Yorelis M.",
+          "rating": 1641
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Pakistan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Zenobia, Wasif",
+          "rating": 1676
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Hafiza, Mashal Rashid",
+          "rating": 1834
+        },
+        {
+          "order": 3,
+          "title": "AFM",
+          "name": "Fareeha, Saddique",
+          "rating": 1661
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Zainab, Rehman",
+          "rating": 1703
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Maliha, Ali",
+          "rating": 1656
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Bahamas",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Karelina, Polina",
+          "rating": 1929
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Thomas, Nelissa",
+          "rating": 1546
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Johnson, Daijah",
+          "rating": 1607
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Pride, Chika",
+          "rating": 1786
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Williams, Diana",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Lebanon",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Attieh, Skye",
+          "rating": 1824
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Al Asmar, Remy",
+          "rating": 1784
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Abou Taam, Fatima",
+          "rating": 1661
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Attieh, Kate",
+          "rating": 1591
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kobeissey, Jessica",
+          "rating": 1574
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Guam",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Ollet, Myra",
+          "rating": 1686
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Ramas, Carmina Jasmine",
+          "rating": 1783
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Benzon, Tiffany",
+          "rating": 1717
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Justo, Alexis Rian",
+          "rating": 1671
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Combs, Esther",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Namibia",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Khoa, Lutopu",
+          "rating": 1746
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Beukes, Jamie-Nicole",
+          "rating": 1831
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Shuudifonya, Helvi",
+          "rating": 1638
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Nepando, Jolly",
+          "rating": 1626
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Uanguta, Shadah",
+          "rating": 1551
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Cote d’Ivoire",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Ayemou, Mazan Emmanuela Esther",
+          "rating": 1874
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Nde, Atse Carine Noelly Marie",
+          "rating": 1670
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Yavo, Tchetche Marie",
+          "rating": 1703
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Camara, Ruth Liliane",
+          "rating": 1449
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ayemou, Akissi Victoire Sinchie",
+          "rating": 1584
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Haiti",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Seine, Rose Berline",
+          "rating": 1831
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Cadeau, Merisena",
+          "rating": 1704
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Jonet, Davena",
+          "rating": 1643
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Dunat, Kineberlie",
+          "rating": 1582
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Jn Francois, Valencia",
+          "rating": 1550
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Cyprus",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Paunescu, Aida",
+          "rating": 1691
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Sarkisian, Aikaterina",
+          "rating": 1612
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Sokolova, Victoria",
+          "rating": 1711
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Sokolova, Larisa",
+          "rating": 1690
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Pica, Eleni",
+          "rating": 1667
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Cape Verde",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Rodriguez Guevara, Celia M.",
+          "rating": 1811
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Pereira, Deise",
+          "rating": 1784
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Almeida, Jacira Laura",
+          "rating": 1598
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Moreno, Akiane",
+          "rating": 1526
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Spinola, Divania",
+          "rating": 1520
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Lesotho",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Ntsielo, Bonolo",
+          "rating": 1803
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Teeke, Naleli",
+          "rating": 1706
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Boitumelo, Sethabathaba",
+          "rating": 1615
+        },
+        {
+          "order": 4,
+          "title": "WFM",
+          "name": "Lieketseng, Ngatane",
+          "rating": 1578
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Pontso, Makhebesela",
+          "rating": 1519
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Ghana",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Benson, Maud",
+          "rating": 1699
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Gertrude, Banini",
+          "rating": 1667
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ridham, .",
+          "rating": 1733
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Dotse, Dzidzor Esi",
+          "rating": 1531
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Dotse, Sumya Ibrahim",
+          "rating": 1597
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Aruba",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Jacobs, Annelaine",
+          "rating": 1753
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Moreno Mora, Milaydes Lourdes",
+          "rating": 1673
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sagastegui, Thamara",
+          "rating": 1634
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mendoza Chourio, Wignifer Y.",
+          "rating": 1519
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Cielo, Lesley",
+          "rating": 1615
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Timor-Leste",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "de Araujo, Maria Soares",
+          "rating": 1724
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "da Silva, Sonizia A.Tilman",
+          "rating": 1675
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "dos Santos, Elfiana",
+          "rating": 1674
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Soares, Embelina Agusta",
+          "rating": 1587
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Tilman, Zulmira Americo",
+          "rating": 1581
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Nepal",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Maharjan, Angel",
+          "rating": 1644
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Adhikari, Kritisara",
+          "rating": 1744
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Bhandari, Pooja",
+          "rating": 1682
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Shrestha, Nihana",
+          "rating": 1575
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Joshi, Sindira",
+          "rating": 1565
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Yemen",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Ahmed Awad, Omaima",
+          "rating": 1785
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Elshereif, Mada",
+          "rating": 1822
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ali Abdo, Asma",
+          "rating": 1638
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ensaf, Muben Abdo Salmen",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Aida, Mostafa Fadel Rashad",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Kosovo *",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Recica, Jona",
+          "rating": 1740
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Saraci, Rinesa",
+          "rating": 1729
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Saraci, Ndriqona",
+          "rating": 1644
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Pllana, Alba",
+          "rating": 1470
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Karadolami, Binela",
+          "rating": 1489
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Ethiopia",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Bantiwalu, Aster Melake",
+          "rating": 1684
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Negi, Sina Tadesse",
+          "rating": 1447
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mekonnen, Selemawit Seleshi",
+          "rating": 1641
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ayele, Hana Mulugeta",
+          "rating": 1615
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Melebo, Netsanet Lukas",
+          "rating": 1617
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Fiji",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Lyons, Kieran",
+          "rating": 1799
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Terubea, Cydel",
+          "rating": 1663
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Prasad, Tanvi",
+          "rating": 1541
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Corpuz, Luisa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Masau, Latileta",
+          "rating": 1496
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Palau",
+      "players": [
+        {
+          "order": 1,
+          "title": "WFM",
+          "name": "Parrado, Angelica",
+          "rating": 1686
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Sisior, Angelil",
+          "rating": 1685
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mission, Baby Edna",
+          "rating": 1613
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Corro, Roxanne",
+          "rating": 1514
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Gemota, Joan",
+          "rating": 1499
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Malawi",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Mpinganjira, Ellen",
+          "rating": 1546
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Msukwa, Tupokiwe",
+          "rating": 1718
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Jailos, Rachel",
+          "rating": 1566
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "George, Anny",
+          "rating": 1596
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kapende, Shalom",
+          "rating": 1571
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Central African Republic",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Mangalo, Nelly Melissa",
+          "rating": 1780
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Langue, Salome",
+          "rating": 1728
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Yanga-Esso, Myriam Augusta Roberta",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Langue Simba, Berenice Armelle",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Togo",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Mamah, Isabelle",
+          "rating": 1886
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Kponsou, Afiwa",
+          "rating": 1565
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Kudafa, Sandrine",
+          "rating": 1474
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kudafa, Sandra",
+          "rating": 1414
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Adjessi, Afi Gracia",
+          "rating": 1500
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Mauritania",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Neimat, Dahi",
+          "rating": 1570
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Bouchra, Abbe",
+          "rating": 1497
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Nevissa, Dahi",
+          "rating": 1556
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fatima, Cheikh Sidiya",
+          "rating": 1609
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fatimatou, El Hadj Sidi",
+          "rating": 1685
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Chinese Taipei",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Wu, Tansi Tung",
+          "rating": 1573
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Chen, Chi",
+          "rating": 1766
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kung, Fan- Hsuan",
+          "rating": 1496
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Wu, Pei-Xuan",
+          "rating": 1573
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Oman",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Al Aisaee, Anat",
+          "rating": 1738
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Al Nadabi, Yomna",
+          "rating": 1610
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Al Mamary, Kothar",
+          "rating": 1587
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Al Mughaizwi, Muna",
+          "rating": 1470
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Al Balushi, Maryam Yusuf",
+          "rating": 1461
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Brunei Darussalam",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Adawiyah, Aqilah",
+          "rating": 1679
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Shazni, Jumani",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Pg Hj Janudin, Dk Siti Haziqah",
+          "rating": 1630
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Saiful Azmi, Nur Farzana",
+          "rating": 1450
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Hussin, Fazreena",
+          "rating": 1632
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Sudan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Sabreen, Oraby",
+          "rating": 1823
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Rawan, Mansor",
+          "rating": 1691
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sara, Mohamed",
+          "rating": 1470
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Lena, Rashad Taha Omer",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Aaya, Rashad Taha Omer",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Senegal",
+      "players": [
+        {
+          "order": 1,
+          "title": "CM",
+          "name": "Marochkina, Nadezhda",
+          "rating": 1809
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ndeye, Fatou Top",
+          "rating": 1652
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Niang, Khady",
+          "rating": 1510
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ndeye, Fatma Diop",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kamara, Yaye Fatou Deme",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Guyana",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Joshi, Aditi Narayan",
+          "rating": 1726
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Sam, Kataleya Shenera",
+          "rating": 1525
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Clement, Ciel Desiree",
+          "rating": 1484
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Shariff, Sasha Christina",
+          "rating": 1538
+        },
+        {
+          "order": 5,
+          "title": "WCM",
+          "name": "Callender, Jessica",
+          "rating": 1552
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Bahrain",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Ahmed, Najla",
+          "rating": 1578
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Alafoo, Zainab",
+          "rating": 1663
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Yaqoob, Wafa",
+          "rating": 1534
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Obaid, Sondos",
+          "rating": 1525
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Joudi, Mansoor Alfaraj",
+          "rating": 1535
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Mauritius",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Andhin, Chethanah",
+          "rating": 1562
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Acham, Meritza",
+          "rating": 1660
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Beekhy, Aamirah",
+          "rating": 1539
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Aubeeluck, Manusha",
+          "rating": 1534
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Andhin, Tehja",
+          "rating": 1450
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Cayman Islands",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Majid, Zara",
+          "rating": 1681
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Derby, Aalyah",
+          "rating": 1577
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Patil, Anvita Niranjan",
+          "rating": 1544
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "McClenaghan, Abbie",
+          "rating": 1487
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Shen, Hannah",
+          "rating": 1459
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Eswatini",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Nomcebo, Sibisi",
+          "rating": 1525
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Dlamini, Sinqobile",
+          "rating": 1639
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ngozo, Tivumile",
+          "rating": 1501
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nkwanyane, Nolwazi",
+          "rating": 1570
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mkhweli, Siphosethu",
+          "rating": 1414
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Liechtenstein",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Sele, Timea",
+          "rating": 1790
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Mannhart, Sophie",
+          "rating": 1533
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Martinez Hengevoss, Thelma",
+          "rating": 1499
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Heron, Doris",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ospelt, Leslie",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Myanmar",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "May, Phoo Zum",
+          "rating": 1575
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Min, Amarawatti",
+          "rating": 1750
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lin, Lin Htet",
+          "rating": 1488
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "May, Myint Myat",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Saint Lucia",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Richards, TrisAnn",
+          "rating": 1701
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Wahid, Chelsea",
+          "rating": 1665
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "James, Vernesa",
+          "rating": 1435
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Elumalai, Sibani Sri",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Lambert, Kiara",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Jersey",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Ruddy, Rachel",
+          "rating": 1676
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Ashbrooke, Monika",
+          "rating": 1598
+        },
+        {
+          "order": 3,
+          "title": "ACM",
+          "name": "Donciu, Delia",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "WCM",
+          "name": "Carpenter, Daisy",
+          "rating": 1523
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Weber, Sarah",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Curacao",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Costa, Fabianny",
+          "rating": 1482
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Pieter, Liana",
+          "rating": 1735
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Jubitana, Vanilla",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Rico, Zayra",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Jubitana, Ginger",
+          "rating": 1546
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Bermuda",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Fleming, Kaelyn",
+          "rating": 1471
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Flanagan, Yasmin",
+          "rating": 1784
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sophia, Burch",
+          "rating": 1503
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kelly, Massa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Francesca, Cressall-Haycock",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Liberia",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Davis, Meleh M.",
+          "rating": 1507
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Banney, Princess K.",
+          "rating": 1450
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sackie, Georgina",
+          "rating": 1790
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Sambola, Kemvee H.",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Isabella, Brisbane",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Vanuatu",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Delrieu, Lou-Anne",
+          "rating": 1567
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Virelala, Cinzia",
+          "rating": 1532
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lukai, Marguerite",
+          "rating": 1531
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Delrieu, Kaina",
+          "rating": 1506
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Enock, Mathilde",
+          "rating": 1435
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Maldives",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Nihaya, Ahmed",
+          "rating": 1612
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Mariyam Laisa, Abdul Rasheed",
+          "rating": 1478
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Eana, Abdulla Hassan",
+          "rating": 1581
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Aishath, Alya Mohamed Shareef",
+          "rating": 1453
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Aishath, Noya Shahurudheen Shareef",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Cameroon",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Magne, Kouokam Sylviane",
+          "rating": 1601
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Danwe, Maissiri Carole",
+          "rating": 1400
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Wefang, Lucrece",
+          "rating": 1489
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Ngo, Sohna Rose Corine",
+          "rating": 1530
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Maguiafain, Kouokam Josiane",
+          "rating": 1488
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Tanzania",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Kisanga, Neema Adam",
+          "rating": 1631
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Lissa, Siya Joseph",
+          "rating": 1520
+        },
+        {
+          "order": 3,
+          "title": "WCM",
+          "name": "Anahi, Rishit Shah",
+          "rating": 1511
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Bertha, Samson Mkude",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Mariam, Mughwai Gwae",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Mali",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Diakite, Adama",
+          "rating": 1673
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Diallo, Bintou",
+          "rating": 1575
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Terena, Diallo 1",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Terena, Diallo 2",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fatim, Maiga",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Equatorial Guinea",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Ngomo Mbang, Gemima",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Nsue Bondomo, Iluminada Cristina Ada",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ondo Obono, Orpa Angue",
+          "rating": 1614
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Eyama Oye, Justa Mbasogo",
+          "rating": 1526
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Menana Asangono, Mauricia Alba Bindang",
+          "rating": 1453
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "San Marino",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Krasnova, Elena",
+          "rating": 1674
+        },
+        {
+          "order": 2,
+          "title": "WCM",
+          "name": "Biordi, Mariane",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Lazzarini, Giulia",
+          "rating": 1461
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Giannini, Cristina",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Capicchioni, Dorina",
+          "rating": 1447
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Sao Tome and Principe",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Lima, Izidora Lourenco",
+          "rating": 1580
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Almeida, Ariette",
+          "rating": 1564
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Luiz, Adalina",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Moura, Melissa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ribeiro, Carla Taraveira C",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Laos",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Maly, Inthavong",
+          "rating": 1578
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "MANICHITH, NAMPHET",
+          "rating": 1488
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sihanath, Souphaphone",
+          "rating": 1461
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "VONGSAMPHUN, KEOPHIMPHONE",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "KEOSAVANGH, BOUAVONE",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Burundi",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Niyukuri, Mariette",
+          "rating": 1547
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Kelly, Karelle Kaze",
+          "rating": 1400
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mucowinganji, M.E Alicia Keys",
+          "rating": 1528
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kwizera, Benissa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ishimwe, Claire Leilla",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Niger",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "LEILA AICHA, Mahamadou",
+          "rating": 1623
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Zeinabou, Boubacar",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Zakari, Abdou Yasmina",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Koundou, Ballama Magaram Malaram",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Somalia",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Sabarin, Mohamed Ali",
+          "rating": 1519
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Samiro, Mohamed Ali",
+          "rating": 1504
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Muniro, Hussein Ismail",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Mariya, Ali Jimale",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ramla, Mohamed Ali",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Saint Vincent and the Grenadines",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Durham-Balcombe, Ronnia R",
+          "rating": 1601
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Stacy, Baptiste-King",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ashton, Molissa Francita",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Pierre, Kazene",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Balcombe, Arianna",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Seychelles",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Mougal, Roysha",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Pierre, Clea",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Manavalan, Muthu Pooja",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Hoareau, Rachelle",
+          "rating": 1588
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Eulentin, Jessee",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Grenada",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Rhonda, J Lambert",
+          "rating": 1577
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Achazia, N.A.Lewis",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Naziyah, S.A.James",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Senthilkumar, Abiramy",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Tehalyani, Kenishka",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Bhutan",
+      "players": [
+        {
+          "order": 1,
+          "title": "WCM",
+          "name": "Asha, Huang Limboo",
+          "rating": 1428
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Yeshey, Lhaden",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Pema, Yangsel Dorji",
+          "rating": 1481
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Tshenden, Pema",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Dominica",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Henry, Zahidu",
+          "rating": 1404
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Daniel, Desalee Waynelle",
+          "rating": 1463
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Edwards, Masika",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Timothy, Shermel",
+          "rating": 1413
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Andrew, Sherkhia",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Cambodia",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Flores, Rose Ann PIN-AG",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Phon, Soporpatey",
+          "rating": 1437
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Chea, Sophary",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Nov, Chanthy",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Youn, Nyta",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Djibouti",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Yousra, Mahdi Abdillahi",
+          "rating": 1416
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Fatouma, Ahmed Hassan",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Moun, Mohamde Ibrahim",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Sitti, Hamid Ahmed",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ramla, Mohamed Elmi",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Afghanistan",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Azizi, Setareh",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Gouhari, Nooreen",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Belqis, Gunesh",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Farahmand, Zainab",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Hasina, Akbar",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Antigua and Barbuda",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Thomas, Alicia",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Grant, Nicole",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Benjamin, Cherry-Ann",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Iola, Simmons",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Bobb, Ateila",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "British Virgin Islands",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Scatliffe, Tiandra",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Fergus, Makalia",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Ganigan, Alexis",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Chin, Chane-Ann",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Phillip, Kiara",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Chad",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Aicha, Mahamat Bagamla",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Fatime, Ali Moustapha",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Hourra, Mahamat Bagamla",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Manhil, Adam Ouchar Maki",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Zouleikha, Ali Moustapha",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Comoros Islands",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Isma, Ismaila Djailane",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Fahima, Ali Mohamed Mohamed",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Nasra, Kamal Ibrahim",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Bambaouma, Maissane",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Ahmed, Houmairaou",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Democratic Republic of the Congo",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Kisita, Hatty",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Omari, Tshibola Sagesse",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Sankya, Tracy",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "BAHATI Mbebe, Claudine",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Masengu, Ilunga Melanie",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Gabon",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "ONANGA NDJIMBA, Pauline C. Kendall",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "NGOUA OYANE, Felicia",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "OUSSOU, Lyne Marley Sabine",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "ELISEE NDAM ZIZA, Kristyna",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Guinea",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Bangoura, Bintya",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Fofana, Fatoumata Tafory",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Gassama, Nsira",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Keita, Mariame Seth",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Sougoule, Manangbe",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Papua New Guinea",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Joku, Liberty",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Age, Luciana",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Mimino, Natasha",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Wosley, Christine",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kukula, Tiania",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Saint Kitts and Nevis",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Williams, Joy",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Jeetlall, Isabella",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Kangalee, Kennedi",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Fyfield-Jones, Kaellaa",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Fyfield-Jones, Latoya",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Sierra Leone",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Beckley, Jerelyn Adeshola Mary",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Boyle, Sonia",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Farmer, Mary Salamatu",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kamara, Sarah",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "South Sudan",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Calvary, John Khamis Kamunde",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Aluong, Riak Thon Ajak",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Julia, Achok Arkangelo Miakol",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Aluel, Elizabeth Akuei Deng",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Deborah, Nyibol Amon Wantok",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "US Virgin Islands",
+      "players": [
+        {
+          "order": 1,
+          "title": "",
+          "name": "Williams, Kalima",
+          "rating": 0
+        },
+        {
+          "order": 2,
+          "title": "",
+          "name": "Ubben, Dru",
+          "rating": 0
+        },
+        {
+          "order": 3,
+          "title": "",
+          "name": "Wrensford, Dejw",
+          "rating": 0
+        },
+        {
+          "order": 4,
+          "title": "",
+          "name": "Kershaw, Anne",
+          "rating": 0
+        },
+        {
+          "order": 5,
+          "title": "",
+          "name": "Kelly, Sheila",
+          "rating": 0
+        }
+      ]
+    }
+  ]
+}
