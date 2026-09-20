@@ -5,21 +5,32 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
 
+from tournaments import TOURNAMENTS
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW_DIR = ROOT / "data" / "raw"
-PROCESSED_DIR = ROOT / "data" / "processed"
-TOURNAMENT_ID = 1469895
-BASE_URL = f"https://chess-results.com/tnr{TOURNAMENT_ID}.aspx"
+
+
+def get_data_dirs(event: str) -> tuple[Path, Path]:
+    raw_dir = ROOT / "data" / "raw" / event
+    processed_dir = ROOT / "data" / "processed" / event
+
+    return raw_dir, processed_dir
 
 
 def load_soup(path: Path) -> BeautifulSoup:
     return BeautifulSoup(path.read_bytes(), "html.parser")
 
 
-def download_page(round_number: int, art: int, output_path: Path) -> None:
+def download_page(
+    tournament_id: int,
+    round_number: int,
+    art: int,
+    output_path: Path,
+) -> None:
+    base_url = f"https://chess-results.com/tnr{tournament_id}.aspx"
+
     response = requests.get(
-        BASE_URL,
+        base_url,
         params={
             "lan": 1,
             "art": art,
@@ -33,19 +44,25 @@ def download_page(round_number: int, art: int, output_path: Path) -> None:
     output_path.write_bytes(response.content)
 
 
-def download_round(round_number: int) -> None:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
+def download_round(
+    tournament_id: int,
+    round_number: int,
+    raw_dir: Path,
+) -> None:
+    raw_dir.mkdir(parents=True, exist_ok=True)
 
     download_page(
+        tournament_id,
         round_number,
         art=0,
-        output_path=RAW_DIR / f"round{round_number}.html",
+        output_path=raw_dir / f"round{round_number}.html",
     )
 
     download_page(
+        tournament_id,
         round_number,
         art=2,
-        output_path=RAW_DIR / f"pairings-round{round_number}.html",
+        output_path=raw_dir / f"pairings-round{round_number}.html",
     )
 
 
@@ -184,9 +201,12 @@ def parse_pairings(path: Path) -> dict[int, dict]:
     return pairings
 
 
-def build_round(round_number: int) -> list[dict]:
-    ranking_path = RAW_DIR / f"round{round_number}.html"
-    pairings_path = RAW_DIR / f"pairings-round{round_number}.html"
+def build_round(
+    round_number: int,
+    raw_dir: Path,
+) -> list[dict]:
+    ranking_path = raw_dir / f"round{round_number}.html"
+    pairings_path = raw_dir / f"pairings-round{round_number}.html"
 
     rankings = parse_ranking(ranking_path)
     pairings = parse_pairings(pairings_path)
@@ -222,29 +242,49 @@ def build_round(round_number: int) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "event",
+        choices=TOURNAMENTS.keys(),
+        help="Tournament event to build",
+    )
+
     parser.add_argument(
         "round",
         type=int,
         help="Round number to build",
     )
+
     args = parser.parse_args()
 
+    tournament = TOURNAMENTS[args.event]
     round_number = args.round
 
-    download_round(round_number)
+    raw_dir, processed_dir = get_data_dirs(args.event)
 
-    data = build_round(round_number)
+    download_round(
+        tournament["id"],
+        round_number,
+        raw_dir,
+    )
 
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    data = build_round(
+        round_number,
+        raw_dir,
+    )
 
-    output_path = PROCESSED_DIR / f"round{round_number}.json"
+    processed_dir.mkdir(parents=True, exist_ok=True)
+
+    output_path = processed_dir / f"round{round_number}.json"
 
     output_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    print(f"Wrote {len(data)} teams to {output_path}")
+    print(
+        f"Wrote {len(data)} teams to {output_path}"
+    )
 
 
 if __name__ == "__main__":

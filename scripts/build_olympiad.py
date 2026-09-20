@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 from pathlib import Path
@@ -5,21 +6,26 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from tournaments import TOURNAMENTS
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW_DIR = ROOT / "data" / "raw"
-PROCESSED_DIR = ROOT / "data" / "processed"
-
-TOURNAMENT_ID = 1469895
-BASE_URL = f"https://chess-results.com/tnr{TOURNAMENT_ID}.aspx"
-STARTING_RANK_PATH = RAW_DIR / "starting-rank.html"
 
 
-def download_starting_rank() -> None:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
+def get_data_dirs(event: str) -> tuple[Path, Path]:
+    raw_dir = ROOT / "data" / "raw" / event
+    processed_dir = ROOT / "data" / "processed" / event
+
+    return raw_dir, processed_dir
+
+
+def download_starting_rank(
+    tournament_id: int,
+    output_path: Path,
+) -> None:
+    base_url = f"https://chess-results.com/tnr{tournament_id}.aspx"
 
     response = requests.get(
-        BASE_URL,
+        base_url,
         params={
             "lan": 1,
             "art": 32,
@@ -29,12 +35,12 @@ def download_starting_rank() -> None:
     )
 
     response.raise_for_status()
-    STARTING_RANK_PATH.write_bytes(response.content)
+    output_path.write_bytes(response.content)
 
 
-def parse_starting_rank() -> dict[int, dict]:
+def parse_starting_rank(path: Path) -> dict[int, dict]:
     soup = BeautifulSoup(
-        STARTING_RANK_PATH.read_bytes(),
+        path.read_bytes(),
         "html.parser",
     )
 
@@ -89,17 +95,30 @@ def load_round(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def build_olympiad() -> dict:
+def build_olympiad(
+    event: str,
+    tournament_id: int,
+    raw_dir: Path,
+    processed_dir: Path,
+) -> dict:
+    starting_rank_path = raw_dir / "starting-rank.html"
+
+    raw_dir.mkdir(parents=True, exist_ok=True)
+
+    download_starting_rank(
+        tournament_id,
+        starting_rank_path,
+    )
+
+    teams = parse_starting_rank(starting_rank_path)
+
     round_paths = sorted(
-        PROCESSED_DIR.glob("round*.json"),
+        processed_dir.glob("round*.json"),
         key=get_round_number,
     )
 
     if not round_paths:
         raise RuntimeError("No round JSON files found.")
-
-    download_starting_rank()
-    teams = parse_starting_rank()
 
     round_numbers = []
 
@@ -145,7 +164,7 @@ def build_olympiad() -> dict:
                     f"{record['name']} / {record['federation']}"
                 )
 
-            teams[team_id]["rounds"].append(
+            team["rounds"].append(
                 {
                     "round": record["round"],
                     "rank": record["rank"],
@@ -158,7 +177,8 @@ def build_olympiad() -> dict:
             )
 
     return {
-        "tournamentId": TOURNAMENT_ID,
+        "event": event,
+        "tournamentId": tournament_id,
         "rounds": round_numbers,
         "teams": sorted(
             teams.values(),
@@ -168,9 +188,28 @@ def build_olympiad() -> dict:
 
 
 def main():
-    data = build_olympiad()
+    parser = argparse.ArgumentParser()
 
-    output_path = PROCESSED_DIR / "olympiad.json"
+    parser.add_argument(
+        "event",
+        choices=TOURNAMENTS.keys(),
+        help="Tournament event to build",
+    )
+
+    args = parser.parse_args()
+
+    tournament = TOURNAMENTS[args.event]
+
+    raw_dir, processed_dir = get_data_dirs(args.event)
+
+    data = build_olympiad(
+        args.event,
+        tournament["id"],
+        raw_dir,
+        processed_dir,
+    )
+
+    output_path = processed_dir / "olympiad.json"
 
     output_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
