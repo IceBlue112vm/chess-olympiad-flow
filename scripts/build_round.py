@@ -1,9 +1,10 @@
 import argparse
 import json
+import re
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+import requests
 
 from tournaments import TOURNAMENTS
 
@@ -65,6 +66,13 @@ def download_round(
         output_path=raw_dir / f"pairings-round{round_number}.html",
     )
 
+    download_page(
+        tournament_id,
+        round_number,
+        art=3,
+        output_path=raw_dir / f"board-pairings-round{round_number}.html",
+    )
+
 
 def parse_ranking(path: Path) -> dict[int, dict]:
     soup = load_soup(path)
@@ -88,7 +96,6 @@ def parse_ranking(path: Path) -> dict[int, dict]:
 
         rank_text = cells[0].get_text(strip=True)
 
-        # Chess-Results leaves tied ranks blank.
         if rank_text:
             current_rank = int(rank_text)
 
@@ -206,15 +213,174 @@ def parse_pairings(path: Path) -> dict[int, dict]:
     return pairings
 
 
+def parse_board_result(text: str) -> tuple[str, str]:
+    match = re.fullmatch(
+        r"\s*([10½+\-])\s*-\s*([10½+\-])\s*",
+        text,
+    )
+
+    if match is None:
+        raise RuntimeError(
+            f"Unknown board result: {text!r}"
+        )
+
+    return match.group(1), match.group(2)
+
+
+def parse_board_pairings(path: Path) -> dict[int, list[dict]]:
+    soup = load_soup(path)
+
+    heading = soup.find(
+        "h2",
+        string=lambda text: text and "Board Pairings" in text,
+    )
+    if heading is None:
+        raise RuntimeError(
+            f"Board pairings heading not found: {path}"
+        )
+
+    table = heading.find_next("table", class_="CRs1")
+    if table is None:
+        raise RuntimeError(
+            f"Board pairings table not found: {path}"
+        )
+
+    board_pairings = {}
+    current_left_id = None
+    current_right_id = None
+
+    for row in table.find_all("tr"):
+        cells = row.find_all(
+            ["th", "td"],
+            recursive=False,
+        )
+
+        if len(cells) != 9:
+            continue
+
+        first_text = cells[0].get_text(
+            " ",
+            strip=True,
+        )
+
+        if first_text == "Bo.":
+            left_id_text = cells[1].get_text(
+                strip=True,
+            )
+            right_id_text = cells[5].get_text(
+                strip=True,
+            )
+
+            if (
+                not left_id_text.isdigit()
+                or not right_id_text.isdigit()
+            ):
+                current_left_id = None
+                current_right_id = None
+                continue
+
+            current_left_id = int(left_id_text)
+            current_right_id = int(right_id_text)
+
+            if current_left_id in board_pairings:
+                raise RuntimeError(
+                    f"Duplicate board pairing for team "
+                    f"{current_left_id}"
+                )
+
+            if current_right_id in board_pairings:
+                raise RuntimeError(
+                    f"Duplicate board pairing for team "
+                    f"{current_right_id}"
+                )
+
+            board_pairings[current_left_id] = []
+            board_pairings[current_right_id] = []
+            continue
+
+        board_match = re.fullmatch(
+            r"\d+\.(\d+)",
+            first_text,
+        )
+
+        if (
+            board_match is None
+            or current_left_id is None
+            or current_right_id is None
+        ):
+            continue
+
+        board_number = int(
+            board_match.group(1)
+        )
+
+        left_title = cells[1].get_text(
+            " ",
+            strip=True,
+        )
+        left_player = cells[2].get_text(
+            " ",
+            strip=True,
+        )
+        right_title = cells[5].get_text(
+            " ",
+            strip=True,
+        )
+        right_player = cells[6].get_text(
+            " ",
+            strip=True,
+        )
+
+        score_left, score_right = parse_board_result(
+            cells[8].get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        board_pairings[current_left_id].append(
+            {
+                "board": board_number,
+                "player": left_player,
+                "playerTitle": left_title,
+                "scoreFor": score_left,
+                "scoreAgainst": score_right,
+                "opponent": right_player,
+                "opponentTitle": right_title,
+            }
+        )
+
+        board_pairings[current_right_id].append(
+            {
+                "board": board_number,
+                "player": right_player,
+                "playerTitle": right_title,
+                "scoreFor": score_right,
+                "scoreAgainst": score_left,
+                "opponent": left_player,
+                "opponentTitle": left_title,
+            }
+        )
+
+    return board_pairings
+
+
 def build_round(
     round_number: int,
     raw_dir: Path,
 ) -> list[dict]:
     ranking_path = raw_dir / f"round{round_number}.html"
     pairings_path = raw_dir / f"pairings-round{round_number}.html"
+    board_pairings_path = (
+        raw_dir
+        / f"board-pairings-round{round_number}.html"
+    )
 
     rankings = parse_ranking(ranking_path)
     pairings = parse_pairings(pairings_path)
+    board_pairings = parse_board_pairings(
+        board_pairings_path
+    )
 
     extra_pairing_ids = set(pairings) - set(rankings)
 
@@ -222,6 +388,17 @@ def build_round(
         print(
             f"Pairing-only team IDs in round {round_number}: "
             f"{sorted(extra_pairing_ids)}"
+        )
+
+    extra_board_pairing_ids = (
+        set(board_pairings) - set(rankings)
+    )
+
+    if extra_board_pairing_ids:
+        print(
+            f"Board-pairing-only team IDs in round "
+            f"{round_number}: "
+            f"{sorted(extra_board_pairing_ids)}"
         )
 
     result = []
@@ -234,11 +411,34 @@ def build_round(
 
         pairing = pairings[team_id]
 
+        if pairing["status"] == "played":
+            boards = board_pairings.get(
+                team_id,
+            )
+
+            if boards is None:
+                raise RuntimeError(
+                    f"No board-pairing data for "
+                    f"played team {team_id}: "
+                    f"{team['name']}"
+                )
+
+            if len(boards) != 4:
+                raise RuntimeError(
+                    f"Expected 4 board results for "
+                    f"team {team_id} in round "
+                    f"{round_number}, got "
+                    f"{len(boards)}"
+                )
+        else:
+            boards = []
+
         result.append(
             {
                 **team,
                 "round": round_number,
                 **pairing,
+                "boards": boards,
             }
         )
 

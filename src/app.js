@@ -450,6 +450,7 @@ function buildTeamPaths(data, displaySlots) {
         scoreAgainst: null,
         result: null,
         status: null,
+        boards: [],
       },
       ...data.rounds.map((roundNumber) => {
         const round = roundsByNumber.get(roundNumber);
@@ -464,6 +465,7 @@ function buildTeamPaths(data, displaySlots) {
             scoreAgainst: null,
             result: null,
             status: null,
+            boards: [],
           };
         }
 
@@ -476,6 +478,7 @@ function buildTeamPaths(data, displaySlots) {
           scoreAgainst: round.scoreAgainst,
           result: round.result,
           status: round.status,
+          boards: round.boards ?? [],
         };
       }),
     ];
@@ -757,48 +760,251 @@ function renderChart(data) {
     return `${node.opponentId}:${node.stage}`;
   }
 
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function getBoardPlayerHtml(
+    title,
+    name
+  ) {
+    const safeTitle = escapeHtml(title);
+    const safeName = escapeHtml(name);
+
+    if (!safeTitle) {
+      return safeName;
+    }
+
+    return (
+      `<span class="tooltip-player-title">` +
+      `${safeTitle}</span> ${safeName}`
+    );
+  }
+
+  function getBoardResultsHtml(node) {
+    if (
+      !Array.isArray(node.boards) ||
+      node.boards.length === 0
+    ) {
+      return "";
+    }
+
+    const rows = node.boards
+      .map((board) => {
+        const player =
+          getBoardPlayerHtml(
+            board.playerTitle,
+            board.player
+          );
+
+        const opponent =
+          getBoardPlayerHtml(
+            board.opponentTitle,
+            board.opponent
+          );
+
+        const boardScore =
+          `${escapeHtml(board.scoreFor)} - ` +
+          `${escapeHtml(board.scoreAgainst)}`;
+
+        return `
+          <div class="tooltip-board-row">
+            <span class="tooltip-board-number">${escapeHtml(board.board)}</span>
+            <span class="tooltip-board-player">${player}</span>
+            <span class="tooltip-board-score">${boardScore}</span>
+            <span class="tooltip-board-player tooltip-board-opponent">${opponent}</span>
+          </div>
+        `;
+      })
+      .join("");
+
+    return `
+      <div class="tooltip-board-results">
+        ${rows}
+      </div>
+    `;
+  }
+
+  function getRankText(rank) {
+    if (rank === null || rank === undefined) {
+      return "—";
+    }
+
+    return appState.language === "ko"
+      ? `${rank}위`
+      : `${t("rank")} ${rank}`;
+  }
+
+  function getRoundText(roundNumber) {
+    return appState.language === "ko"
+      ? `${roundNumber}${t("round")}`
+      : `${t("round")} ${roundNumber}`;
+  }
+
   function getTooltipHtml(node) {
     if (node.stage === "start") {
       return `
-        <strong>${getTeamDisplayName(node.team)}</strong><br>
+        <strong>${escapeHtml(getTeamDisplayName(node.team))}</strong><br>
         ${t("startRank")}: ${node.rank}<br>
-        ${t("federation")}: ${node.team.federation}
+        ${t("federation")}: ${escapeHtml(node.team.federation)}
       `;
     }
 
     const opponent =
-      node.opponentId !== null ? teamsById.get(node.opponentId) : null;
+      node.opponentId !== null
+        ? teamsById.get(node.opponentId)
+        : null;
 
-    let opponentText = opponent ? getTeamDisplayName(opponent) : "—";
-    let scoreText =
-      node.scoreFor !== null && node.scoreAgainst !== null
+    let opponentText =
+      opponent
+        ? escapeHtml(getTeamDisplayName(opponent))
+        : "—";
+
+    const scoreText =
+      node.scoreFor !== null &&
+      node.scoreAgainst !== null
         ? `${node.scoreFor} - ${node.scoreAgainst}`
         : "—";
 
     if (node.status === "bye") {
-      opponentText = t("bye");
+      return `
+        <strong>${escapeHtml(getTeamDisplayName(node.team))}</strong><br>
+        ${getRoundText(node.stage)}<br>
+        ${t("rank")}: ${node.rank}<br>
+        ${t("opponent")}: ${t("bye")}<br>
+        ${t("score")}: ${scoreText}
+      `;
     }
 
     if (node.status === "notPaired") {
-      opponentText = t("notPairedValue");
-      scoreText = "—";
+      return `
+        <strong>${escapeHtml(getTeamDisplayName(node.team))}</strong><br>
+        ${getRoundText(node.stage)}<br>
+        ${t("rank")}: ${node.rank}<br>
+        ${t("opponent")}: ${t("notPairedValue")}<br>
+        ${t("score")}: —
+      `;
     }
 
+    const opponentRound =
+      opponent?.rounds.find(
+        (round) =>
+          round.round === node.stage
+      );
+
+    const teamName =
+      escapeHtml(
+        getTeamDisplayName(node.team)
+      );
+
+    const opponentName =
+      opponent
+        ? escapeHtml(
+            getTeamDisplayName(opponent)
+          )
+        : "—";
+
+    const teamRank =
+      escapeHtml(
+        getRankText(node.rank)
+      );
+
+    const opponentRank =
+      escapeHtml(
+        getRankText(
+          opponentRound?.rank
+        )
+      );
+
     return `
-      <strong>${getTeamDisplayName(node.team)}</strong><br>
-      ${t("round")} ${node.stage}<br>
-      ${t("rank")}: ${node.rank}<br>
-      ${t("opponent")}: ${opponentText}<br>
-      ${t("score")}: ${scoreText}
+      <div class="tooltip-round-label">
+        ${escapeHtml(getRoundText(node.stage))}
+      </div>
+
+      <div class="tooltip-match-summary">
+        <div class="tooltip-match-team tooltip-match-team-left">
+          ${teamName}
+          <span class="tooltip-match-rank">(${teamRank})</span>
+        </div>
+
+        <div class="tooltip-match-score">
+          ${scoreText}
+        </div>
+
+        <div class="tooltip-match-team tooltip-match-team-right">
+          ${opponentName}
+          <span class="tooltip-match-rank">(${opponentRank})</span>
+        </div>
+      </div>
+
+      ${getBoardResultsHtml(node)}
     `;
   }
 
   function showTooltip(node, pageX, pageY) {
+    const hasBoardResults =
+      Array.isArray(node.boards) &&
+      node.boards.length > 0;
+
     tooltip
+      .classed(
+        "has-board-results",
+        hasBoardResults
+      )
       .style("display", "block")
-      .style("left", `${pageX + 12}px`)
-      .style("top", `${pageY + 12}px`)
+      .style("left", "0px")
+      .style("top", "0px")
       .html(getTooltipHtml(node));
+
+    const tooltipElement = tooltip.node();
+
+    if (!tooltipElement) {
+      return;
+    }
+
+    const rect =
+      tooltipElement.getBoundingClientRect();
+
+    const viewportLeft =
+      window.scrollX + 12;
+    const viewportTop =
+      window.scrollY + 12;
+    const viewportRight =
+      window.scrollX +
+      window.innerWidth -
+      rect.width -
+      12;
+    const viewportBottom =
+      window.scrollY +
+      window.innerHeight -
+      rect.height -
+      12;
+
+    let left = pageX + 12;
+    let top = pageY + 12;
+
+    if (left > viewportRight) {
+      left = Math.max(
+        viewportLeft,
+        pageX - rect.width - 12
+      );
+    }
+
+    if (top > viewportBottom) {
+      top = Math.max(
+        viewportTop,
+        pageY - rect.height - 12
+      );
+    }
+
+    tooltip
+      .style("left", `${left}px`)
+      .style("top", `${top}px`);
   }
 
   function hideTooltip() {

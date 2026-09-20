@@ -173,6 +173,7 @@ def build_olympiad(
                     "scoreAgainst": record["scoreAgainst"],
                     "result": record["result"],
                     "status": record["status"],
+                    "boards": record["boards"],
                 }
             )
 

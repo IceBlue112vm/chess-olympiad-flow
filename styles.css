@@ -407,6 +407,7 @@ svg {
   z-index: 100;
   display: none;
   min-width: 150px;
+  max-width: calc(100vw - 24px);
   padding: 9px 11px;
   border-radius: 6px;
   background: var(--tooltip-bg);
@@ -414,6 +415,98 @@ svg {
   font-size: 12px;
   line-height: 1.5;
   pointer-events: none;
+}
+
+.tooltip.has-board-results {
+  width: min(430px, calc(100vw - 24px));
+}
+
+.tooltip-round-label {
+  margin-bottom: 6px;
+  padding-left: 24px;
+  font-weight: 700;
+}
+
+.tooltip-match-summary {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    64px
+    minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 10px;
+  padding-left: 24px;
+}
+
+.tooltip-match-team {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 700;
+}
+
+.tooltip-match-team-left {
+  text-align: right;
+}
+
+.tooltip-match-team-right {
+  text-align: left;
+}
+
+.tooltip-match-rank {
+  font-weight: 400;
+  opacity: 0.72;
+}
+
+.tooltip-match-score {
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.tooltip-board-results {
+  display: grid;
+  gap: 5px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tooltip-board-row {
+  display: grid;
+  grid-template-columns:
+    14px
+    minmax(0, 1fr)
+    58px
+    minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 10px;
+}
+
+.tooltip-board-number {
+  opacity: 0.62;
+  text-align: center;
+}
+
+.tooltip-board-player {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+.tooltip-board-opponent {
+  text-align: left;
+}
+
+.tooltip-player-title {
+  font-weight: 700;
+  opacity: 0.72;
+}
+
+.tooltip-board-score {
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: center;
 }
 
 /* Footer */
