@@ -2,7 +2,8 @@ const DATA_URL = "./data/processed/open/olympiad.json";
 
 const GOATCOUNTER_CODE = "chess-olympiad-flow"
 
-const width = 1300;
+const minWidth = 1300;
+const stageGap = 210;
 
 const startNodeRadius = 10;
 const roundNodeRadius = 8;
@@ -10,7 +11,7 @@ const rowGap = 26;
 
 const margin = {
   top: 60,
-  right: 40,
+  right: 230,
   bottom: 40,
   left: 230,
 };
@@ -143,6 +144,16 @@ async function main() {
       key: round,
     })),
   ];
+
+  const latestRound =
+    data.rounds.at(-1);
+
+  const width = Math.max(
+    minWidth,
+    margin.left +
+      margin.right +
+      (stages.length - 1) * stageGap
+  );
 
   const maxSlots = data.teams.length;
 
@@ -566,6 +577,47 @@ async function main() {
       .text(
         (team) =>
           team.name
+      );
+
+  const latestRoundNodes =
+    nodes.filter(
+      (node) =>
+        node.stage === latestRound
+    );
+  
+  const latestTeamNames =
+    labelLayer
+      .selectAll(
+        ".latest-team-name"
+      )
+      .data(latestRoundNodes)
+      .join("text")
+      .attr(
+        "class",
+        "team-name latest-team-name"
+      )
+      .attr(
+        "x",
+        x(latestRound) +
+          roundNodeRadius +
+          8
+      )
+      .attr(
+        "y",
+        (node) =>
+          y(node.displaySlot)
+      )
+      .attr(
+        "text-anchor",
+        "start"
+      )
+      .attr(
+        "dominant-baseline",
+        "middle"
+      )
+      .text(
+        (node) =>
+          node.team.name
       );
 
   /*
@@ -992,6 +1044,21 @@ async function main() {
           hasFocus &&
           team.id !==
             focusedTeamId
+      );
+
+    latestTeamNames
+      .classed(
+        "highlighted",
+        (node) =>
+          node.team.id ===
+            focusedTeamId
+      )
+      .classed(
+        "dimmed",
+        (node) =>
+          hasFocus &&
+        node.team.id !==
+          focusedTeamId
       );
 
     /*
