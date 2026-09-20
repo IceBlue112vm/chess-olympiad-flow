@@ -389,6 +389,12 @@ svg {
     gap: 6px;
   }
   
+  .visitor-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
   .visitor-count-value {
     font-weight: 600;
     color: #626770;

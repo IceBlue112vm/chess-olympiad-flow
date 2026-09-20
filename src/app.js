@@ -58,7 +58,8 @@ const translations = {
     bye: "부전승",
     notPairedValue: "미배정",
   
-    visits: "누적 방문",
+    todayVisits: "오늘 방문:",
+    totalVisits: "누적 방문:",
   },
 
   en: {
@@ -97,7 +98,8 @@ const translations = {
     bye: "Bye",
     notPairedValue: "Not paired",
 
-    visits: "Visits",
+    todayVisits: "Today:",
+    totalVisits: "Total visits:",
   },
 };
 
@@ -789,35 +791,87 @@ async function main() {
   }
 
   async function updateVisitorCount() {
-    const visitorCount =
+    const todayVisitorCount =
       document.querySelector(
-        "#visitor-count-value"
+        "#today-visitor-count"
       );
   
-    if (!visitorCount) {
+    const totalVisitorCount =
+      document.querySelector(
+        "#total-visitor-count"
+      );
+  
+    if (
+      !todayVisitorCount ||
+      !totalVisitorCount
+    ) {
       return;
     }
   
     try {
-      const response = await fetch(
-        `https://${GOATCOUNTER_CODE}.goatcounter.com/counter/TOTAL.json`
-      );
+      /*
+       * 한국 시간 기준 오늘 날짜
+       *
+       * 예:
+       * 2026-09-21
+       */
+      const today =
+        new Intl.DateTimeFormat(
+          "en-CA",
+          {
+            timeZone: "Asia/Seoul",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          }
+        ).format(new Date());
   
-      if (!response.ok) {
+      const totalUrl =
+        `https://${GOATCOUNTER_CODE}` +
+        `.goatcounter.com/counter/TOTAL.json`;
+  
+      const todayUrl =
+        `https://${GOATCOUNTER_CODE}` +
+        `.goatcounter.com/counter/TOTAL.json` +
+        `?start=${today}&end=${today}`;
+  
+      const [
+        totalResponse,
+        todayResponse,
+      ] = await Promise.all([
+        fetch(totalUrl),
+        fetch(todayUrl),
+      ]);
+  
+      if (
+        !totalResponse.ok ||
+        !todayResponse.ok
+      ) {
         throw new Error(
-          "Failed to load visitor count"
+          "Failed to load visitor counts"
         );
       }
   
-      const data =
-        await response.json();
+      const [
+        totalData,
+        todayData,
+      ] = await Promise.all([
+        totalResponse.json(),
+        todayResponse.json(),
+      ]);
   
-      visitorCount.textContent =
-        data.count;
+      totalVisitorCount.textContent =
+        totalData.count;
+  
+      todayVisitorCount.textContent =
+        todayData.count;
     } catch (error) {
       console.error(error);
   
-      visitorCount.textContent =
+      totalVisitorCount.textContent =
+        "—";
+  
+      todayVisitorCount.textContent =
         "—";
     }
   }
