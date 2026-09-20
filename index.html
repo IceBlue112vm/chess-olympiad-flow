@@ -2,176 +2,155 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chess Olympiad Flow</title>
 
-  <link
-    rel="stylesheet"
-    href="./styles.css"
-  >
-
+  <link rel="stylesheet" href="./styles.css">
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 </head>
 
 <body>
   <div class="page-shell">
-
     <header class="page-header">
       <div class="header-main">
-
-        <div>
-          <div
-            class="eyebrow"
-            data-i18n="eyebrow"
-          >
+        <div class="header-copy">
+          <div class="eyebrow" data-i18n="eyebrow">
             2026 체스 올림피아드
           </div>
 
-          <h1>
-            Chess Olympiad Flow
-          </h1>
+          <h1>Chess Olympiad Flow</h1>
 
-          <p
-            class="subtitle"
-            data-i18n="subtitle"
-          >
+          <p class="subtitle" data-i18n="subtitle">
             각 국가의 순위가 라운드마다 어떻게 변화하는지 확인해보세요.
           </p>
         </div>
 
         <div class="header-side">
-
-          <div
-            class="language-toggle"
-            aria-label="Language"
-          >
+          <div class="utility-controls">
             <button
               type="button"
-              class="language-button active"
-              data-language="ko"
+              class="utility-button theme-switch-button"
+              data-theme-toggle
+              aria-label="다크 모드"
+              title="다크 모드"
             >
-              한국어
+              <svg
+                class="theme-icon moon-icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M20.2 15.3A8.5 8.5 0 0 1 8.7 3.8 8.6 8.6 0 1 0 20.2 15.3Z"
+                />
+              </svg>
+
+              <svg
+                class="theme-icon sun-icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2V4" />
+                <path d="M12 20V22" />
+                <path d="M4.93 4.93L6.34 6.34" />
+                <path d="M17.66 17.66L19.07 19.07" />
+                <path d="M2 12H4" />
+                <path d="M20 12H22" />
+                <path d="M4.93 19.07L6.34 17.66" />
+                <path d="M17.66 6.34L19.07 4.93" />
+              </svg>
             </button>
 
             <button
               type="button"
-              class="language-button"
-              data-language="en"
+              class="utility-button language-switch-button"
+              data-language-toggle
+              aria-label="Switch to English"
+              title="English"
             >
-              ENG
+              EN
             </button>
           </div>
 
-          <div class="tournament-meta">
-            <div
-              id="event-label"
-              class="meta-primary"
-            >
-            </div>
+          <div class="event-controls">
+            <div class="event-toggle" aria-label="대회 부문">
+              <button
+                type="button"
+                class="event-button active"
+                data-event="open"
+                data-i18n="openDivision"
+                aria-pressed="true"
+              >
+                오픈 부문
+              </button>
 
-            <div
-              id="round-label"
-              class="meta-secondary"
-            >
+              <button
+                type="button"
+                class="event-button"
+                data-event="women"
+                data-i18n="womenDivision"
+                aria-pressed="false"
+              >
+                여성 부문
+              </button>
             </div>
           </div>
-
         </div>
       </div>
 
-      <div class="legend">
-
+      <div class="legend" aria-label="경기 결과 범례">
         <div class="legend-item">
-          <span class="legend-node win"></span>
+          <span class="legend-node win" aria-hidden="true"></span>
           <span data-i18n="win">승리</span>
         </div>
 
         <div class="legend-item">
-          <span class="legend-node draw"></span>
+          <span class="legend-node draw" aria-hidden="true"></span>
           <span data-i18n="draw">무승부</span>
         </div>
 
         <div class="legend-item">
-          <span class="legend-node loss"></span>
+          <span class="legend-node loss" aria-hidden="true"></span>
           <span data-i18n="loss">패배</span>
         </div>
 
         <div class="legend-item">
-          <span class="legend-node neutral"></span>
+          <span class="legend-node neutral" aria-hidden="true"></span>
           <span data-i18n="notPaired">미배정</span>
         </div>
-
       </div>
     </header>
 
     <main class="page-content">
-
       <section class="chart-section">
-
         <div class="chart-header">
           <div>
-            <h2 data-i18n="rankingProgression">
-              순위 변화
-            </h2>
-
+            <h2 data-i18n="rankingProgression">순위 변화</h2>
             <p data-i18n="interactionHelp">
-              노드에 마우스를 올리면 경기 정보를 확인할 수 있습니다.
-              클릭하면 해당 국가를 고정해서 볼 수 있습니다.
+              노드에 마우스를 올리면 경기 정보를 확인할 수 있습니다. 클릭하면 해당 국가를 고정해서 볼 수 있습니다.
             </p>
           </div>
         </div>
 
-        <div
-          id="chart"
-          class="chart-container"
-        ></div>
-
+        <div id="chart" class="chart-container"></div>
       </section>
-
     </main>
 
     <footer class="page-footer">
-
-        <div class="visitor-stats">
-        
+      <div class="visitor-stats">
         <div class="visitor-count">
-            <span data-i18n="todayVisits">
-            오늘 방문
-            </span>
-        
-            <span
-            id="today-visitor-count"
-            class="visitor-count-value"
-            >
-            —
-            </span>
+          <span data-i18n="todayVisits">오늘 방문:</span>
+          <span id="today-visitor-count" class="visitor-count-value">—</span>
         </div>
-      
+
         <div class="visitor-count">
-            <span data-i18n="totalVisits">
-            누적 방문
-            </span>
-        
-            <span
-            id="total-visitor-count"
-            class="visitor-count-value"
-            >
-            —
-            </span>
+          <span data-i18n="totalVisits">누적 방문:</span>
+          <span id="total-visitor-count" class="visitor-count-value">—</span>
         </div>
-      
-        </div>
+      </div>
 
-      <span data-i18n="dataSource">
-        데이터 출처: Chess-Results
-      </span>
-
+      <span data-i18n="dataSource">데이터 출처: Chess-Results</span>
     </footer>
-
   </div>
 
   <script
@@ -180,7 +159,7 @@
     async
     src="https://gc.zgo.at/count.js"
   ></script>
-  
+
   <script src="./src/app.js"></script>
 </body>
 </html>
