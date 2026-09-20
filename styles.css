@@ -34,7 +34,7 @@ svg {
   fill: none;
   stroke: #999999;
   stroke-width: 1.25;
-  stroke-opacity: 0.18;
+  stroke-opacity: 0.35;
 }
 
 .team-path.highlighted {
@@ -43,23 +43,56 @@ svg {
   stroke-opacity: 1;
 }
 
+.team-path.dimmed {
+  stroke-opacity: 0.08;
+}
+
 .team-node {
   stroke: none;
-  opacity: 0.35;
+  opacity: 1;
+}
+
+.team-node.dimmed {
+  opacity: 0.2;
 }
 
 .team-node.highlighted {
   opacity: 1;
 }
 
+.team-node.opponent-highlighted {
+  opacity: 1;
+}
+
 .team-name {
   font-size: 12px;
   fill: #444444;
-  opacity: 0.45;
+  opacity: 1;
+}
+
+.team-name.dimmed {
+  opacity: 0.2;
 }
 
 .team-name.highlighted {
   font-weight: 700;
   fill: #111111;
   opacity: 1;
+}
+
+.selectable {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  padding: 8px 10px;
+  background: rgba(20, 20, 20, 0.9);
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
 }
