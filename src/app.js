@@ -800,7 +800,7 @@ async function main() {
   
     try {
       const response = await fetch(
-        `https://${GOATCOUNTER_CODE}.goatcounter.com/counter//.json`
+        `https://${GOATCOUNTER_CODE}.goatcounter.com/counter/TOTAL.json`
       );
   
       if (!response.ok) {
