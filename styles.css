@@ -29,6 +29,7 @@
   --loss: #e25555;
   --tooltip-bg: rgba(25, 27, 31, 0.94);
   --tooltip-text: #ffffff;
+  --korea-name: #0080ff; 
 }
 
 /* Dark palette is prepared for the next step.
@@ -51,6 +52,7 @@ html[data-theme="dark"] {
   --team-name-highlight: #ffffff;
   --neutral: #858b93;
   --tooltip-bg: rgba(8, 9, 11, 0.95);
+  --korea-name: #60a5fa;
 }
 
 * {
@@ -359,6 +361,10 @@ svg {
 
 .team-name.dimmed {
   opacity: 0.2;
+}
+
+.team-name.korea-team-name {
+  fill: var(--korea-name);
 }
 
 .selectable {
