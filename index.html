@@ -1,21 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Chess Olympiad Flow</title>
 
-  <link rel="stylesheet" href="./styles.css">
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  >
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 </head>
 
 <body>
-  <main>
-    <h1>Chess Olympiad Flow</h1>
-    <div id="chart"></div>
-  </main>
+  <div class="page-shell">
+
+    <header class="page-header">
+      <div class="header-main">
+
+        <div>
+          <div
+            class="eyebrow"
+            data-i18n="eyebrow"
+          >
+            2026 체스 올림피아드
+          </div>
+
+          <h1>
+            Chess Olympiad Flow
+          </h1>
+
+          <p
+            class="subtitle"
+            data-i18n="subtitle"
+          >
+            각 국가의 순위가 라운드마다 어떻게 변화하는지 확인해보세요.
+          </p>
+        </div>
+
+        <div class="header-side">
+
+          <div
+            class="language-toggle"
+            aria-label="Language"
+          >
+            <button
+              type="button"
+              class="language-button active"
+              data-language="ko"
+            >
+              한국어
+            </button>
+
+            <button
+              type="button"
+              class="language-button"
+              data-language="en"
+            >
+              ENG
+            </button>
+          </div>
+
+          <div class="tournament-meta">
+            <div
+              id="event-label"
+              class="meta-primary"
+            >
+            </div>
+
+            <div
+              id="round-label"
+              class="meta-secondary"
+            >
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="legend">
+
+        <div class="legend-item">
+          <span class="legend-node win"></span>
+          <span data-i18n="win">승리</span>
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-node draw"></span>
+          <span data-i18n="draw">무승부</span>
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-node loss"></span>
+          <span data-i18n="loss">패배</span>
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-node neutral"></span>
+          <span data-i18n="notPaired">미배정</span>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="page-content">
+
+      <section class="chart-section">
+
+        <div class="chart-header">
+          <div>
+            <h2 data-i18n="rankingProgression">
+              순위 변화
+            </h2>
+
+            <p data-i18n="interactionHelp">
+              노드에 마우스를 올리면 경기 정보를 확인할 수 있습니다.
+              클릭하면 해당 국가를 고정해서 볼 수 있습니다.
+            </p>
+          </div>
+        </div>
+
+        <div
+          id="chart"
+          class="chart-container"
+        ></div>
+
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+      <span data-i18n="dataSource">
+        데이터 출처: Chess-Results
+      </span>
+    </footer>
+
+  </div>
 
   <script src="./src/app.js"></script>
 </body>
