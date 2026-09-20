@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #ffffff;
+  color: #222222;
+}
+
+main {
+  padding: 24px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#chart {
+  overflow-x: auto;
+}
+
+svg {
+  display: block;
+}
+
+.stage-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stage-line {
+  stroke: #dddddd;
+}
+
+.team-path {
+  fill: none;
+  stroke: #999999;
+  stroke-width: 1.25;
+  stroke-opacity: 0.18;
+}
+
+.team-path.highlighted {
+  stroke: #222222;
+  stroke-width: 3px;
+  stroke-opacity: 1;
+}
+
+.team-node {
+  stroke: none;
+  opacity: 0.35;
+}
+
+.team-node.highlighted {
+  opacity: 1;
+}
+
+.team-name {
+  font-size: 12px;
+  fill: #444444;
+  opacity: 0.45;
+}
+
+.team-name.highlighted {
+  font-weight: 700;
+  fill: #111111;
+  opacity: 1;
+}
