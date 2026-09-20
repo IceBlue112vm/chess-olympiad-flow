@@ -333,6 +333,26 @@ svg {
   stroke-opacity: 0.08;
 }
 
+.match-connector {
+  fill: none;
+  stroke-width: 2.5;
+  stroke-opacity: 0.95;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.match-connector-label {
+  fill: var(--text-primary);
+  stroke: var(--surface);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+  font-size: 13px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
 .team-node {
   stroke: none;
   opacity: 1;

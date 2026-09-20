@@ -543,6 +543,7 @@ function renderChart(data) {
 
   const guideLayer = svg.append("g").attr("class", "guide-layer");
   const pathLayer = svg.append("g").attr("class", "path-layer");
+  const connectorLayer = svg.append("g").attr("class", "connector-layer");
   const nodeLayer = svg.append("g").attr("class", "node-layer");
   const labelLayer = svg.append("g").attr("class", "label-layer");
 
@@ -579,6 +580,41 @@ function renderChart(data) {
     .join("path")
     .attr("class", "team-path")
     .attr("d", (item) => line(item.points));
+
+  const nodesByKey = new Map(
+    nodes.map((node) => [
+      `${node.team.id}:${node.stage}`,
+      node,
+    ])
+  );
+
+  const matchGradientId =
+    `match-connector-gradient-${data.event}`;
+
+  const matchGradient = svg
+    .append("defs")
+    .append("linearGradient")
+    .attr("id", matchGradientId)
+    .attr("gradientUnits", "userSpaceOnUse");
+
+  const matchGradientStart = matchGradient
+    .append("stop")
+    .attr("offset", "0%");
+
+  const matchGradientEnd = matchGradient
+    .append("stop")
+    .attr("offset", "100%");
+
+  const matchConnector = connectorLayer
+    .append("path")
+    .attr("class", "match-connector")
+    .style("display", "none");
+
+  const matchConnectorLabel = connectorLayer
+    .append("text")
+    .attr("class", "match-connector-label")
+    .attr("dominant-baseline", "middle")
+    .style("display", "none");
 
   const teamNodes = nodeLayer
     .selectAll(".team-node")
@@ -688,11 +724,168 @@ function renderChart(data) {
     return interaction.selectedNode ?? interaction.hoveredNode;
   }
 
+  function getMatchFocusNode() {
+    if (
+      interaction.selectedNode?.stage === "start" &&
+      interaction.hoveredNode !== null &&
+      interaction.hoveredNode.team.id ===
+        interaction.selectedNode.team.id
+    ) {
+      return interaction.hoveredNode;
+    }
+
+    return getFocusNode();
+  }
+
+  function hideMatchConnector() {
+    matchConnector.style("display", "none");
+    matchConnectorLabel.style("display", "none");
+  }
+
+  function getMatchLocatorText(
+    opponentNode,
+    focusY,
+    opponentY
+  ) {
+    const direction =
+      opponentY > focusY
+        ? "↓"
+        : opponentY < focusY
+          ? "↑"
+          : "↔";
+
+    const opponentName =
+      getTeamDisplayName(opponentNode.team);
+
+    const opponentRank =
+      appState.language === "ko"
+        ? `${opponentNode.rank}위`
+        : `${t("rank")} ${opponentNode.rank}`;
+
+    return (
+      `${direction} ${opponentName}` +
+      ` (${opponentRank})`
+    );
+  }
+
+  function updateMatchConnector(focusNode) {
+    const opponentNodeKey = focusNode
+      ? getOpponentNodeKey(focusNode)
+      : null;
+
+    if (opponentNodeKey === null) {
+      hideMatchConnector();
+      return;
+    }
+
+    const opponentNode = nodesByKey.get(opponentNodeKey);
+
+    if (!opponentNode) {
+      hideMatchConnector();
+      return;
+    }
+
+    const nodeX = x(focusNode.stage);
+    const focusY = y(focusNode.displaySlot);
+    const opponentY = y(opponentNode.displaySlot);
+
+    const connectorDirection =
+      focusNode.stage === latestRound
+        ? -1
+        : 1;
+
+    const connectorX =
+      nodeX + connectorDirection * 18;
+
+    const focusColor =
+      RESULT_COLORS[focusNode.result] ??
+      "#777777";
+
+    const opponentColor =
+      RESULT_COLORS[opponentNode.result] ??
+      "#777777";
+
+    const isDraw =
+      focusNode.result === "D" &&
+      opponentNode.result === "D";
+
+    if (isDraw) {
+      matchConnector.attr(
+        "stroke",
+        RESULT_COLORS.D
+      );
+    } else {
+      matchGradient
+        .attr("x1", nodeX)
+        .attr("y1", focusY)
+        .attr("x2", nodeX)
+        .attr("y2", opponentY);
+
+      matchGradientStart.attr(
+        "stop-color",
+        focusColor
+      );
+
+      matchGradientEnd.attr(
+        "stop-color",
+        opponentColor
+      );
+
+      matchConnector.attr(
+        "stroke",
+        `url(#${matchGradientId})`
+      );
+    }
+
+    matchConnector
+      .attr(
+        "d",
+        `M ${nodeX} ${focusY} H ${connectorX} V ${opponentY} H ${nodeX}`
+      )
+      .style("display", null);
+
+    const labelY =
+      focusY <= margin.top + 16
+        ? focusY + 18
+        : focusY - 12;
+
+    matchConnectorLabel
+      .attr(
+        "x",
+        connectorX +
+          connectorDirection * 8
+      )
+      .attr("y", labelY)
+      .attr(
+        "text-anchor",
+        connectorDirection > 0
+          ? "start"
+          : "end"
+      )
+      .text(
+        getMatchLocatorText(
+          opponentNode,
+          focusY,
+          opponentY
+        )
+      )
+      .style("display", null);
+  }
+
   function renderInteractionState() {
     const focusNode = getFocusNode();
+    const matchFocusNode = getMatchFocusNode();
+
     const focusedTeamId = focusNode?.team.id ?? null;
-    const opponentNodeKey = focusNode ? getOpponentNodeKey(focusNode) : null;
+    const opponentNodeKey = matchFocusNode
+      ? getOpponentNodeKey(matchFocusNode)
+      : null;
+
     const hasFocus = focusNode !== null;
+
+    updateMatchConnector(
+      matchFocusNode
+    );
 
     teamPaths
       .classed("highlighted", (item) => item.team.id === focusedTeamId)
@@ -796,14 +989,18 @@ function renderChart(data) {
         getTeamDisplayName(node.team)
     );
   
+    updateMatchConnector(
+      getMatchFocusNode()
+    );
+
     if (
-      selectedNode !== null &&
-      selectedTooltipPosition !== null
+      interaction.selectedNode !== null &&
+      interaction.selectedTooltipPosition !== null
     ) {
       showTooltip(
-        selectedNode,
-        selectedTooltipPosition.x,
-        selectedTooltipPosition.y
+        interaction.selectedNode,
+        interaction.selectedTooltipPosition.x,
+        interaction.selectedTooltipPosition.y
       );
     }
   }
