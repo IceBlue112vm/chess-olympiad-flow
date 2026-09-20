@@ -1,5 +1,7 @@
 const DATA_URL = "./data/processed/open/olympiad.json";
 
+const GOATCOUNTER_CODE = "chess-olympiad-flow"
+
 const width = 1300;
 
 const startNodeRadius = 10;
@@ -55,6 +57,8 @@ const translations = {
 
     bye: "부전승",
     notPairedValue: "미배정",
+  
+    visits: "누적 방문",
   },
 
   en: {
@@ -92,6 +96,8 @@ const translations = {
 
     bye: "Bye",
     notPairedValue: "Not paired",
+
+    visits: "Visits",
   },
 };
 
@@ -782,6 +788,40 @@ async function main() {
     }
   }
 
+  async function updateVisitorCount() {
+    const visitorCount =
+      document.querySelector(
+        "#visitor-count-value"
+      );
+  
+    if (!visitorCount) {
+      return;
+    }
+  
+    try {
+      const response = await fetch(
+        `https://${GOATCOUNTER_CODE}.goatcounter.com/counter//.json`
+      );
+  
+      if (!response.ok) {
+        throw new Error(
+          "Failed to load visitor count"
+        );
+      }
+  
+      const data =
+        await response.json();
+  
+      visitorCount.textContent =
+        data.count;
+    } catch (error) {
+      console.error(error);
+  
+      visitorCount.textContent =
+        "—";
+    }
+  }
+
   /*
    * Language buttons
    */
@@ -1029,6 +1069,7 @@ async function main() {
    * Initial UI
    */
   updateLanguage();
+  updateVisitorCount();
 
   renderInteractionState();
 }

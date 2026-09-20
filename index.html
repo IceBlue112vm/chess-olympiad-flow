@@ -135,13 +135,32 @@
     </main>
 
     <footer class="page-footer">
+
+      <div class="visitor-count">
+        <span data-i18n="visits">누적 방문</span>
+        <span
+          id="visitor-count-value"
+          class="visitor-count-value"
+        >
+          —
+        </span>
+      </div>
+
       <span data-i18n="dataSource">
         데이터 출처: Chess-Results
       </span>
+
     </footer>
 
   </div>
 
+  <script
+    data-goatcounter="https://chess-olympiad-flow.goatcounter.com/count"
+    data-goatcounter-settings='{"path": "/"}'
+    async
+    src="https://gc.zgo.at/count.js"
+  ></script>
+  
   <script src="./src/app.js"></script>
 </body>
 </html>

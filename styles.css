@@ -373,8 +373,24 @@ svg {
   }
 
   .page-footer {
-    padding:
-      0 20px
-      24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+    padding: 0 40px 30px;
+  
+    font-size: 12px;
+    color: #8a8f97;
+  }
+  
+  .visitor-count {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .visitor-count-value {
+    font-weight: 600;
+    color: #626770;
   }
 }
