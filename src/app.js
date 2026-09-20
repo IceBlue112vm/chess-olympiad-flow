@@ -131,6 +131,13 @@ function updateStaticTranslations() {
   }
 }
 
+function getTeamDisplayName(team) {
+  return window.TeamNames.getDisplayName(
+    team,
+    appState.language
+  );
+}
+
 function updateEventControls() {
   document
     .querySelectorAll("[data-event]")
@@ -511,7 +518,7 @@ function renderChart(data) {
     .attr("y", (team) => y(team.startRank))
     .attr("text-anchor", "end")
     .attr("dominant-baseline", "middle")
-    .text((team) => team.name);
+    .text((team) => getTeamDisplayName(team));
 
   const latestRoundNodes = nodes.filter((node) => node.stage === latestRound);
 
@@ -524,7 +531,7 @@ function renderChart(data) {
     .attr("y", (node) => y(node.displaySlot))
     .attr("text-anchor", "start")
     .attr("dominant-baseline", "middle")
-    .text((node) => node.team.name);
+    .text((node) => getTeamDisplayName(node.team));
 
   function getNodeKey(node) {
     return `${node.team.id}:${node.stage}`;
@@ -550,7 +557,7 @@ function renderChart(data) {
     const opponent =
       node.opponentId !== null ? teamsById.get(node.opponentId) : null;
 
-    let opponentText = opponent ? opponent.name : "—";
+    let opponentText = opponent ? getTeamDisplayName(opponent) : "—";
     let scoreText =
       node.scoreFor !== null && node.scoreAgainst !== null
         ? `${node.scoreFor} - ${node.scoreAgainst}`
@@ -566,7 +573,7 @@ function renderChart(data) {
     }
 
     return `
-      <strong>${node.team.name}</strong><br>
+      <strong>${getTeamDisplayName(node.team)}</strong><br>
       ${t("round")} ${node.stage}<br>
       ${t("rank")}: ${node.rank}<br>
       ${t("opponent")}: ${opponentText}<br>
@@ -681,18 +688,31 @@ function renderChart(data) {
   });
 
   function refreshLanguageDependentChartText() {
-    stageLabels.text((stage) =>
-      stage.key === "start" ? t("start") : `R${stage.key}`
+    stageLabels.text(
+      (stage) =>
+        stage.key === "start"
+          ? t("start")
+          : `R${stage.key}`
     );
-
+  
+    teamNames.text(
+      (team) =>
+        getTeamDisplayName(team)
+    );
+  
+    latestTeamNames.text(
+      (node) =>
+        getTeamDisplayName(node.team)
+    );
+  
     if (
-      interaction.selectedNode !== null &&
-      interaction.selectedTooltipPosition !== null
+      selectedNode !== null &&
+      selectedTooltipPosition !== null
     ) {
       showTooltip(
-        interaction.selectedNode,
-        interaction.selectedTooltipPosition.x,
-        interaction.selectedTooltipPosition.y
+        selectedNode,
+        selectedTooltipPosition.x,
+        selectedTooltipPosition.y
       );
     }
   }
