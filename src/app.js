@@ -52,6 +52,8 @@ const TRANSLATIONS = {
     notPairedValue: "미배정",
     todayVisits: "오늘 방문:",
     totalVisits: "누적 방문:",
+    languageSwitch: "EN",
+    languageSwitchLabel: "영어로 전환",
   },
   en: {
     eyebrow: "2026 Chess Olympiad",
@@ -77,6 +79,8 @@ const TRANSLATIONS = {
     notPairedValue: "Not paired",
     todayVisits: "Today:",
     totalVisits: "Total visits:",
+    languageSwitch: "한글",
+    languageSwitchLabel: "Switch to Korean",
   },
 };
 
@@ -85,20 +89,74 @@ const appState = {
   language: APP_CONFIG.defaultLanguage,
 };
 
+let currentChart = null;
+
 function t(key) {
   return TRANSLATIONS[appState.language][key];
 }
 
 function updateStaticTranslations() {
-  document.documentElement.lang = appState.language;
+  document.documentElement.lang =
+    appState.language;
 
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const value = TRANSLATIONS[appState.language][element.dataset.i18n];
+  document
+    .querySelectorAll("[data-i18n]")
+    .forEach((element) => {
+      const value =
+        TRANSLATIONS[
+          appState.language
+        ][element.dataset.i18n];
 
-    if (typeof value === "string") {
-      element.textContent = value;
+      if (typeof value === "string") {
+        element.textContent = value;
+      }
+    });
+
+  const languageButton =
+    document.querySelector(
+      "[data-language-toggle]"
+    );
+
+  if (languageButton) {
+    languageButton.textContent =
+      t("languageSwitch");
+
+    languageButton.setAttribute(
+      "aria-label",
+      t("languageSwitchLabel")
+    );
+
+    languageButton.title =
+      t("languageSwitchLabel");
+  }
+}
+
+function setupLanguageToggle() {
+  const languageButton =
+    document.querySelector(
+      "[data-language-toggle]"
+    );
+
+  if (!languageButton) {
+    return;
+  }
+
+  languageButton.addEventListener(
+    "click",
+    (event) => {
+      event.stopPropagation();
+
+      appState.language =
+        appState.language === "ko"
+          ? "en"
+          : "ko";
+
+      updateStaticTranslations();
+
+      currentChart
+        ?.refreshLanguageDependentChartText();
     }
-  });
+  );
 }
 
 function getSeoulDateString() {
@@ -568,13 +626,22 @@ async function loadTournamentData(eventName) {
 
 async function main() {
   updateStaticTranslations();
+  setupLanguageToggle();
   updateVisitorCount();
 
   try {
-    const data = await loadTournamentData(appState.event);
-    renderChart(data);
+    const data =
+      await loadTournamentData(
+        appState.event
+      );
+
+    currentChart =
+      renderChart(data);
   } catch (error) {
-    console.error("Failed to initialize Chess Olympiad Flow", error);
+    console.error(
+      "Failed to initialize Chess Olympiad Flow",
+      error
+    );
   }
 }
 
