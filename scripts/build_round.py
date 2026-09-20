@@ -1,0 +1,186 @@
+import json
+from pathlib import Path
+
+from bs4 import BeautifulSoup
+
+
+ROOT = Path(__file__).resolve().parent.parent
+RAW_DIR = ROOT / "data" / "raw"
+PROCESSED_DIR = ROOT / "data" / "processed"
+
+
+def load_soup(path: Path) -> BeautifulSoup:
+    return BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+
+
+def parse_ranking(path: Path) -> dict[int, dict]:
+    soup = load_soup(path)
+
+    heading = soup.find("h2", string=lambda text: text and "Rank after Round" in text)
+    if heading is None:
+        raise RuntimeError(f"Ranking heading not found: {path}")
+
+    table = heading.find_next("table", class_="CRs1")
+    if table is None:
+        raise RuntimeError(f"Ranking table not found: {path}")
+
+    teams = {}
+    current_rank = None
+
+    for row in table.find_all("tr"):
+        cells = row.find_all("td")
+
+        if len(cells) != 14:
+            continue
+
+        rank_text = cells[0].get_text(strip=True)
+
+        # Chess-Results leaves tied ranks blank.
+        if rank_text:
+            current_rank = int(rank_text)
+
+        team_id = int(cells[1].get_text(strip=True))
+
+        teams[team_id] = {
+            "id": team_id,
+            "name": cells[4].get_text(" ", strip=True),
+            "federation": cells[2].get_text(strip=True),
+            "rank": current_rank,
+        }
+
+    return teams
+
+
+def parse_score(text: str) -> float:
+    text = text.strip().replace(",", ".")
+
+    if "½" in text:
+        whole = text.replace("½", "")
+        return (float(whole) if whole else 0.0) + 0.5
+
+    return float(text)
+
+
+def result_from_score(score_for: float, score_against: float) -> str:
+    if score_for > score_against:
+        return "W"
+
+    if score_for < score_against:
+        return "L"
+
+    return "D"
+
+
+def parse_pairings(path: Path) -> dict[int, dict]:
+    soup = load_soup(path)
+
+    heading = soup.find("h2", string=lambda text: text and "Team pairings" in text)
+    if heading is None:
+        raise RuntimeError(f"Pairings heading not found: {path}")
+
+    table = heading.find_next("table", class_="CRs1")
+    if table is None:
+        raise RuntimeError(f"Pairings table not found: {path}")
+
+    pairings = {}
+
+    for row in table.find_all("tr"):
+        cells = row.find_all("td")
+
+        if len(cells) != 16:
+            continue
+
+        left_id = int(cells[1].get_text(strip=True))
+        right_team = cells[12].get_text(" ", strip=True)
+        right_id = int(cells[15].get_text(strip=True))
+
+        left_score_text = cells[7].get_text(strip=True)
+        right_score_text = cells[9].get_text(strip=True)
+
+        if right_team == "not paired":
+            pairings[left_id] = {
+                "opponentId": None,
+                "scoreFor": None,
+                "scoreAgainst": None,
+                "result": None,
+                "status": "notPaired",
+            }
+            continue
+
+        left_score = parse_score(left_score_text)
+        right_score = parse_score(right_score_text)
+
+        pairings[left_id] = {
+            "opponentId": right_id,
+            "scoreFor": left_score,
+            "scoreAgainst": right_score,
+            "result": result_from_score(left_score, right_score),
+            "status": "played",
+        }
+
+        pairings[right_id] = {
+            "opponentId": left_id,
+            "scoreFor": right_score,
+            "scoreAgainst": left_score,
+            "result": result_from_score(right_score, left_score),
+            "status": "played",
+        }
+
+    return pairings
+
+
+def build_round(round_number: int) -> list[dict]:
+    ranking_path = RAW_DIR / f"round{round_number}.html"
+    pairings_path = RAW_DIR / f"pairings-round{round_number}.html"
+
+    rankings = parse_ranking(ranking_path)
+    pairings = parse_pairings(pairings_path)
+
+    extra_pairing_ids = set(pairings) - set(rankings)
+
+    if extra_pairing_ids:
+        print(
+            f"Pairing-only team IDs in round {round_number}: "
+            f"{sorted(extra_pairing_ids)}"
+        )
+
+    result = []
+
+    for team_id, team in rankings.items():
+        if team_id not in pairings:
+            raise RuntimeError(
+                f"No pairing data for team {team_id}: {team['name']}"
+            )
+
+        pairing = pairings[team_id]
+
+        result.append(
+            {
+                **team,
+                "round": round_number,
+                **pairing,
+            }
+        )
+
+    return result
+
+
+def main():
+    round_number = 1
+
+    data = build_round(round_number)
+
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    output_path = PROCESSED_DIR / f"round{round_number}.json"
+
+    output_path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"Wrote {len(data)} teams to {output_path}")
+
+
+if __name__ == "__main__":
+    main()
