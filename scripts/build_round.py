@@ -2,15 +2,50 @@ import json
 from pathlib import Path
 
 from bs4 import BeautifulSoup
+import requests
 
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
+TOURNAMENT_ID = 1469895
+BASE_URL = f"https://chess-results.com/tnr{TOURNAMENT_ID}.aspx"
 
 
 def load_soup(path: Path) -> BeautifulSoup:
-    return BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+    return BeautifulSoup(path.read_bytes(), "html.parser")
+
+
+def download_page(round_number: int, art: int, output_path: Path) -> None:
+    response = requests.get(
+        BASE_URL,
+        params={
+            "lan": 1,
+            "art": art,
+            "rd": round_number,
+            "zeilen": 99999,
+        },
+        timeout=30,
+    )
+
+    response.raise_for_status()
+    output_path.write_bytes(response.content)
+
+
+def download_round(round_number: int) -> None:
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    download_page(
+        round_number,
+        art=0,
+        output_path=RAW_DIR / f"round{round_number}.html",
+    )
+
+    download_page(
+        round_number,
+        art=2,
+        output_path=RAW_DIR / f"pairings-round{round_number}.html",
+    )
 
 
 def parse_ranking(path: Path) -> dict[int, dict]:
@@ -167,6 +202,8 @@ def build_round(round_number: int) -> list[dict]:
 
 def main():
     round_number = 1
+
+    download_round(round_number)
 
     data = build_round(round_number)
 
