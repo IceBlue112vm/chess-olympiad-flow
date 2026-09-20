@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 
@@ -142,6 +143,25 @@ def parse_pairings(path: Path) -> dict[int, dict]:
             }
             continue
 
+        if right_team == "bye":
+            left_score = parse_score(left_score_text)
+            right_score = parse_score(right_score_text)
+
+            pairings[left_id] = {
+                "opponentId": None,
+                "scoreFor": left_score,
+                "scoreAgainst": right_score,
+                "result": result_from_score(left_score, right_score),
+                "status": "bye",
+            }
+            continue
+
+        if right_id < 0:
+            raise RuntimeError(
+                f"Unknown special pairing in round data: "
+                f"team={left_id}, opponent={right_team!r}, opponentId={right_id}"
+            )
+
         left_score = parse_score(left_score_text)
         right_score = parse_score(right_score_text)
 
@@ -201,7 +221,15 @@ def build_round(round_number: int) -> list[dict]:
 
 
 def main():
-    round_number = 1
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "round",
+        type=int,
+        help="Round number to build",
+    )
+    args = parser.parse_args()
+
+    round_number = args.round
 
     download_round(round_number)
 
