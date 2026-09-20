@@ -131,6 +131,25 @@ function updateStaticTranslations() {
   }
 }
 
+function updateEventControls() {
+  document
+    .querySelectorAll("[data-event]")
+    .forEach((button) => {
+      const isActive =
+        button.dataset.event === appState.event;
+
+      button.classList.toggle(
+        "active",
+        isActive
+      );
+
+      button.setAttribute(
+        "aria-pressed",
+        String(isActive)
+      );
+    });
+}
+
 function setupLanguageToggle() {
   const languageButton =
     document.querySelector(
@@ -157,6 +176,76 @@ function setupLanguageToggle() {
         ?.refreshLanguageDependentChartText();
     }
   );
+}
+
+function setupEventToggle() {
+  const eventButtons =
+    document.querySelectorAll(
+      "[data-event]"
+    );
+
+  eventButtons.forEach((button) => {
+    button.addEventListener(
+      "click",
+      async (event) => {
+        event.stopPropagation();
+
+        const eventName =
+          button.dataset.event;
+
+        if (
+          !eventName ||
+          eventName === appState.event
+        ) {
+          return;
+        }
+
+        eventButtons.forEach(
+          (eventButton) => {
+            eventButton.disabled = true;
+          }
+        );
+
+        const chartElement =
+          document.querySelector("#chart");
+
+        chartElement?.setAttribute(
+          "aria-busy",
+          "true"
+        );
+
+        try {
+          const data =
+            await loadTournamentData(
+              eventName
+            );
+
+          appState.event =
+            eventName;
+
+          updateEventControls();
+
+          currentChart =
+            renderChart(data);
+        } catch (error) {
+          console.error(
+            `Failed to load ${eventName} tournament`,
+            error
+          );
+        } finally {
+          eventButtons.forEach(
+            (eventButton) => {
+              eventButton.disabled = false;
+            }
+          );
+
+          chartElement?.removeAttribute(
+            "aria-busy"
+          );
+        }
+      }
+    );
+  });
 }
 
 function getSeoulDateString() {
@@ -306,6 +395,7 @@ function renderChart(data) {
   chartRoot.selectAll("*").remove();
 
   const tooltip = createTooltip();
+  tooltip.style("display", "none");
   const teamsById = new Map(data.teams.map((team) => [team.id, team]));
 
   const interaction = {
@@ -626,7 +716,11 @@ async function loadTournamentData(eventName) {
 
 async function main() {
   updateStaticTranslations();
+
   setupLanguageToggle();
+  setupEventToggle();
+
+  updateEventControls();
   updateVisitorCount();
 
   try {
