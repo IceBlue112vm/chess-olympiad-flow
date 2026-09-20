@@ -645,12 +645,6 @@ function renderChart(data) {
     .attr("class", "match-connector")
     .style("display", "none");
 
-  const matchConnectorLabel = connectorLayer
-    .append("text")
-    .attr("class", "match-connector-label")
-    .attr("dominant-baseline", "middle")
-    .style("display", "none");
-
   const teamNodes = nodeLayer
     .selectAll(".team-node")
     .data(nodes)
@@ -1030,33 +1024,6 @@ function renderChart(data) {
 
   function hideMatchConnector() {
     matchConnector.style("display", "none");
-    matchConnectorLabel.style("display", "none");
-  }
-
-  function getMatchLocatorText(
-    opponentNode,
-    focusY,
-    opponentY
-  ) {
-    const direction =
-      opponentY > focusY
-        ? "↓"
-        : opponentY < focusY
-          ? "↑"
-          : "↔";
-
-    const opponentName =
-      getTeamDisplayName(opponentNode.team);
-
-    const opponentRank =
-      appState.language === "ko"
-        ? `${opponentNode.rank}위`
-        : `${t("rank")} ${opponentNode.rank}`;
-
-    return (
-      `${direction} ${opponentName}` +
-      ` (${opponentRank})`
-    );
   }
 
   function updateMatchConnector(focusNode) {
@@ -1080,10 +1047,7 @@ function renderChart(data) {
     const focusY = y(focusNode.displaySlot);
     const opponentY = y(opponentNode.displaySlot);
 
-    const connectorDirection =
-      focusNode.stage === latestRound
-        ? -1
-        : 1;
+    const connectorDirection = -1;
 
     const connectorX =
       nodeX + connectorDirection * 18;
@@ -1132,33 +1096,6 @@ function renderChart(data) {
       .attr(
         "d",
         `M ${nodeX} ${focusY} H ${connectorX} V ${opponentY} H ${nodeX}`
-      )
-      .style("display", null);
-
-    const labelY =
-      focusY <= margin.top + 16
-        ? focusY + 18
-        : focusY - 12;
-
-    matchConnectorLabel
-      .attr(
-        "x",
-        connectorX +
-          connectorDirection * 8
-      )
-      .attr("y", labelY)
-      .attr(
-        "text-anchor",
-        connectorDirection > 0
-          ? "start"
-          : "end"
-      )
-      .text(
-        getMatchLocatorText(
-          opponentNode,
-          focusY,
-          opponentY
-        )
       )
       .style("display", null);
   }
