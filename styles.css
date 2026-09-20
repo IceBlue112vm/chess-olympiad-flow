@@ -27,7 +27,7 @@
   --win: #4caf50;
   --draw: #f0b429;
   --loss: #e25555;
-  --tooltip-bg: rgba(25, 27, 31, 0.94);
+  --tooltip-bg: rgba(25, 27, 31, 0.80);
   --tooltip-text: #ffffff;
   --korea-name: #0080ff; 
 }
@@ -51,7 +51,7 @@ html[data-theme="dark"] {
   --team-name: #d3d6da;
   --team-name-highlight: #ffffff;
   --neutral: #858b93;
-  --tooltip-bg: rgba(8, 9, 11, 0.95);
+  --tooltip-bg: rgba(8, 9, 11, 0.80);
   --korea-name: #60a5fa;
 }
 
