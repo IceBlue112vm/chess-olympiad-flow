@@ -367,6 +367,15 @@ svg {
   opacity: 0.15;
 }
 
+.start-flag {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.start-flag.dimmed {
+  opacity: 0.15;
+}
+
 .team-name {
   fill: var(--team-name);
   font-size: 16px;

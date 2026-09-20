@@ -204,6 +204,22 @@ function getTeamDisplayName(team) {
   );
 }
 
+function getTeamFlagUrl(team) {
+  const federation =
+    team.federation
+      ?.trim()
+      .toLowerCase();
+
+  if (!federation) {
+    return null;
+  }
+
+  return (
+    "https://chess-results.com/images/f90/" +
+    `tn_${encodeURIComponent(federation)}.gif`
+  );
+}
+
 function updateEventControls() {
   document
     .querySelectorAll("[data-event]")
@@ -588,14 +604,30 @@ function renderChart(data) {
     ])
   );
 
+  const defs = svg.append("defs");
+
   const matchGradientId =
     `match-connector-gradient-${data.event}`;
 
-  const matchGradient = svg
-    .append("defs")
+  const matchGradient = defs
     .append("linearGradient")
     .attr("id", matchGradientId)
     .attr("gradientUnits", "userSpaceOnUse");
+
+  const startFlagClipId =
+    `start-flag-clip-${data.event}`;
+
+  defs
+    .append("clipPath")
+    .attr("id", startFlagClipId)
+    .attr(
+      "clipPathUnits",
+      "objectBoundingBox"
+    )
+    .append("circle")
+    .attr("cx", 0.5)
+    .attr("cy", 0.5)
+    .attr("r", 0.5);
 
   const matchGradientStart = matchGradient
     .append("stop")
@@ -628,11 +660,64 @@ function renderChart(data) {
     )
     .attr("fill", (node) => {
       if (node.stage === "start") {
-        return "#777777";
+        return "var(--neutral)";
       }
 
       return RESULT_COLORS[node.result] ?? "#777777";
     });
+
+  const startNodes = nodes.filter(
+    (node) => node.stage === "start"
+  );
+
+  const startFlagRadius =
+    Math.max(1, startNodeRadius - 1);
+
+  const startFlagImages = nodeLayer
+    .selectAll(".start-flag")
+    .data(startNodes)
+    .join("image")
+    .attr("class", "start-flag")
+    .attr(
+      "x",
+      x("start") - startFlagRadius
+    )
+    .attr(
+      "y",
+      (node) =>
+        y(node.displaySlot) -
+        startFlagRadius
+    )
+    .attr(
+      "width",
+      startFlagRadius * 2
+    )
+    .attr(
+      "height",
+      startFlagRadius * 2
+    )
+    .attr(
+      "href",
+      (node) =>
+        getTeamFlagUrl(node.team)
+    )
+    .attr(
+      "preserveAspectRatio",
+      "xMidYMid slice"
+    )
+    .attr(
+      "clip-path",
+      `url(#${startFlagClipId})`
+    )
+    .on(
+      "error",
+      function () {
+        d3.select(this).style(
+          "display",
+          "none"
+        );
+      }
+    );
 
   const teamNames = labelLayer
     .selectAll(".start-team-name")
@@ -907,6 +992,15 @@ function renderChart(data) {
           hasFocus &&
           node.team.id !== focusedTeamId &&
           getNodeKey(node) !== opponentNodeKey
+      );
+
+    startFlagImages
+      .classed(
+        "dimmed",
+        (node) =>
+          hasFocus &&
+          node.team.id !==
+            focusedTeamId
       );
 
     teamNames
