@@ -23,6 +23,9 @@ const APP_CONFIG = {
   },
 };
 
+const FINAL_ROUND = 11;
+const FINAL_STAGE = "final";
+
 const RESULT_COLORS = {
   W: "#4caf50",
   D: "#f0b429",
@@ -58,6 +61,8 @@ const TRANSLATIONS = {
     languageSwitchLabel: "영어로 전환",
     darkMode: "다크 모드로 전환",
     lightMode: "라이트 모드로 전환",
+    final: "최종",
+    finalRank: "최종 순위",
   },
   en: {
     eyebrow: "46th FIDE Chess Olympiad",
@@ -87,6 +92,8 @@ const TRANSLATIONS = {
     languageSwitchLabel: "Switch to Korean",
     darkMode: "Switch to dark mode",
     lightMode: "Switch to light mode",
+    final: "Final",
+    finalRank: "Final rank",
   },
 };
 
@@ -417,12 +424,17 @@ function buildDisplaySlots(data) {
   const latestCompletedRound =
     data.rounds.at(-1);
 
-  const currentRound =
-    latestCompletedRound + 1;
+  const tournamentFinished =
+    latestCompletedRound >= FINAL_ROUND;
+
+  const latestRoundStage =
+    tournamentFinished
+      ? FINAL_ROUND
+      : latestCompletedRound + 1;
 
   for (
     let roundNumber = 1;
-    roundNumber <= currentRound;
+    roundNumber <= latestRoundStage;
     roundNumber += 1
   ) {
     const teamsInRound = data.teams
@@ -472,6 +484,41 @@ function buildDisplaySlots(data) {
     );
   }
 
+  if (tournamentFinished) {
+    const teamsInFinal = data.teams
+      .map((team) => {
+        const finalRound =
+          team.rounds.find(
+            (round) =>
+              round.round === FINAL_ROUND
+          );
+
+        return finalRound
+          ? {
+              team,
+              rank: finalRound.rank,
+            }
+          : null;
+      })
+      .filter(Boolean)
+      .sort((a, b) => {
+        if (a.rank !== b.rank) {
+          return a.rank - b.rank;
+        }
+
+        return a.team.id - b.team.id;
+      });
+
+    teamsInFinal.forEach(
+      ({ team }, index) => {
+        displaySlots.set(
+          `${FINAL_STAGE}:${team.id}`,
+          index + 1
+        );
+      }
+    );
+  }
+
   return displaySlots;
 }
 
@@ -482,13 +529,18 @@ function buildTeamPaths(
   const latestCompletedRound =
     data.rounds.at(-1);
 
-  const currentRound =
-    latestCompletedRound + 1;
+  const tournamentFinished =
+    latestCompletedRound >= FINAL_ROUND;
+
+  const latestRoundStage =
+    tournamentFinished
+      ? FINAL_ROUND
+      : latestCompletedRound + 1;
 
   const roundStages =
     Array.from(
       {
-        length: currentRound,
+        length: latestRoundStage,
       },
       (_, index) => index + 1
     );
@@ -596,6 +648,31 @@ function buildTeamPaths(
           };
         }
       ),
+
+      ...(tournamentFinished
+        ? [
+            {
+              stage: FINAL_STAGE,
+
+              rank:
+                roundsByNumber.get(
+                  FINAL_ROUND
+                )?.rank ?? null,
+
+              displaySlot:
+                displaySlots.get(
+                  `${FINAL_STAGE}:${team.id}`
+                ) ?? null,
+
+              opponentId: null,
+              scoreFor: null,
+              scoreAgainst: null,
+              result: null,
+              status: null,
+              boards: [],
+            },
+          ]
+        : []),
     ];
 
     return {
@@ -640,8 +717,18 @@ function renderChart(data) {
   const latestCompletedRound =
     data.rounds.at(-1);
   
-  const latestRound =
-    latestCompletedRound + 1;
+  const tournamentFinished =
+    latestCompletedRound >= FINAL_ROUND;
+
+  const latestRoundStage =
+    tournamentFinished
+      ? FINAL_ROUND
+      : latestCompletedRound + 1;
+
+  const latestStage =
+    tournamentFinished
+      ? FINAL_STAGE
+      : latestRoundStage;
   
   const stages = [
     {
@@ -650,12 +737,20 @@ function renderChart(data) {
   
     ...Array.from(
       {
-        length: latestRound,
+        length: latestRoundStage,
       },
       (_, index) => ({
         key: index + 1,
       })
     ),
+
+    ...(tournamentFinished
+      ? [
+          {
+            key: FINAL_STAGE,
+          },
+        ]
+      : []),
   ];
 
   const maxSlots = data.teams.length;
@@ -717,7 +812,17 @@ function renderChart(data) {
     .attr("x", (stage) => x(stage.key))
     .attr("y", 30)
     .attr("text-anchor", "middle")
-    .text((stage) => (stage.key === "start" ? t("start") : `R${stage.key}`));
+    .text((stage) => {
+      if (stage.key === "start") {
+        return t("start");
+      }
+
+      if (stage.key === FINAL_STAGE) {
+        return t("final");
+      }
+
+      return `R${stage.key}`;
+    });
 
   const line = d3
     .line()
@@ -861,7 +966,7 @@ function renderChart(data) {
     .attr("dominant-baseline", "middle")
     .text((team) => getTeamDisplayName(team));
 
-  const latestRoundNodes = nodes.filter((node) => node.stage === latestRound);
+  const latestRoundNodes = nodes.filter((node) => node.stage === latestStage);
 
   const latestTeamNames = labelLayer
     .selectAll(".latest-team-name")
@@ -869,7 +974,7 @@ function renderChart(data) {
     .join("text")
     .attr("class", "team-name latest-team-name")
     .classed("korea-team-name", (node) => node.team.federation === "KOR")
-    .attr("x", x(latestRound) + roundNodeRadius + 8)
+    .attr("x", x(latestStage) + roundNodeRadius + 8)
     .attr("y", (node) => y(node.displaySlot))
     .attr("text-anchor", "start")
     .attr("dominant-baseline", "middle")
@@ -1024,6 +1129,17 @@ function renderChart(data) {
         ${t("startRank")}: ${node.rank}
 
         ${getRosterHtml(node.team)}
+      `;
+    }
+
+    if (node.stage === FINAL_STAGE) {
+      return `
+        <strong>
+          ${escapeHtml(
+            getTeamDisplayName(node.team)
+          )}
+        </strong><br>
+        ${t("finalRank")}: ${node.rank}
       `;
     }
 
@@ -1398,10 +1514,17 @@ function renderChart(data) {
 
   function refreshLanguageDependentChartText() {
     stageLabels.text(
-      (stage) =>
-        stage.key === "start"
-          ? t("start")
-          : `R${stage.key}`
+      (stage) => {
+        if (stage.key === "start") {
+          return t("start");
+        }
+
+        if (stage.key === FINAL_STAGE) {
+          return t("final");
+        }
+
+        return `R${stage.key}`;
+      }
     );
   
     teamNames.text(
