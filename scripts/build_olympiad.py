@@ -96,6 +96,144 @@ def load_round(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_upcoming_round(
+    processed_dir: Path,
+    event: str,
+    tournament_id: int,
+    teams: dict[int, dict],
+    completed_rounds: list[int],
+) -> dict | None:
+    latest_completed_round = completed_rounds[-1]
+
+    if latest_completed_round >= 11:
+        return None
+
+    round_number = latest_completed_round + 1
+    path = processed_dir / f"pairings{round_number}.json"
+
+    if not path.exists():
+        return None
+
+    data = json.loads(
+        path.read_text(
+            encoding="utf-8",
+        )
+    )
+
+    if data.get("event") != event:
+        raise RuntimeError(
+            f"Pairing event mismatch: "
+            f"expected={event!r}, "
+            f"actual={data.get('event')!r}"
+        )
+
+    if data.get("tournamentId") != tournament_id:
+        raise RuntimeError(
+            f"Pairing tournament mismatch: "
+            f"expected={tournament_id}, "
+            f"actual={data.get('tournamentId')}"
+        )
+
+    if data.get("round") != round_number:
+        raise RuntimeError(
+            f"Pairing round mismatch: "
+            f"expected={round_number}, "
+            f"actual={data.get('round')}"
+        )
+
+    records = data.get("pairings")
+
+    if not isinstance(records, list):
+        raise RuntimeError(
+            f"Invalid pairing data: {path}"
+        )
+
+    pairings = {}
+
+    for record in records:
+        team_id = record["id"]
+        opponent_id = record["opponentId"]
+        status = record["status"]
+
+        if team_id in pairings:
+            raise RuntimeError(
+                f"Duplicate pairing team ID: {team_id}"
+            )
+
+        if team_id not in teams:
+            raise RuntimeError(
+                f"Pairing team {team_id} not found "
+                f"in starting rank."
+            )
+
+        if status not in {
+            "scheduled",
+            "bye",
+            "notPaired",
+        }:
+            raise RuntimeError(
+                f"Invalid pairing status for "
+                f"team {team_id}: {status!r}"
+            )
+
+        if status == "scheduled":
+            if opponent_id is None:
+                raise RuntimeError(
+                    f"Scheduled team {team_id} "
+                    f"has no opponent."
+                )
+
+            if opponent_id not in teams:
+                raise RuntimeError(
+                    f"Opponent {opponent_id} for "
+                    f"team {team_id} not found."
+                )
+        elif opponent_id is not None:
+            raise RuntimeError(
+                f"Special pairing for team "
+                f"{team_id} unexpectedly has "
+                f"opponent {opponent_id}."
+            )
+
+        pairings[team_id] = {
+            "id": team_id,
+            "opponentId": opponent_id,
+            "status": status,
+        }
+
+    missing_ids = set(teams) - set(pairings)
+
+    if missing_ids:
+        raise RuntimeError(
+            f"Missing pairing team IDs: "
+            f"{sorted(missing_ids)}"
+        )
+
+    for team_id, pairing in pairings.items():
+        if pairing["status"] != "scheduled":
+            continue
+
+        opponent_id = pairing["opponentId"]
+        reciprocal = pairings[opponent_id]
+
+        if (
+            reciprocal["status"] != "scheduled"
+            or reciprocal["opponentId"] != team_id
+        ):
+            raise RuntimeError(
+                f"Non-reciprocal pairing: "
+                f"{team_id} -> {opponent_id}"
+            )
+
+    return {
+        "round": round_number,
+        "pairings": sorted(
+            pairings.values(),
+            key=lambda item: item["id"],
+        ),
+    }
+
+
 def load_rosters(
     path: Path,
     event: str,
@@ -263,10 +401,19 @@ def build_olympiad(
                 }
             )
 
+    upcoming_round = load_upcoming_round(
+        processed_dir,
+        event,
+        tournament_id,
+        teams,
+        round_numbers,
+    )
+
     return {
         "event": event,
         "tournamentId": tournament_id,
         "rounds": round_numbers,
+        "upcomingRound": upcoming_round,
         "teams": sorted(
             teams.values(),
             key=lambda team: team["id"],

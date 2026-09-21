@@ -504,6 +504,19 @@ function buildTeamPaths(
         )
       );
 
+    const upcomingPairingsByTeam =
+      new Map(
+        (
+          data.upcomingRound
+            ?.pairings ?? []
+        ).map(
+          (pairing) => [
+            pairing.id,
+            pairing,
+          ]
+        )
+      );
+
     const points = [
       {
         stage: "start",
@@ -529,10 +542,22 @@ function buildTeamPaths(
                     roundNumber - 1
                   )?.rank ?? null;
 
-          const match =
+          const completedMatch =
             roundsByNumber.get(
               roundNumber
             );
+          
+          const upcomingPairing =
+            data.upcomingRound?.round ===
+            roundNumber
+              ? upcomingPairingsByTeam.get(
+                  team.id
+                )
+              : null;
+          
+          const match =
+            completedMatch ??
+            upcomingPairing;
 
           return {
             stage: roundNumber,
