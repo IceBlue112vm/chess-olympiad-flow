@@ -408,43 +408,110 @@ function buildDisplaySlots(data) {
   const displaySlots = new Map();
 
   for (const team of data.teams) {
-    displaySlots.set(`start:${team.id}`, team.startRank);
+    displaySlots.set(
+      `start:${team.id}`,
+      team.startRank
+    );
   }
 
-  for (const roundNumber of data.rounds) {
+  const latestCompletedRound =
+    data.rounds.at(-1);
+
+  const currentRound =
+    latestCompletedRound + 1;
+
+  for (
+    let roundNumber = 1;
+    roundNumber <= currentRound;
+    roundNumber += 1
+  ) {
     const teamsInRound = data.teams
       .map((team) => {
-        const round = team.rounds.find((item) => item.round === roundNumber);
-        return round ? { team, round } : null;
+        let rank;
+
+        if (roundNumber === 1) {
+          rank = team.startRank;
+        } else {
+          const previousRound =
+            team.rounds.find(
+              (item) =>
+                item.round ===
+                roundNumber - 1
+            );
+
+          rank =
+            previousRound?.rank ??
+            null;
+        }
+
+        if (rank === null) {
+          return null;
+        }
+
+        return {
+          team,
+          rank,
+        };
       })
       .filter(Boolean)
       .sort((a, b) => {
-        if (a.round.rank !== b.round.rank) {
-          return a.round.rank - b.round.rank;
+        if (a.rank !== b.rank) {
+          return a.rank - b.rank;
         }
 
         return a.team.id - b.team.id;
       });
 
-    teamsInRound.forEach(({ team }, index) => {
-      displaySlots.set(`${roundNumber}:${team.id}`, index + 1);
-    });
+    teamsInRound.forEach(
+      ({ team }, index) => {
+        displaySlots.set(
+          `${roundNumber}:${team.id}`,
+          index + 1
+        );
+      }
+    );
   }
 
   return displaySlots;
 }
 
-function buildTeamPaths(data, displaySlots) {
-  return data.teams.map((team) => {
-    const roundsByNumber = new Map(
-      team.rounds.map((round) => [round.round, round])
+function buildTeamPaths(
+  data,
+  displaySlots
+) {
+  const latestCompletedRound =
+    data.rounds.at(-1);
+
+  const currentRound =
+    latestCompletedRound + 1;
+
+  const roundStages =
+    Array.from(
+      {
+        length: currentRound,
+      },
+      (_, index) => index + 1
     );
+
+  return data.teams.map((team) => {
+    const roundsByNumber =
+      new Map(
+        team.rounds.map(
+          (round) => [
+            round.round,
+            round,
+          ]
+        )
+      );
 
     const points = [
       {
         stage: "start",
         rank: team.startRank,
-        displaySlot: displaySlots.get(`start:${team.id}`),
+        displaySlot:
+          displaySlots.get(
+            `start:${team.id}`
+          ),
         opponentId: null,
         scoreFor: null,
         scoreAgainst: null,
@@ -452,38 +519,64 @@ function buildTeamPaths(data, displaySlots) {
         status: null,
         boards: [],
       },
-      ...data.rounds.map((roundNumber) => {
-        const round = roundsByNumber.get(roundNumber);
 
-        if (!round) {
+      ...roundStages.map(
+        (roundNumber) => {
+          const previousRank =
+            roundNumber === 1
+              ? team.startRank
+              : roundsByNumber.get(
+                    roundNumber - 1
+                  )?.rank ?? null;
+
+          const match =
+            roundsByNumber.get(
+              roundNumber
+            );
+
           return {
             stage: roundNumber,
-            rank: null,
-            displaySlot: null,
-            opponentId: null,
-            scoreFor: null,
-            scoreAgainst: null,
-            result: null,
-            status: null,
-            boards: [],
+            rank: previousRank,
+
+            displaySlot:
+              previousRank !== null
+                ? displaySlots.get(
+                    `${roundNumber}:${team.id}`
+                  ) ?? null
+                : null,
+
+            opponentId:
+              match?.opponentId ??
+              null,
+
+            scoreFor:
+              match?.scoreFor ??
+              null,
+
+            scoreAgainst:
+              match?.scoreAgainst ??
+              null,
+
+            result:
+              match?.result ??
+              null,
+
+            status:
+              match?.status ??
+              null,
+
+            boards:
+              match?.boards ??
+              [],
           };
         }
-
-        return {
-          stage: roundNumber,
-          rank: round.rank,
-          displaySlot: displaySlots.get(`${roundNumber}:${team.id}`),
-          opponentId: round.opponentId,
-          scoreFor: round.scoreFor,
-          scoreAgainst: round.scoreAgainst,
-          result: round.result,
-          status: round.status,
-          boards: round.boards ?? [],
-        };
-      }),
+      ),
     ];
 
-    return { team, points };
+    return {
+      team,
+      points,
+    };
   });
 }
 
@@ -519,12 +612,27 @@ function renderChart(data) {
     selectedTooltipPosition: null,
   };
 
+  const latestCompletedRound =
+    data.rounds.at(-1);
+  
+  const latestRound =
+    latestCompletedRound + 1;
+  
   const stages = [
-    { key: "start" },
-    ...data.rounds.map((round) => ({ key: round })),
+    {
+      key: "start",
+    },
+  
+    ...Array.from(
+      {
+        length: latestRound,
+      },
+      (_, index) => ({
+        key: index + 1,
+      })
+    ),
   ];
 
-  const latestRound = data.rounds.at(-1);
   const maxSlots = data.teams.length;
 
   const width = Math.max(
@@ -930,11 +1038,12 @@ function renderChart(data) {
       `;
     }
 
-    const opponentRound =
-      opponent?.rounds.find(
-        (round) =>
-          round.round === node.stage
-      );
+    const opponentNode =
+      node.opponentId !== null
+        ? nodesByKey.get(
+            `${node.opponentId}:${node.stage}`
+          )
+        : null;
 
     const teamName =
       escapeHtml(
@@ -956,7 +1065,7 @@ function renderChart(data) {
     const opponentRank =
       escapeHtml(
         getRankText(
-          opponentRound?.rank
+          opponentNode?.rank
         )
       );
 
