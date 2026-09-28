@@ -63,6 +63,7 @@ const TRANSLATIONS = {
     lightMode: "라이트 모드로 전환",
     final: "최종",
     finalRank: "최종 순위",
+    record: "승/무/패",
   },
   en: {
     eyebrow: "46th FIDE Chess Olympiad",
@@ -94,6 +95,7 @@ const TRANSLATIONS = {
     lightMode: "Switch to light mode",
     final: "Final",
     finalRank: "Final rank",
+    record: "W/D/L",
   },
 };
 
@@ -1133,12 +1135,26 @@ function renderChart(data) {
     }
 
     if (node.stage === FINAL_STAGE) {
+      const results = {
+        W: 0,
+        D: 0,
+        L: 0,
+      };
+    
+      for (const round of node.team.rounds ?? []) {
+        if (round.result in results) {
+          results[round.result] += 1;
+        }
+      }
+    
       return `
         <strong>
           ${escapeHtml(
             getTeamDisplayName(node.team)
           )}
         </strong><br>
+        ${t("startRank")}: ${node.team.startRank}<br>
+        ${t("record")}: ${results.W}/${results.D}/${results.L}<br>
         ${t("finalRank")}: ${node.rank}
       `;
     }

@@ -77,7 +77,15 @@ def download_round(
 def parse_ranking(path: Path) -> dict[int, dict]:
     soup = load_soup(path)
 
-    heading = soup.find("h2", string=lambda text: text and "Rank after Round" in text)
+    heading = soup.find(
+        "h2",
+        string=lambda text:
+            text
+            and (
+                "Rank after Round" in text
+                or "Final Ranking after" in text
+            ),
+    )
     if heading is None:
         raise RuntimeError(f"Ranking heading not found: {path}")
 
