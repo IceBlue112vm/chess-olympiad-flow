@@ -356,12 +356,14 @@ svg {
   opacity: 0.15;
 }
 
-.start-flag {
+.start-flag,
+.final-flag {
   opacity: 1;
   pointer-events: none;
 }
 
-.start-flag.dimmed {
+.start-flag.dimmed,
+.final-flag.dimmed {
   opacity: 0.15;
 }
 

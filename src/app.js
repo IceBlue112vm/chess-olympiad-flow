@@ -893,7 +893,10 @@ function renderChart(data) {
     .attr("cx", (node) => x(node.stage))
     .attr("cy", (node) => y(node.displaySlot))
     .attr("r", (node) =>
-      node.stage === "start" ? startNodeRadius : roundNodeRadius
+      node.stage === "start" ||
+      node.stage === FINAL_STAGE
+        ? startNodeRadius
+        : roundNodeRadius
     )
     .attr("fill", (node) => {
       if (node.stage === "start") {
@@ -907,8 +910,7 @@ function renderChart(data) {
     (node) => node.stage === "start"
   );
 
-  const startFlagRadius =
-    Math.max(1, startNodeRadius - 1);
+  const startFlagRadius = Math.max(1, startNodeRadius - 1);
 
   const startFlagImages = nodeLayer
     .selectAll(".start-flag")
@@ -932,6 +934,59 @@ function renderChart(data) {
     .attr(
       "height",
       startFlagRadius * 2
+    )
+    .attr(
+      "href",
+      (node) =>
+        getTeamFlagUrl(node.team)
+    )
+    .attr(
+      "preserveAspectRatio",
+      "xMidYMid slice"
+    )
+    .attr(
+      "clip-path",
+      `url(#${startFlagClipId})`
+    )
+    .on(
+      "error",
+      function () {
+        d3.select(this).style(
+          "display",
+          "none"
+        );
+      }
+    );
+
+  const finalNodes = nodes.filter(
+    (node) => node.stage === FINAL_STAGE
+  );
+  
+  const finalFlagRadius =
+    Math.max(1, startNodeRadius - 1);
+  
+  const finalFlagImages = nodeLayer
+    .selectAll(".final-flag")
+    .data(finalNodes)
+    .join("image")
+    .attr("class", "final-flag")
+    .attr(
+      "x",
+      x(FINAL_STAGE) - finalFlagRadius
+    )
+    .attr(
+      "y",
+      (node) =>
+        y(node.displaySlot) -
+        finalFlagRadius
+    )
+    .attr(
+      "width",
+      finalFlagRadius * 2
+    )
+    .attr(
+      "height",
+      finalFlagRadius * 2
     )
     .attr(
       "href",
@@ -1458,6 +1513,15 @@ function renderChart(data) {
       );
 
     startFlagImages
+      .classed(
+        "dimmed",
+        (node) =>
+          hasFocus &&
+          node.team.id !==
+            focusedTeamId
+      );
+
+    finalFlagImages
       .classed(
         "dimmed",
         (node) =>
